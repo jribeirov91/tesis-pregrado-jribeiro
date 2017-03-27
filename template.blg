@@ -1,0 +1,26 @@
+[0] Config.pm:340> INFO - This is Biber 2.4
+[1] Config.pm:343> INFO - Logfile is 'template.blg'
+[61] biber:287> INFO - === lun mar 27, 2017, 12:07:04
+[165] Biber.pm:348> INFO - Reading 'template.bcf'
+[344] Biber.pm:742> INFO - Found 9 citekeys in bib section 0
+[350] Biber.pm:3151> INFO - Processing section 0
+[390] Biber.pm:3308> INFO - Looking for bibtex format file 'tesis.bib' for section 0
+[944] bibtex.pm:1113> INFO - Decoding LaTeX character macros into UTF-8
+[1392] bibtex.pm:974> INFO - Found BibTeX data source 'tesis.bib'
+[1442] Utils.pm:147> WARN - ISBN '1532-4435' in entry 'Pedregosa2012' is invalid - run biber with '--validate_datamodel' for details.
+[1464] Utils.pm:147> WARN - ISBN '1469-896X (Electronic)$\backslash$r0961-8368 (Linking)' in entry 'Ferrada2009' is invalid - run biber with '--validate_datamodel' for details.
+[1499] Utils.pm:147> WARN - ISBN '1367-4811 (Electronic)$\backslash$n1367-4803 (Linking)' in entry 'Capriotti2011' is invalid - run biber with '--validate_datamodel' for details.
+[1512] Utils.pm:147> WARN - ISBN '1548-7105 (Electronic)$\backslash$r1548-7091 (Linking)' in entry 'Das2010' is invalid - run biber with '--validate_datamodel' for details.
+[1526] Utils.pm:147> WARN - ISBN '0920-654X' in entry 'Sippl1993' is invalid - run biber with '--validate_datamodel' for details.
+[1541] Utils.pm:147> WARN - ISBN '0022-2836' in entry 'Sippl1990' is invalid - run biber with '--validate_datamodel' for details.
+[1558] Utils.pm:147> WARN - ISBN '0022-2836' in entry 'Melo1997' is invalid - run biber with '--validate_datamodel' for details.
+[1559] Utils.pm:147> WARN - BibTeX subsystem: /tmp/NtDvyOzbPe/tesis.bib_6593.utf8, line 6, warning: 172 characters of junk seen at toplevel
+[1560] Biber.pm:3308> INFO - Looking for bibtex format file 'pymol.bib' for section 0
+[1566] bibtex.pm:1113> INFO - Decoding LaTeX character macros into UTF-8
+[1572] bibtex.pm:974> INFO - Found BibTeX data source 'pymol.bib'
+[1726] UCollate.pm:65> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1726] UCollate.pm:65> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1727] Biber.pm:3028> INFO - Sorting list 'nyt/global' of type 'entry' with scheme 'nyt' and locale 'es-ES'
+[1744] bbl.pm:519> INFO - Writing 'template.bbl' with encoding 'UTF-8'
+[1853] bbl.pm:615> INFO - Output to template.bbl
+[1854] Biber.pm:109> INFO - WARNINGS: 8

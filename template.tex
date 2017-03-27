@@ -1,0 +1,155 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{csquotes}
+\usepackage{siunitx}
+\usepackage{textgreek}
+\usepackage[left=35mm,
+            top=30mm,
+            marginparwidth=15mm,
+            textwidth=450pt,
+            headsep=50pt
+            ]{geometry}
+\setlength{\voffset}{0mm}
+\title{UN NOVEDOSO POTENCIAL ESTADÍSTICO BASADO EN ÁREAS DE SUPERFICIE ATÓMICA SOBRELAPADAS PARA EL ANALISIS DE MÓLECULAS DE PROTEÍNA, ADN Y ARN}
+\date{2016-02-03}
+\author{JUDEMIR RIBEIRO}
+%referencias
+\usepackage[backend=biber,
+            style=authoryear,
+            dashed=false,
+            url=false,
+            isbn=false,
+            doi=false,
+            giveninits=true,
+            maxcitenames=2,
+            citestyle=authoryear-comp]{biblatex}
+\DeclareFieldFormat[article]{journaltitle}{\textit{#1}}
+\setlength\bibitemsep{\baselineskip}
+\DeclareNameAlias{author}{last-first}
+\renewcommand*{\revsdnamepunct}{}
+\renewbibmacro{in:}{}
+\addbibresource{tesis.bib}
+\addbibresource{pymol.bib}
+
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{setspace}
+\doublespacing
+\fancypagestyle{thesis}{%
+\fancyhf{} % clear all header and footers
+\renewcommand{\headrulewidth}{0pt} % remove the header rule
+\rhead{\thepage}
+}
+
+\fancypagestyle{plain}{%
+\fancyhf{} % clear all header and footers
+\renewcommand{\headrulewidth}{0pt} % remove the header rule
+\rhead{\thepage}
+}
+
+\setcounter{section}{0}
+\setcounter{secnumdepth}{3}
+%caps lock titles
+\addto\captionsspanish{\renewcommand{\contentsname}{ÍNDICE}}
+\addto\captionsspanish{\renewcommand{\listtablename}{ÍNDICE DE TABLAS}}
+\addto\captionsspanish{\renewcommand{\listfigurename}{ÍNDICE DE FIGURAS}}
+\renewcommand\spanishtablename{Tabla}
+
+
+\newcommand{\fakesection}[1]{%
+  %\par\refstepcounter{section}% Increase section counter
+  \sectionmark{#1}% Add section mark (header)
+  %\addcontentsline{toc}{section}{\protect\numberline{\thesection}#1}% Add section to ToC
+  % Add more content here, if needed.
+  }
+\setlength{\parindent}{4em}
+
+
+\usepackage[explicit]{./titlesec/titlesec}
+\usepackage{ulem}
+\titleformat{\section}[block]{\Large\bfseries\filcenter}{}{}{#1}
+\titlespacing*{\section}{0pt}{0em}{3em}
+
+\titleformat{\subsection}{\normalfont}{\thesubsection}{1em}{\uline{#1}}
+\titleformat{\subsubsection}{\normalfont}{\thesubsubsection}{1em}{\uline{#1}}
+
+
+%unbreakable words
+\hyphenation{SASA}
+\hyphenation{BSASA}
+
+%greek letters
+\newcommand{\Galpha}{\text{\textalpha}}
+\newcommand{\Gbeta}{\text{\textbeta}}
+\newcommand{\Ggama}{\text{\textgamma}}
+\newcommand{\Gdelta}{\text{\textdelta}}
+\newcommand{\Gsigma}{\text{\textsigma}}
+\newcommand{\Ca}{C\textsubscript{\text{\textalpha}}}
+\newcommand{\Cb}{C\textsubscript{\text{\textbeta}}}
+\newcommand{\Cd}{C\textsubscript{\text{\textdelta}}}
+\newcommand{\Cdii}{C\textsubscript{\text{\textdelta}2}}
+\newcommand{\Cdi}{C\textsubscript{\text{\textdelta}1}}
+\newcommand{\Cg}{C\textsubscript{\text{\textgamma}}}
+\newcommand{\Cgi}{C\textsubscript{\text{\textgamma}1}}
+\newcommand{\Cgii}{C\textsubscript{\text{\textgamma}2}}
+\newcommand{\Ce}{C\textsubscript{\text{\textepsilon}1}}
+\newcommand{\Cei}{C\textsubscript{\text{\textepsilon}1}}
+\newcommand{\Ceii}{C\textsubscript{\text{\textepsilon}2}}
+\newcommand{\Ceiii}{C\textsubscript{\text{\textepsilon}3}}
+\newcommand{\Cz}{C\textsubscript{\text{\textzeta}}}
+\newcommand{\Czi}{C\textsubscript{\text{\textzeta}1}}
+\newcommand{\Czii}{C\textsubscript{\text{\textzeta}2}}
+\newcommand{\Cziii}{C\textsubscript{\text{\textzeta}3}}
+\newcommand{\Ceta}{C\textsubscript{\text{\texteta}}}
+\newcommand{\Cetai}{C\textsubscript{\text{\texteta}1}}
+\newcommand{\Cetaii}{C\textsubscript{\text{\texteta}2}}
+
+\pagestyle{thesis}
+\begin{document}
+  \pagenumbering{gobble}
+  \maketitle
+  \newpage
+  \pagenumbering{roman}
+  %include dedicatoria
+  \input{dedi.tex}
+  %include agradecimientos
+  \input{agra.tex}
+  \newpage
+  \cleardoublepage
+  \addcontentsline{toc}{section}{\contentsname}
+  \tableofcontents
+  \cleardoublepage
+  \addcontentsline{toc}{section}{\listfigurename} 
+  \listoffigures
+  \cleardoublepage
+  \addcontentsline{toc}{section}{\listtablename}
+  \listoftables
+  %include abreviaturas
+  \input{abv.tex}
+  %begin include sections
+  \cleardoublepage
+  \pagenumbering{arabic}
+  %Resumen
+  \input{resumen.tex}
+  %Abstract
+  \input{abstract.tex}
+  %intro
+  \input{introduccion.tex}
+  %Hipotesis
+  \input{hipotesis.tex}
+  %Materiales
+  \input{materiales.tex}
+  %Métodos
+  \input{metodos.tex}
+  %Resultados
+  \input{resultados.tex}
+  %Discusion
+  \input{discusion.tex}
+  %Conclusiones
+  \input{conclusiones.tex}
+  %bibliografia
+  \input{biblio.tex}
+\end{document}

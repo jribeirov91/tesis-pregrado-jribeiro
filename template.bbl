@@ -198,6 +198,48 @@
       \endverb
       \keyw{Comparative modeling,Knowledge-based potentials,Protein structure assessment,Protein structure prediction,Statistical potentials}
     \endentry
+    \entry{Melo1998}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=2c062c1c514544a401981f9f3923ae02}{%
+           family={Melo},
+           family_i={M\bibinitperiod},
+           given={F},
+           given_i={F\bibinitperiod}}}%
+        {{uniquename=0,hash=7bb78efa5adeddfa4a41e312dd94f176}{%
+           family={Feytmans},
+           family_i={F\bibinitperiod},
+           given={E},
+           given_i={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{865f38fda5f486685fa99f2fd1df1c73}
+      \strng{fullhash}{865f38fda5f486685fa99f2fd1df1c73}
+      \field{sortinit}{M}
+      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
+      \field{labelyear}{1998}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We describe a new approach, based on the energy of non-local interactions, to assess protein structures. The method uses a very sensitive and accurate atomic mean force potential (AMFP) to calculate the non-local energy profile (NL-profile) of a proteins structure. Several protein models, built using the comparative modeling technique and containing several errors, were evaluated. These models exhibit a good stereochemistry and have been previously checked with different, widely used, methods that failed to detect the errors. The AMFP-derived energy profiles are able to correlate high scores with point errors and misalignments in the models. The point errors are frequently found in loops or regions of structural differences between the template and the target protein. The misalignments are clearly detected with very high scores. The performance of the method was also tested for the assessment of X-ray solved protein structures. In a data set of 143 well solved and non-redundant protein structures, we find that the average energy Z-scores, obtained from AMFP, increase as the resolution decreases. In the case of structures that have already been described as having an unusual stereochemistry, very high Z-scores are obtained. Moreover, energy calculations for some pairs of obsolete and replacement proteins always show higher Z-scores for the obsolete proteins. Finally, two particular cases show the usefulness of the profiles in the assessment of X-ray solved protein structures. First, the NL-profile of a protein structure refined in the incorrect space group has very high scores in several regions. One region has already been described to be out-of-register with the density map of the structure. The NL-profile of the re-refined structure with the correct space group is vastly improved. In the second case, the method is able to accurately point out disordered residues, even if the atoms of these residues do not violate the sum of the van der Waals radii. ANOLEA, the program used to calculate the NL-profile of a protein structure containing one or more chains is accessible through the World Wide Web at: http://www.fundp.ac.be/pub/ANOLEA.html.}
+      \field{isbn}{0022-2836 (Print)$\backslash$r0022-2836 (Linking)}
+      \field{issn}{0022-2836}
+      \field{journaltitle}{Journal of molecular biology}
+      \field{number}{5}
+      \field{title}{{Assessing protein structures with a non-local atomic interaction energy.}}
+      \field{volume}{277}
+      \field{year}{1998}
+      \field{pages}{1141\bibrangedash 52}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1006/jmbi.1998.1665
+      \endverb
+      \verb{file}
+      \verb :home/jr1/Dropbox/Papers/1-s2.0-S0022283698916655-main.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0022283698916655
+      \endverb
+      \keyw{Crystallography,X-Ray,Databases,Factual,Models,Molecular,Protein Folding,Proteins,Proteins: chemistry,Software}
+    \endentry
     \entry{Melo1997}{article}{}
       \name{author}{2}{}{%
         {{uniquename=0,hash=021094801a7b30af836225098951e626}{%
@@ -373,6 +415,44 @@
       \field{month}{11}
       \field{title}{The {PyMOL} Molecular Graphics System, Version~1.8}
       \field{year}{2015}
+    \endentry
+    \entry{Shrake1973}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=ec1b801853826a4d7511f6e440c84a9c}{%
+           family={Shrake},
+           family_i={S\bibinitperiod},
+           given={A.},
+           given_i={A\bibinitperiod}}}%
+        {{uniquename=0,hash=2a337b400387f9985990ca9613d58a8c}{%
+           family={Rupley},
+           family_i={R\bibinitperiod},
+           given={J.\bibnamedelimi A.},
+           given_i={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{10351effe4224645e289f28451557239}
+      \strng{fullhash}{10351effe4224645e289f28451557239}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelyear}{1973}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A computer program is described for calculating the environment and the exposure to solvent of atoms of a protein. The computation is based on the atomic co-ordinates of the protein and on assumptions like those of Lee {\&} Richards (1971). Results for lysozyme and insulin are presented. Changes in exposure to solvent and in the nature of contacts that develop through folding, association reactions and crystallization are described numerically. The computations suggest several generalizations. (a) Lattice contacts within the protein crystal are characterized by a significantly smaller involvement of non-polar side chains and a proportionately greater involvement of ionizable side chains than is found for protein folding or for protein association reactions important for biological function, (b) In helical regions the carbonyl oxygen of the first residue in the helix has high probability of being shielded from solvent, (c) Glycine is among the residues having exposure least affected by folding; this accords with the expectation that it lies at bends of the peptide chain on the surface of the molecule. ?? 1973.}
+      \field{isbn}{0022-2836}
+      \field{issn}{00222836}
+      \field{journaltitle}{Journal of Molecular Biology}
+      \field{number}{2}
+      \field{title}{{Environment and exposure to solvent of protein atoms. Lysozyme and insulin}}
+      \field{volume}{79}
+      \field{year}{1973}
+      \field{pages}{351\bibrangedash 371}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1016/0022-2836(73)90011-9
+      \endverb
+      \verb{file}
+      \verb :home/jr1/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Shrake, Rupley - 1973 - Environment and exposure to solvent of protein atoms. Lysozyme and insulin.pdf:pdf
+      \endverb
     \endentry
     \entry{Sippl1990}{article}{}
       \name{author}{1}{}{%

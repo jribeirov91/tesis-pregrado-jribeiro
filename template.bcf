@@ -2067,6 +2067,9 @@
     <bcf:citekey order="13">Melo1997</bcf:citekey>
     <bcf:citekey order="14">Melo1997</bcf:citekey>
     <bcf:citekey order="15">Capriotti2011</bcf:citekey>
+    <bcf:citekey order="16">Melo1998</bcf:citekey>
+    <bcf:citekey order="17">Capriotti2011</bcf:citekey>
+    <bcf:citekey order="18">Shrake1973</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="nyt/global" type="entry" sortscheme="nyt" sortnamekeyscheme="global">
   <bcf:sorting>

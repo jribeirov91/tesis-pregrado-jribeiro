@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.3)  27 MAR 2017 15:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.3)  17 APR 2017 18:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1328,6 +1328,29 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks23
 \@floatcapt=\box49
 )
+(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2016/02/20 v1.1-142 Sub-captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen158
+\captionmargin@=\dimen159
+\captionwidth=\dimen160
+\caption@tempdima=\dimen161
+\caption@indent=\dimen162
+\caption@parindent=\dimen163
+\caption@hangindent=\dimen164
+)
+\c@ContinuedFloat=\count328
+Package caption Info: float package is loaded.
+)
+\c@subfigure=\count329
+\c@subtable=\count330
+)
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2016/03/03 v2.15a AMS math features
 \@mathmargin=\skip69
@@ -1335,42 +1358,42 @@ Package: amsmath 2016/03/03 v2.15a AMS math features
 For additional information on amsmath, use the `?' option.
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen158
+\pmbraise@=\dimen165
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count328
+\inf@bad=\count331
 LaTeX Info: Redefining \frac on input line 199.
-\uproot@=\count329
-\leftroot@=\count330
+\uproot@=\count332
+\leftroot@=\count333
 LaTeX Info: Redefining \overline on input line 297.
-\classnum@=\count331
-\DOTSCASE@=\count332
+\classnum@=\count334
+\DOTSCASE@=\count335
 LaTeX Info: Redefining \ldots on input line 394.
 LaTeX Info: Redefining \dots on input line 397.
 LaTeX Info: Redefining \cdots on input line 518.
 \Mathstrutbox@=\box50
 \strutbox@=\box51
-\big@size=\dimen159
+\big@size=\dimen166
 LaTeX Font Info:    Redeclaring font encoding OML on input line 630.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
-\macc@depth=\count333
-\c@MaxMatrixCols=\count334
+\macc@depth=\count336
+\c@MaxMatrixCols=\count337
 \dotsspace@=\muskip17
-\c@parentequation=\count335
-\dspbrk@lvl=\count336
+\c@parentequation=\count338
+\dspbrk@lvl=\count339
 \tag@help=\toks24
-\row@=\count337
-\column@=\count338
-\maxfields@=\count339
+\row@=\count340
+\column@=\count341
+\maxfields@=\count342
 \andhelp@=\toks25
-\eqnshift@=\dimen160
-\alignsep@=\dimen161
-\tagshift@=\dimen162
-\tagwidth@=\dimen163
-\totwidth@=\dimen164
-\lineht@=\dimen165
+\eqnshift@=\dimen167
+\alignsep@=\dimen168
+\tagshift@=\dimen169
+\tagwidth@=\dimen170
+\totwidth@=\dimen171
+\lineht@=\dimen172
 \@envbody=\toks26
 \multlinegap=\skip70
 \multlinetaggap=\skip71
@@ -1394,10 +1417,10 @@ Package graphics Info: Driver file: pdftex.def on input line 95.
 
 (/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-\Gread@gobject=\count340
+\Gread@gobject=\count343
 ))
-\Gin@req@height=\dimen166
-\Gin@req@width=\dimen167
+\Gin@req@height=\dimen173
+\Gin@req@width=\dimen174
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 \fancy@headwidth=\skip72
@@ -1413,32 +1436,57 @@ File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 (/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-(./titlesec/titlesec.sty
+(/usr/share/texlive/texmf-dist/tex/latex/algorithms/algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+\@float@every@algorithm=\toks28
+\c@algorithm=\count344
+)
+(/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
+Package: algpseudocode 
+
+(/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count345
+\c@ALG@rem=\count346
+\c@ALG@nested=\count347
+\ALG@tlm=\skip81
+\ALG@thistlm=\skip82
+\c@ALG@Lnr=\count348
+\c@ALG@blocknr=\count349
+\c@ALG@storecount=\count350
+\c@ALG@tmpcounter=\count351
+\ALG@tmplength=\skip83
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) (./titlesec/titlesec.sty
 
 LaTeX Warning: You have requested package `./titlesec/titlesec',
                but the package provides `titlesec'.
 
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \ttl@box=\box52
-\beforetitleunit=\skip81
-\aftertitleunit=\skip82
-\ttl@plus=\dimen168
-\ttl@minus=\dimen169
-\ttl@toksa=\toks28
-\titlewidth=\dimen170
-\titlewidthlast=\dimen171
-\titlewidthfirst=\dimen172
+\beforetitleunit=\skip84
+\aftertitleunit=\skip85
+\ttl@plus=\dimen175
+\ttl@minus=\dimen176
+\ttl@toksa=\toks29
+\titlewidth=\dimen177
+\titlewidthlast=\dimen178
+\titlewidthfirst=\dimen179
 ) (/usr/share/texlive/texmf-dist/tex/generic/ulem/ulem.sty
 \UL@box=\box53
 \UL@hyphenbox=\box54
-\UL@skip=\skip83
-\UL@hook=\toks29
-\UL@height=\dimen173
-\UL@pe=\count341
-\UL@pixel=\dimen174
+\UL@skip=\skip86
+\UL@hook=\toks30
+\UL@height=\dimen180
+\UL@pe=\count352
+\UL@pixel=\dimen181
 \ULC@box=\box55
 Package: ulem 2012/05/18
-\ULdepth=\dimen175
+\ULdepth=\dimen182
 )
 (/usr/share/texlive/texmf-dist/tex/latex/titlesec/block.tss
 File: block.tss 2016/03/15
@@ -1456,39 +1504,44 @@ File: spanish.lbx 2016/03/03 v3.3 biblatex localization (PK/JW/AB)
 
 Package biblatex Warning: Conflicting options.
 (biblatex)                'giveninits' conflicts with 'uniquename=full'.
-(biblatex)                Setting 'uniquename=init' on input line 111.
+(biblatex)                Setting 'uniquename=init' on input line 122.
 
 (./template.aux
 LaTeX Info: Redefining \sptext on input line 11.
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
+
+
+LaTeX Warning: Label `alg:deralgo1' multiply defined.
+
 )
 \openout1 = `template.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 111.
-LaTeX Font Info:    Try loading font information for LGR+cmr on input line 111.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 122.
+LaTeX Font Info:    Try loading font information for LGR+cmr on input line 122.
 
  (/usr/share/texlive/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 File: lgrcmr.fd 2013/09/01 v1.0 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Info: Redefining \sptext on input line 111.
-LaTeX Info: Redefining \. on input line 111.
-LaTeX Info: Redefining \% on input line 111.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Info: Redefining \sptext on input line 122.
+LaTeX Info: Redefining \. on input line 122.
+LaTeX Info: Redefining \% on input line 122.
 Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
+
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.dfu
 File: ts1enc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
    defining Unicode char U+00A2 (decimal 162)
@@ -1610,21 +1663,23 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'template.bbl' found.
 (./template.bbl)
-Package biblatex Info: Reference section=0 on input line 111.
-Package biblatex Info: Reference segment=0 on input line 111.
+Package biblatex Info: Reference section=0 on input line 122.
+Package biblatex Info: Reference segment=0 on input line 122.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
  (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count342
-\scratchdimen=\dimen176
+\scratchcounter=\count353
+\scratchdimen=\dimen183
 \scratchbox=\box56
-\nofMPsegments=\count343
-\nofMParguments=\count344
-\everyMPshowfont=\toks30
-\MPscratchCnt=\count345
-\MPscratchDim=\dimen177
-\MPnumerator=\count346
-\makeMPintoPDFobject=\count347
-\everyMPtoPDFconversion=\toks31
+\nofMPsegments=\count354
+\nofMParguments=\count355
+\everyMPshowfont=\toks31
+\MPscratchCnt=\count356
+\MPscratchDim=\dimen184
+\MPnumerator=\count357
+\makeMPintoPDFobject=\count358
+\everyMPtoPDFconversion=\toks32
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -1651,8 +1706,8 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c__siunitx_mathsf_int=\count348
-\c__siunitx_mathtt_int=\count349
+\c__siunitx_mathsf_int=\count359
+\c__siunitx_mathtt_int=\count360
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1723,7 +1778,7 @@ LaTeX Info: Redefining \% on input line 3.
  (./abv.tex [6
 
 ]
-Overfull \hbox (16.13867pt too wide) in paragraph at lines 4--12
+Overfull \hbox (16.13867pt too wide) in paragraph at lines 4--13
 [][] 
  []
 
@@ -1746,31 +1801,91 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--47
 
 ]) (./introduccion.tex [2]) (./hipotesis.tex [3])
 (./materiales.tex [4] [5] [6]) (./metodos.tex [7] [8] [9]
-Underfull \hbox (badness 10000) in paragraph at lines 71--71
+Underfull \hbox (badness 10000) in paragraph at lines 60--60
 []|\OT1/cmr/m/n/10.95 Tipo
  []
 
 
-LaTeX Warning: Float too large for page by 19.7186pt on input line 117.
+LaTeX Warning: Float too large for page by 37.03738pt on input line 106.
 
 [10] [11
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 132--132
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
 []|\OT1/cmr/m/n/10.95 Tipo
  []
 
 [12
 
-]) (./resultados.tex [13
+] [13
 
-]) (./discusion.tex [14]) (./conclusiones.tex
-[15]) (./biblio.tex [16]
+] [14]
+Package epstopdf Info: Source file: <figures/prot_pot/eps_graphs/cb2cb.eps>
+(epstopdf)                    date: 2017-04-10 17:41:55
+(epstopdf)                    size: 23296 bytes
+(epstopdf)             Output file: <figures/prot_pot/eps_graphs/cb2cb-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2017-04-10 19:12:43
+(epstopdf)                    size: 17895 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/prot_pot/eps_graph
+s/cb2cb-eps-converted-to.pdf figures/prot_pot/eps_graphs/cb2cb.eps>
+(epstopdf)             \includegraphics on input line 196.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/prot_pot/eps_graphs/cb2cb-eps-converted-to.pdf, id=87, 578.16pt x 433.
+62pt>
+File: figures/prot_pot/eps_graphs/cb2cb-eps-converted-to.pdf Graphic file (type
+ pdf)
+ <use figures/prot_pot/eps_graphs/cb2cb-eps-converted-to.pdf>
+Package pdftex.def Info: figures/prot_pot/eps_graphs/cb2cb-eps-converted-to.pdf
+ used on input line 196.
+(pdftex.def)             Requested size: 360.00137pt x 269.99951pt.
+Package epstopdf Info: Source file: <figures/prot_pot/eps_graphs/sh2sh.eps>
+(epstopdf)                    date: 2017-04-10 17:41:55
+(epstopdf)                    size: 24319 bytes
+(epstopdf)             Output file: <figures/prot_pot/eps_graphs/sh2sh-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2017-04-10 19:13:27
+(epstopdf)                    size: 18428 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/prot_pot/eps_graph
+s/sh2sh-eps-converted-to.pdf figures/prot_pot/eps_graphs/sh2sh.eps>
+(epstopdf)             \includegraphics on input line 202.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/prot_pot/eps_graphs/sh2sh-eps-converted-to.pdf, id=88, 578.16pt x 433.
+62pt>
+File: figures/prot_pot/eps_graphs/sh2sh-eps-converted-to.pdf Graphic file (type
+ pdf)
+ <use figures/prot_pot/eps_graphs/sh2sh-eps-converted-to.pdf>
+Package pdftex.def Info: figures/prot_pot/eps_graphs/sh2sh-eps-converted-to.pdf
+ used on input line 202.
+(pdftex.def)             Requested size: 360.00137pt x 269.99951pt.
+
+
+LaTeX Warning: Float too large for page by 27.18468pt on input line 209.
+
+<figures/prot_pot/mij.png, id=89, 1236.7806pt x 1081.1592pt>
+File: figures/prot_pot/mij.png Graphic file (type png)
+
+<use figures/prot_pot/mij.png>
+Package pdftex.def Info: figures/prot_pot/mij.png used on input line 212.
+(pdftex.def)             Requested size: 450.0pt x 393.3743pt.
+ [15 <./figures/prot_pot/eps_graphs/cb2cb-eps-converted-to.pdf> <./figures/prot
+_pot/eps_graphs/sh2sh-eps-converted-to.pdf>]
+[16 <./figures/prot_pot/mij.png>]
+
+LaTeX Warning: Reference `shrkrply1' on page 17 undefined on input line 232.
+
+[17
+
+
+]) (./resultados.tex [18]) (./discusion.tex [19]) (./conclusiones.tex
+[20]) (./biblio.tex [21]
 LaTeX Font Info:    Try loading font information for U+lasy on input line 5.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
-)) [17] (./template.aux
+)) [22] (./template.aux
 LaTeX Info: Redefining \sptext on input line 11.
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
@@ -1778,16 +1893,26 @@ LaTeX Info: Redefining \% on input line 11.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
+
 Package logreq Info: Writing requests to 'template.run.xml'.
 \openout1 = `template.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21016 strings out of 493029
- 394835 string characters out of 6136235
- 755522 words of memory out of 5000000
- 24285 multiletter control sequences out of 15000+600000
- 13493 words of font info for 49 fonts, out of 8000000 for 9000
+ 22663 strings out of 493029
+ 423257 string characters out of 6136235
+ 784208 words of memory out of 5000000
+ 25904 multiletter control sequences out of 15000+600000
+ 13842 words of font info for 50 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  44i,16n,45p,10381b,1824s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
@@ -1806,10 +1931,10 @@ sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/cbfonts/grmn0800.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/latxfont/lasy10.pfb>
-Output written on template.pdf (25 pages, 201743 bytes).
+Output written on template.pdf (30 pages, 642521 bytes).
 PDF statistics:
- 154 PDF objects out of 1000 (max. 8388607)
- 108 compressed objects within 2 object streams
+ 258 PDF objects out of 1000 (max. 8388607)
+ 131 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

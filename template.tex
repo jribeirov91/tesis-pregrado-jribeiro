@@ -33,10 +33,21 @@
 \addbibresource{pymol.bib}
 
 \usepackage{float}
+\usepackage{subcaption}
 \usepackage{amsmath}
 \usepackage{graphicx}
 \usepackage{fancyhdr}
 \usepackage{setspace}
+%pseudo code style
+\usepackage{algorithm}
+\usepackage[noend]{algpseudocode}
+\makeatletter
+\def\BState{\State\hskip-\ALG@thistlm}
+\makeatother
+\floatname{algorithm}{Algoritmo}
+
+%pseudo code style end
+
 \doublespacing
 \fancypagestyle{thesis}{%
 \fancyhf{} % clear all header and footers

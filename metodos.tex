@@ -11,35 +11,35 @@ media. (\cite{Sippl1993})
 \par
 Un potencial de fuerza media parte de la ley inversa de Boltzmann:
 \begin{equation}
-E_{ijkl} = -kT\log(f_{ijkl}) + kT\log Z \label{boltz1}
+E_{ijkl} = -kT\log(f_{ijkl}) + kT\log Z \label{ec:boltz1}
 \end{equation}
 La función de energía E\textsubscript{ijkl} es el llamado potencial de fuerza media. 
 La variable \textit{f} es la frecuencia relativa de un cierto estado al fijar las variables i, j, k, l en 
 los sistemas observados en nuestra base de datos. 
 \textit{Z} representa la función de partición y no puede ser calculada experimentalmente, y se le da el 
 valor de 1 (\cite{Sippl1993}). 
-La ecuación \eqref{boltz1}  entonces toma la forma:
+La ecuación~\eqref{ec:boltz1}  entonces toma la forma:
 \begin{equation}
-E_{ijkl} = -kT\log(f_{ijkl}) \label{boltz2}
+E_{ijkl} = -kT\log(f_{ijkl}) \label{ec:boltz2}
 \end{equation}
 \par
 Pero para utilizar exitosamente la ley inversa de Boltzmann es necesario también definir un sistema de referencia apropiado. 
 Este se obtiene promediando un set elegido de variables del sistema, como por ejemplo k y l.
 Esto nos permite extraer una característica energética general de los sistemas, las cuáles también se definen como un potencial de energía:
 \begin{equation}
-E_{kl} = -kT\log(f_{kl}) \label{boltzref}
+E_{kl} = -kT\log(f_{kl}) \label{ec:boltzref}
 \end{equation}
 \par
 Con esto, ahora podemos obtener el valor neto del potencial de fuerza media:
 \begin{equation}
-\Delta E^{ij}_{kl} = E^{ij}_{kl} - E_{kl} = -kT\log \left( \frac{f^{ij}_{kl}}{f_{kl}} \right)
+\Delta E^{ij}_{kl} = E^{ij}_{kl} - E_{kl} = -kT\log \left( \frac{f^{ij}_{kl}}{f_{kl}} \right) \label{ec:boltzref2}
 \end{equation}
 \par
 En el contexto de este trabajo, nuestras variables \textit{i} y \textit{j} indican el tipo de interacción entre dos átomos (en el caso de los potenciales SASA, solo se usa la variable \textit{i}), mientras que \textit{k} y \textit{l} indican distancia en la secuencia de residuos y el \textit{bin} de la variable geométrica a analizar, que puede ser la distancia, BSASA o SASA.
 Se aplica también un factor de corrección para números bajos de observaciones en la base de datos, sugerido en \cite{Sippl1990}. 
 Así, cuando en función de \textit{l} la ecuación final toma la forma:
 \begin{equation}
-\Delta E^{ij}_{k}(l) = RT\log \left[1 + M_{ijk}\sigma\right] - RT\log \left[ 1 + M_{ijk}\sigma \frac{f^{ij}_{k}(l)}{f_{k}(l)} \right] \label{finalboltz}
+\Delta E^{ij}_{k}(l) = RT\log \left[1 + M_{ijk}\sigma\right] - RT\log \left[ 1 + M_{ijk}\sigma \frac{f^{ij}_{k}(l)}{f_{k}(l)} \right] \label{ec:finalboltz}
 \end{equation}
 Donde \textit{M\textsubscript{ijk}} corresponde al número de observaciones de interacciones del par al nivel de separación \textit{k}, y $\sigma$ al peso que se le da a cada observación. 
 En este trabajo se utilizó $\sigma$ = 1/50. (\cite{Sippl1990,Melo1997})
@@ -49,7 +49,7 @@ En este trabajo se utilizó $\sigma$ = 1/50. (\cite{Sippl1990,Melo1997})
 \par
 Para los potenciales en proteínas, se utilizaron 40 tipos atómicos compartidos para los 20 aminoácidos.
 Esto es debido a que existen 98 tipos atómicos no equivalentes en total, lo que resultaría en una base de datos con muy pocos datos para cada par de interacciones (\cite{Melo1997}).
-Las definiciones se pueden ver en la Tabla \ref{table:atomprotdef}.
+Las definiciones se pueden ver en la tabla~\ref{table:atomprotdef}.
 %tabla tipos
 \newpage
 \cleardoublepage
@@ -109,7 +109,7 @@ Las definiciones se pueden ver en la Tabla \ref{table:atomprotdef}.
 \clearpage
 \par
 En el caso de los potenciales para ADN y ARN, se utilizaron 23 tipos atómicos distintos descritos por \cite{Capriotti2011} para moléculas de ARN. A estos se agregaron dos tipos más, 24 y 25, correspondientes a los carbonos C5 y C7 (nombres IUPAC) del nucleótido timina.
-Estas definiciones están en la Tabla \ref{table:atomnadef}.
+Estas definiciones están en la tabla~\ref{table:atomnadef}.
 %comienzo tabla nucleótidos
 \newpage
 \cleardoublepage
@@ -163,12 +163,12 @@ Para los potenciales en ARN y ADN, se utilizan los parámetros similares a los u
 Las primeras 5 funciones solo consideran como interacciones átomos que están exactamente a 1, 2, 3, 4 y 5 residuos de distancia más cualquier interacción en otra cadena. 
 La última función solo considera interacciones a 6 o más residuos de distancia.
 Las distancias entre los átomos están discretizadas en 35 \textit{bins} uniformes de 0.2 \si{\angstrom}, paso necesario para obtener datos de frecuencia.
-Los pasos descritos en el algoritmo \ref{alg:deralgo1} son los mínimos necesarios para la generación del potencial. 
+Los pasos descritos en el algoritmo~\ref{alg:deralgo1} son los mínimos necesarios para la generación del potencial. 
 Las variables \textit{Radius, Lmin, Lmax, Nbins y Sigma} corresponden respectivamente a la distancia máxima de interacción, la distancia mínima entre residuos de una misma cadena que se considera como interacción, la distancia máxima entre residuos de una misma cadena que se considera como interacción, la cantidad de \textit{bins} en que se divide el rango de distancia, y el valor de corrección $\sigma$.
 
 \begin{algorithm}[H]
 \caption{Pasos para la derivación de un potencial a partir de una lista de archivos PDB}\label{alg:deralgo1}
-\begin{algorithmic}[0]
+\begin{algorithmic}[1]
 \Procedure{GeneratePotential}{}
 \State $ \text{matrix2D } Mij $ \Comment{Tabla de conteo de interacciones de tipo I con tipo J}
 \State $ \text{matrix3D } Fij $ \Comment{Tablas de frecuencia de interacciones para cada intervalo de distancia}
@@ -178,16 +178,16 @@ Las variables \textit{Radius, Lmin, Lmax, Nbins y Sigma} corresponden respectiva
 \For {$ \textit{pdbstruct} \text{ in } \textit{PDBlist} $}
 \State $ \text{CalculateInteractions}(pdbstruct,Radius,Lmin,Lmax) $ \Comment{Calcula los contactos entre átomos y sus distancias}
 \EndFor
-\State $ \text{DDCalculateIntFreq}(PDBlist,Fix,Fxx,Mij,Nbins) $ \Comment{Calcula todas las tablas necesarias para la derivación del potencial}
+\State $ \text{DDCalculateIntFreq}(PDBlist,Fij,Fxx,Mij,Nbins) $ \Comment{Calcula todas las tablas necesarias para la derivación del potencial}
 \State $ \text{WritePotential}(Fij,Fxx,Mij,Nbins,Sigma) $ \Comment{Escribe el potencial creado a disco}
 \EndProcedure
 \end{algorithmic}
 \end{algorithm}
 
 \par
-En la figura \ref{fig:energy1} se pueden observar algunos de los potenciales generados utilizando el método descrito para moléculas de proteína. 
+En la figura~\ref{fig:energy1} se pueden observar algunos de los potenciales generados utilizando el método descrito para moléculas de proteína. 
 El archivo en disco contiene la información de estas funciones en un formato de texto, el que se utiliza posteriormente para la evaluación de la energia en otras estructuras.
-En la figura \ref{fig:mij} se observa la matriz de conteo de interacciones (triángulo superior), cuyos datos se usan para el factor de corrección $\sigma$ usado en la Ecuación \ref{finalboltz}.
+En la figura~\ref{fig:mij} se observa la matriz de conteo de interacciones (triángulo superior), cuyos datos se usan para el factor de corrección $\sigma$ usado en la ecuación~\ref{ec:finalboltz}.
 \clearpage
 \begin{figure}[p]
 \centering
@@ -204,7 +204,7 @@ En la figura \ref{fig:mij} se observa la matriz de conteo de interacciones (tri�
 \end{subfigure}
 \caption[Ejemplos de funciones de energía en proteínas]{Gráficos de las funciones de energía utilizadas en proteínas. 
 En (a) se observa la energía (unidades RT) en función de la distancia en \si{\angstrom} para los carbonos beta de todos los aminoácidos. 
-En (b) se tiene la función de energia para los átomos de azufre de císteina, representando los puentes disulfuro.}
+En (b) se tiene la función de energía para los átomos de azufre de císteina, representando los puentes disulfuro.}
 \label{fig:energy1}
 \end{figure}
 
@@ -212,51 +212,114 @@ En (b) se tiene la función de energia para los átomos de azufre de císteina, 
 \includegraphics[width=\textwidth]{figures/prot_pot/mij.png}
 \caption[Cálculo de $\sigma$]{Matriz de conteo de interacciones para los potenciales en proteína, o \textit{Mij}. 
 Solo se usa el triángulo superior de esta estructura, ya que no se considera el orden de las interacciones. 
-Conteos están en escala logaritmíca para facilitar la visualización.}
+Conteos están en escala logarítmica para facilitar la visualización.}
 \label{fig:mij}
 \end{figure}
-
 \cleardoublepage
+
 \subsubsection{Derivación de potenciales basados en conteos de átomos}
 \par
-Estos potenciales están basados en el conteo de la cantidad de centros atómicos en cierto rango de distancia.
-Como no dependen de interacciones entre pares de átomos, se debe modificar la Ecuación \ref{finalboltz}:
+Estos potenciales están basados en el conteo de la cantidad de centros atómicos dentro de un rango de 7 \si{\angstrom} de un átomo.
+Las frecuencias están basadas en \textit{bins} de 20 unidades con un máximo de 100 para todos los tipos de potenciales utilizados (ADN, ARN, proteínas).
+Como no dependen de interacciones entre pares de átomos o distancias de residuos, se debe modificar la ecuación~\ref{ec:finalboltz}:
+
 \begin{equation}
-\Delta E^{i}_{k}(l) = RT\log \left[1 + M_{ik}\sigma\right] - RT\log \left[ 1 + M_{ik}\sigma \frac{f^{i}_{k}(l)}{f_{rel}} \right] \label{surfboltz}
+\Delta E^{i}(c) = RT\log \left[1 + M_{i}\sigma\right] - RT\log \left[ 1 + M_{i}\sigma \frac{f^{i}(c)}{f_{rel}} \right] \label{ec:surfboltz}
 \end{equation}
 
-
-
-\subsection{Cálculo de la superficie accesible al solvente de una molécula}
-\par
-Para el cálculo de la superfície accesible al solvente o SASA se utilizó el llamado algoritmo de Shrake y Rupley (\cite{Shrake1973}), descrito en Algoritmo \ref{shrkrply1}. Este consiste generar para cada átomo de una estructura una nube de puntos con forma esférica que estan a una distancia de radio de Van der Waals más el radio de una molécula de una molécula de agua del centro del átomo. 
-Cada punto representa un área equivalente al área de una esfera con el radio descrito anteriormente dividido por el número de puntos. Al eliminar los puntos que se encuentran en el interior del volumen de las nubes de puntos de otros átomos, es posible obtener la superficie accesible al contar los puntos restantes y multiplicarlos por el valor de superficie que representan.
-\par
-La nube de puntos debe tener todos sus puntos lo más equidistantes posible en el plano esférico para que el cálculo de superficie no tenga sesgos debido a la distribución de los puntos.
-
-
+Donde \textit{i} indica el tipo de átomo, \textit{Mi} es la cantidad de observaciones del átomo tipo \textit{i}, \textit{$f^{i}(c)$} es la frecuencia de observaciones en que un átomo \textit{i} tuvo \textit{c} átomos a su alrededor y \textit{$f_{rel}$} es la frecuencia esperada, equivalente a 1/(número de \textit{bins}).
+El factor de corrección $\sigma$ se mantiene en 1/50.
+Un ejemplo de funciones de energía puede ser visto en la figura~\ref{fig:inteng}, donde se muestra la energía en función de la cantidad de átomos alrededor para un carbono aromático y para un nitrógeno ácido.
+La metodología de derivación tiene pequeños cambios aparte de utilizar la ecuación~\ref{ec:surfboltz}.
+En el algoritmo~\ref{alg:intpot} se tienen los pasos para la derivación, donde podemos notar los cambios respecto al algoritmo~\ref{alg:deralgo1}.
+\textit{Mij} pasa a ser \textit{Mi}, una lista con la cantidad de observaciones de cada tipo de átomo, \textit{Fij} pasa a ser \textit{Fi}, una única tabla con las frecuencias de cada átomo \textit{i} para cada \textit{bin} de conteo, y \textit{Fxx} pasa a ser un único valor, \textit{Frel}.
 
 \begin{algorithm}[H]
-\caption{Pasos para la obtención del SASA de una estructura }\label{alg:deralgo1}
-\begin{algorithmic}[0]
-\Procedure{CalculateSASA}{}
-\State $ \text{pdbstruct } Mij $ \Comment{Estructura PDB}
-\State $ \text{list unitsphere } Fij $ \Comment{Lista de puntos 3D equidistantes en la superficie de una esfera unitaria}
-\State $ \text{matrix1D } Fxx $ \Comment{Lista de frecuencia de interacciones en cierto intervalo de distancia}
-
+\caption{Pasos para la derivación de un potencial de conteo a partir de una lista de archivos PDB}\label{alg:intpot}
+\begin{algorithmic}[1]
+\Procedure{GenerateCountPotential}{}
+\State $ \text{matrix1D } Mi $ \Comment{Vector de conteo de átomos del tipo I en la base de datos}
+\State $ \text{matrix2D } Fi $ \Comment{Tabla de frecuencias de conteo para cada tipo atómico y \textit{bin}}
+\State $ \text{float } Frel $ \Comment{Frecuencia esperada, 1/\textit{bins} }
 \State $ \text{list } pdblist \gets \text{GetPDBs}(argv1) $ \Comment{Carga estructuras PDB desde lista de archivos en disco}
 \For {$ \textit{pdbstruct} \text{ in } \textit{PDBlist} $}
-\State $ \text{CalculateInteractions}(pdbstruct,Radius,Lmin,Lmax) $ \Comment{Calcula los contactos entre átomos y sus distancias}
+\State $ \text{CountEnv}(pdbstruct,Radius) $ \Comment{Calcula los átomos alrededor de otro átomo dentro del rango \textit{Radius}}
 \EndFor
-\State $ \text{DDCalculateIntFreq}(PDBlist,Fix,Fxx,Mij,Nbins) $ \Comment{Calcula todas las tablas necesarias para la derivación del potencial}
-\State $ \text{WritePotential}(Fij,Fxx,Mij,Nbins,Sigma) $ \Comment{Escribe el potencial creado a disco}
+\State $ \text{CountCalculateIntFreq}(PDBlist,Fi,Frel,Mi,Nbins) $ \Comment{Calcula todas las tablas necesarias para la derivación del potencial}
+\State $ \text{WritePotentialCount}(Fi,Frel,Mi,Nbins,Sigma) $ \Comment{Escribe el potencial creado a disco}
 \EndProcedure
 \end{algorithmic}
 \end{algorithm}
 
 
+\begin{figure}[p]
+\centering
+\begin{subfigure}{.8\textwidth}
+\centering
+\includegraphics[width=\textwidth]{figures/prot_pot/coarse/aromatic.eps}
+\caption{}
+\end{subfigure}
+
+\begin{subfigure}{.8\textwidth}
+\centering
+\includegraphics[width=\textwidth]{figures/prot_pot/coarse/nh_acids.eps}
+\caption{}
+\end{subfigure}
+\caption[Ejemplos de funciones de energía para conteo de átomos en proteínas]{En (a) se puede observar la energía en función del conteo de átomos en un rango de 7 \si{\angstrom} para carbonos aromáticos en proteínas. En (b) se puede observar otra función, pero para nitrógenos ácidos de los aminoacidos asparagina y glutamina.}
+\label{fig:inteng}
+\end{figure}
+\cleardoublepage
+
+\subsection{Cálculo de la superficie accesible al solvente de una molécula}
+\par
+Para el cálculo de la superficie accesible al solvente o SASA se utilizó el llamado algoritmo de Shrake y Rupley (\cite{Shrake1973}), descrito en el algoritmo~\ref{alg:shrkrply1}. Este consiste generar para cada átomo de una estructura una nube de puntos con forma esférica que están a una distancia de radio de Van der Waals más el radio de una molécula de una molécula de agua del centro del átomo. 
+Cada punto representa un área equivalente al área de una esfera con el radio descrito anteriormente dividido por el número de puntos.
+Al eliminar los puntos que se encuentran en el interior del volumen de las nubes de puntos de otros átomos, es posible obtener la superficie accesible al contar los puntos restantes y multiplicarlos por el valor de superficie que representan.
+En la figura~\ref{fig:thomsonfig} se pueden observas las divisiones del área de una esfera que estos puntos representan.
+\par
+La nube de puntos debe tener todos sus puntos lo más equidistantes posible en el plano esférico para que el cálculo de superficie no tenga sesgos debido a la distribución desbalanceada de los puntos.
+Esto se logró utilizando nubes de puntos precalculadas utilizando el por el software Thomson Applet (\cite{Saff1997,thomson}) de 15092 puntos. 
+
+\begin{algorithm}[H]
+\caption{Pasos para la obtención del SASA de una estructura }\label{alg:shrkrply1}
+\begin{algorithmic}[1]
+\Procedure{CalculateSASA}{}
+\State $ \text{pdbstrudct } pdb $ \Comment{Estructura PDB}
+\State $ \text{matrix2D } unitsphere $ \Comment{Matriz de 3xN con las coordenadas 3D de la nube de puntos en una esfera unitaria}
+  \For {$ \textit{atomI} \text{ in } \textit{pdbstruct} $}
+    \State $ \text{matrix2D } points \gets unitsphere * (atom.vdw + 1.4) + atom.coords $ \Comment{Escala y mueve una copia de la nube de N puntos a las coordenadas del átomo actual}
+    \State $ \text{int } surfacepoints \gets N $ \Comment{Contador de puntos expuestos al solvente}
+    \State $ \text{float } totalSASA \gets 0 $ \Comment{Superficie expuesta final}
+    \For{$  \textit{atomJ} \text{ in } \textit{atomI.interactions}  $} \Comment{Itera sobre los átomos J que interactuan con I}
+      \For{$  \textit{point} \text{ in } \textit{points}  $}
+        \If {$\text{IsPointInVolume}(atomJ,point) \text{ and } point.enabled$} \Comment{Revisa si el punto esta adentro del volumen del átomo J y si no fue contado antes}
+          \State $ surfacepoints -= 1  $ \Comment{Decrementa el contador de puntos}
+          \State $ point.enabled = False $ \Comment{Desabilita el punto, ya que no es necesario volver a revisarlo}
+        \EndIf
+      \EndFor
+    \EndFor
+    \State $ atomI.SASA \gets surfacepoints * atomI.tAREA / N $ \Comment{Calcula área del átomo}
+    \State $ totalSASA \gets atomI.SASA + totalSASA $ \Comment{Suma el área al área total}
+  \EndFor
+\State $ \Return \textit{ totalSASA } $ \Comment{Retorna el SASA final}
+
+\EndProcedure
+\end{algorithmic}
+\end{algorithm}
+
+\begin{figure}[p]
+\centering
+\centering
+\includegraphics[width=\textwidth]{figures/thomson/thomson.png}
+\caption[Esfera en el software Thomson Applet]{En este ejemplo podemos observar una esfera subdividida en 1000 áreas equivalentes. Inicialmente las subáreas son inicializadas con valores aleatorios, los cuáles son optimizados utilizando un algoritmo de relajación considerando cada punto como una carga eléctrica forzada a moverse sobre una esfera.}
+\label{fig:thomsonfig}
+\end{figure}
+\cleardoublepage
+
 \subsection{Cálculo de las subsuperfícies de interacción}
 \par
+Para calcular las subsuperfícies de interacción entre dos átomos, se debe extender el algoritmo~\ref{alg:shrkrply1}. Esto se hace re
+
 \subsection{Derivación de potenciales basados en BSA}
 \par
 \subsection{Derivación de potenciales basados en SASA}

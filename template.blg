@@ -1,28 +1,39 @@
-[0] Config.pm:340> INFO - This is Biber 2.4
+[1] Config.pm:340> INFO - This is Biber 2.4
 [1] Config.pm:343> INFO - Logfile is 'template.blg'
-[90] biber:287> INFO - === lun abr 17, 2017, 18:27:58
-[254] Biber.pm:348> INFO - Reading 'template.bcf'
-[534] Biber.pm:742> INFO - Found 11 citekeys in bib section 0
-[544] Biber.pm:3151> INFO - Processing section 0
-[604] Biber.pm:3308> INFO - Looking for bibtex format file 'tesis.bib' for section 0
-[1485] bibtex.pm:1113> INFO - Decoding LaTeX character macros into UTF-8
-[2228] bibtex.pm:974> INFO - Found BibTeX data source 'tesis.bib'
-[2301] Utils.pm:147> WARN - ISBN '1532-4435' in entry 'Pedregosa2012' is invalid - run biber with '--validate_datamodel' for details.
-[2332] Utils.pm:147> WARN - ISBN '1469-896X (Electronic)$\backslash$r0961-8368 (Linking)' in entry 'Ferrada2009' is invalid - run biber with '--validate_datamodel' for details.
-[2381] Utils.pm:147> WARN - ISBN '1367-4811 (Electronic)$\backslash$n1367-4803 (Linking)' in entry 'Capriotti2011' is invalid - run biber with '--validate_datamodel' for details.
-[2402] Utils.pm:147> WARN - ISBN '1548-7105 (Electronic)$\backslash$r1548-7091 (Linking)' in entry 'Das2010' is invalid - run biber with '--validate_datamodel' for details.
-[2423] Utils.pm:147> WARN - ISBN '0920-654X' in entry 'Sippl1993' is invalid - run biber with '--validate_datamodel' for details.
-[2446] Utils.pm:147> WARN - ISBN '0022-2836' in entry 'Sippl1990' is invalid - run biber with '--validate_datamodel' for details.
-[2471] Utils.pm:147> WARN - ISBN '0022-2836' in entry 'Melo1997' is invalid - run biber with '--validate_datamodel' for details.
-[2496] Utils.pm:147> WARN - ISBN '0022-2836 (Print)$\backslash$r0022-2836 (Linking)' in entry 'Melo1998' is invalid - run biber with '--validate_datamodel' for details.
-[2518] Utils.pm:147> WARN - ISBN '0022-2836' in entry 'Shrake1973' is invalid - run biber with '--validate_datamodel' for details.
-[2519] Utils.pm:147> WARN - BibTeX subsystem: /tmp/lguhnvZRAa/tesis.bib_6154.utf8, line 6, warning: 172 characters of junk seen at toplevel
-[2519] Biber.pm:3308> INFO - Looking for bibtex format file 'pymol.bib' for section 0
-[2529] bibtex.pm:1113> INFO - Decoding LaTeX character macros into UTF-8
-[2538] bibtex.pm:974> INFO - Found BibTeX data source 'pymol.bib'
-[2811] UCollate.pm:65> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[2812] UCollate.pm:65> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[2812] Biber.pm:3028> INFO - Sorting list 'nyt/global' of type 'entry' with scheme 'nyt' and locale 'es-ES'
-[2847] bbl.pm:519> INFO - Writing 'template.bbl' with encoding 'UTF-8'
-[3064] bbl.pm:615> INFO - Output to template.bbl
-[3064] Biber.pm:109> INFO - WARNINGS: 10
+[66] biber:287> INFO - === lun abr 24, 2017, 17:54:28
+[190] Biber.pm:348> INFO - Reading 'template.bcf'
+[381] Biber.pm:742> INFO - Found 17 citekeys in bib section 0
+[388] Biber.pm:3151> INFO - Processing section 0
+[429] Biber.pm:3308> INFO - Looking for bibtex format file 'tesis.bib' for section 0
+[1054] bibtex.pm:1113> INFO - Decoding LaTeX character macros into UTF-8
+[1566] bibtex.pm:974> INFO - Found BibTeX data source 'tesis.bib'
+[1615] Utils.pm:147> WARN - ISBN '1532-4435' in entry 'Pedregosa2012' is invalid - run biber with '--validate_datamodel' for details.
+[1633] Utils.pm:147> WARN - ISBN '0343-6993' in entry 'Saff1997' is invalid - run biber with '--validate_datamodel' for details.
+[1650] Utils.pm:147> WARN - ISBN '1469-896X (Electronic)$\backslash$r0961-8368 (Linking)' in entry 'Ferrada2009' is invalid - run biber with '--validate_datamodel' for details.
+[1690] Utils.pm:147> WARN - ISBN '1367-4811 (Electronic)$\backslash$n1367-4803 (Linking)' in entry 'Capriotti2011' is invalid - run biber with '--validate_datamodel' for details.
+[1705] Utils.pm:147> WARN - ISBN '0305-1048' in entry 'Berman2000' is invalid - run biber with '--validate_datamodel' for details.
+[1718] Utils.pm:147> WARN - ISBN '1548-7105 (Electronic)$\backslash$r1548-7091 (Linking)' in entry 'Das2010' is invalid - run biber with '--validate_datamodel' for details.
+[1750] Utils.pm:147> WARN - ISBN '0920-654X' in entry 'Sippl1993' is invalid - run biber with '--validate_datamodel' for details.
+[1766] Utils.pm:147> WARN - ISBN '0022-2836' in entry 'Sippl1990' is invalid - run biber with '--validate_datamodel' for details.
+[1791] Utils.pm:147> WARN - ISBN '0022-2836' in entry 'Melo1997' is invalid - run biber with '--validate_datamodel' for details.
+[1815] Utils.pm:147> WARN - ISBN '0022-2836 (Print)$\backslash$r0022-2836 (Linking)' in entry 'Melo1998' is invalid - run biber with '--validate_datamodel' for details.
+[1830] Utils.pm:147> WARN - ISBN '0022-2836' in entry 'Shrake1973' is invalid - run biber with '--validate_datamodel' for details.
+[1831] Utils.pm:147> WARN - BibTeX subsystem: /tmp/ndQmP6Smg3/tesis.bib_10402.utf8, line 6, warning: 172 characters of junk seen at toplevel
+[1831] Biber.pm:3308> INFO - Looking for bibtex format file 'pymol.bib' for section 0
+[1837] bibtex.pm:1113> INFO - Decoding LaTeX character macros into UTF-8
+[1843] bibtex.pm:974> INFO - Found BibTeX data source 'pymol.bib'
+[1855] Biber.pm:3308> INFO - Looking for bibtex format file 'thomsonapplet.bib' for section 0
+[1858] bibtex.pm:1113> INFO - Decoding LaTeX character macros into UTF-8
+[1859] bibtex.pm:974> INFO - Found BibTeX data source 'thomsonapplet.bib'
+[1872] Biber.pm:3308> INFO - Looking for bibtex format file 'ilibarra.bib' for section 0
+[1875] bibtex.pm:1113> INFO - Decoding LaTeX character macros into UTF-8
+[1877] bibtex.pm:974> INFO - Found BibTeX data source 'ilibarra.bib'
+[1890] Biber.pm:3308> INFO - Looking for bibtex format file 'parallel.bib' for section 0
+[1892] bibtex.pm:1113> INFO - Decoding LaTeX character macros into UTF-8
+[1894] bibtex.pm:974> INFO - Found BibTeX data source 'parallel.bib'
+[2175] UCollate.pm:65> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[2175] UCollate.pm:65> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[2175] Biber.pm:3028> INFO - Sorting list 'nyt/global' of type 'entry' with scheme 'nyt' and locale 'es-ES'
+[2216] bbl.pm:519> INFO - Writing 'template.bbl' with encoding 'UTF-8'
+[2408] bbl.pm:615> INFO - Output to template.bbl
+[2409] Biber.pm:109> INFO - WARNINGS: 12

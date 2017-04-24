@@ -2049,27 +2049,39 @@
   <bcf:bibdata section="0">
     <bcf:datasource type="file" datatype="bibtex">tesis.bib</bcf:datasource>
     <bcf:datasource type="file" datatype="bibtex">pymol.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">thomsonapplet.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">ilibarra.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">parallel.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
     <bcf:citekey order="1">Pedregosa2012</bcf:citekey>
     <bcf:citekey order="2">PyMOL</bcf:citekey>
-    <bcf:citekey order="3">Ferrada2009</bcf:citekey>
-    <bcf:citekey order="4">Ferrada2007</bcf:citekey>
+    <bcf:citekey order="3">Saff1997</bcf:citekey>
+    <bcf:citekey order="3">thomson</bcf:citekey>
+    <bcf:citekey order="4">Tange2011a</bcf:citekey>
     <bcf:citekey order="5">Ferrada2009</bcf:citekey>
-    <bcf:citekey order="6">Capriotti2011</bcf:citekey>
-    <bcf:citekey order="7">Capriotti2011</bcf:citekey>
-    <bcf:citekey order="8">Das2010</bcf:citekey>
-    <bcf:citekey order="9">Das2010</bcf:citekey>
-    <bcf:citekey order="10">Sippl1993</bcf:citekey>
-    <bcf:citekey order="11">Sippl1993</bcf:citekey>
-    <bcf:citekey order="12">Sippl1990</bcf:citekey>
-    <bcf:citekey order="13">Sippl1990</bcf:citekey>
-    <bcf:citekey order="13">Melo1997</bcf:citekey>
-    <bcf:citekey order="14">Melo1997</bcf:citekey>
-    <bcf:citekey order="15">Capriotti2011</bcf:citekey>
-    <bcf:citekey order="16">Melo1998</bcf:citekey>
-    <bcf:citekey order="17">Capriotti2011</bcf:citekey>
-    <bcf:citekey order="18">Shrake1973</bcf:citekey>
+    <bcf:citekey order="6">Ferrada2007</bcf:citekey>
+    <bcf:citekey order="7">Ferrada2009</bcf:citekey>
+    <bcf:citekey order="8">Capriotti2011</bcf:citekey>
+    <bcf:citekey order="9">Berman2000</bcf:citekey>
+    <bcf:citekey order="10">Capriotti2011</bcf:citekey>
+    <bcf:citekey order="11">Das2010</bcf:citekey>
+    <bcf:citekey order="12">Das2010</bcf:citekey>
+    <bcf:citekey order="13">Ibarra2013</bcf:citekey>
+    <bcf:citekey order="14">Berman2000</bcf:citekey>
+    <bcf:citekey order="15">Berman1996</bcf:citekey>
+    <bcf:citekey order="16">Sippl1993</bcf:citekey>
+    <bcf:citekey order="17">Sippl1993</bcf:citekey>
+    <bcf:citekey order="18">Sippl1990</bcf:citekey>
+    <bcf:citekey order="19">Sippl1990</bcf:citekey>
+    <bcf:citekey order="19">Melo1997</bcf:citekey>
+    <bcf:citekey order="20">Melo1997</bcf:citekey>
+    <bcf:citekey order="21">Capriotti2011</bcf:citekey>
+    <bcf:citekey order="22">Melo1998</bcf:citekey>
+    <bcf:citekey order="23">Capriotti2011</bcf:citekey>
+    <bcf:citekey order="24">Shrake1973</bcf:citekey>
+    <bcf:citekey order="25">Saff1997</bcf:citekey>
+    <bcf:citekey order="25">thomson</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="nyt/global" type="entry" sortscheme="nyt" sortnamekeyscheme="global">
   <bcf:sorting>

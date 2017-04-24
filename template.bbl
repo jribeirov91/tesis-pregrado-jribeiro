@@ -19,6 +19,194 @@
 
 \refsection{0}
   \sortlist[entry]{nyt/global}
+    \entry{Berman2000}{article}{}
+      \name{author}{8}{uniquelist=2}{%
+        {{uniquename=0,hash=e4de3dcaedb6567cd09c88c9bb42b045}{%
+           family={Berman},
+           family_i={B\bibinitperiod},
+           given={H\bibnamedelima M},
+           given_i={H\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{uniquename=0,hash=4899d836229929ad1ea59afce83185f6}{%
+           family={Westbrook},
+           family_i={W\bibinitperiod},
+           given={J},
+           given_i={J\bibinitperiod}}}%
+        {{uniquename=0,hash=46d061ac74384b7817a4ea81975c6bbc}{%
+           family={Feng},
+           family_i={F\bibinitperiod},
+           given={Z},
+           given_i={Z\bibinitperiod}}}%
+        {{uniquename=0,hash=d8efcf827b60f6be4a8bbe7fc64fe339}{%
+           family={Gilliland},
+           family_i={G\bibinitperiod},
+           given={G},
+           given_i={G\bibinitperiod}}}%
+        {{uniquename=0,hash=0febc6fc4d8962b7459c9ea72d71fd2e}{%
+           family={Bhat},
+           family_i={B\bibinitperiod},
+           given={T\bibnamedelima N},
+           given_i={T\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{uniquename=0,hash=c5dae86822aaaba07b5f512efa058b60}{%
+           family={Weissig},
+           family_i={W\bibinitperiod},
+           given={H},
+           given_i={H\bibinitperiod}}}%
+        {{uniquename=0,hash=7453c99c596fddd1d23f6cfd410e6149}{%
+           family={Shindyalov},
+           family_i={S\bibinitperiod},
+           given={I\bibnamedelima N},
+           given_i={I\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{uniquename=0,hash=555e13f7a8c5d29f5bc98f3f0e9ea341}{%
+           family={Bourne},
+           family_i={B\bibinitperiod},
+           given={P\bibnamedelima E},
+           given_i={P\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{c928b7eb24bf932afbcf9bc18066e337}
+      \strng{fullhash}{86ecb19efc185b92acdb8021e72aacd8}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelyear}{2000}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The Protein Data Bank (PDB; http://www.rcsb.org/pdb/ ) is the single worldwide archive of structural data of biological macromolecules. This paper describes the goals of the PDB, the systems in place for data deposition and access, how to obtain further information, and near-term plans for the future development of the resource.}
+      \field{isbn}{0305-1048}
+      \field{issn}{0305-1048}
+      \field{journaltitle}{Nucleic acids research}
+      \field{number}{1}
+      \field{title}{{The protein data bank.}}
+      \field{volume}{28}
+      \field{year}{2000}
+      \field{pages}{235\bibrangedash 242}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1093/nar/28.1.235
+      \endverb
+      \verb{file}
+      \verb :home/jr1/Dropbox/Papers/gkd090.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Berman1996}{article}{}
+      \name{author}{11}{uniquelist=2}{%
+        {{uniquename=0,hash=0363d036b24e1191b76fc6f4bb86cd79}{%
+           family={Berman},
+           family_i={B\bibinitperiod},
+           given={Helen\bibnamedelima M},
+           given_i={H\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{uniquename=0,hash=417cbe65ee065a4bd459bc054af3596a}{%
+           family={Beveridge},
+           family_i={B\bibinitperiod},
+           given={D\bibnamedelima L},
+           given_i={D\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{uniquename=0,hash=b2f43344eba6b8a2834373ae22481b3a}{%
+           family={S.},
+           family_i={S\bibinitperiod},
+           given={Neidle.},
+           given_i={N\bibinitperiod}}}%
+        {{uniquename=0,hash=4510778d26783690d6fa89439ef2dfec}{%
+           family={Olson},
+           family_i={O\bibinitperiod},
+           given={W\bibnamedelima K},
+           given_i={W\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{uniquename=0,hash=4899d836229929ad1ea59afce83185f6}{%
+           family={Westbrook},
+           family_i={W\bibinitperiod},
+           given={J},
+           given_i={J\bibinitperiod}}}%
+        {{uniquename=0,hash=1db810726fe70d6df993fc156b0866d5}{%
+           family={Gelbin},
+           family_i={G\bibinitperiod},
+           given={A},
+           given_i={A\bibinitperiod}}}%
+        {{uniquename=0,hash=3cf33b93c96e684186d51342ed1c94d0}{%
+           family={Hsieh},
+           family_i={H\bibinitperiod},
+           given={S.-H.\bibnamedelimi H},
+           given_i={S\bibinithyphendelim H\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{uniquename=0,hash=75eebd207a90675d63aac5ac4727093a}{%
+           family={Clowney},
+           family_i={C\bibinitperiod},
+           given={L},
+           given_i={L\bibinitperiod}}}%
+        {{uniquename=0,hash=d6df84066ec87efc67ed57d19f4637fe}{%
+           family={Schneider},
+           family_i={S\bibinitperiod},
+           given={B},
+           given_i={B\bibinitperiod}}}%
+        {{uniquename=0,hash=1b4c5ab38c55923f2b14c2a4a5932798}{%
+           family={Zardecki},
+           family_i={Z\bibinitperiod},
+           given={C},
+           given_i={C\bibinitperiod}}}%
+        {{uniquename=0,hash=c9592900a6b1e919849f0fc974adaec8}{%
+           family={Neidle},
+           family_i={N\bibinitperiod},
+           given={S},
+           given_i={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{6748aa5731a328e741e3adaa24dbf852}
+      \strng{fullhash}{2d90fef13ae9a00622c8caacf3eab656}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelyear}{1996}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{0471202002}
+      \field{journaltitle}{Biological Structure and Dynamics}
+      \field{number}{September}
+      \field{title}{{The Nucleic Acid Database Project}}
+      \field{volume}{2}
+      \field{year}{1996}
+      \field{pages}{1\bibrangedash 13}
+      \range{pages}{13}
+      \verb{file}
+      \verb :home/jr1/Dropbox/Papers/biophysj00097-0147.pdf:pdf
+      \endverb
+    \endentry
+    \entry{thomson}{unpublished}{}
+      \name{author}{5}{}{%
+        {{uniquename=0,hash=f84a9bcf6323033ac145caa1c63b870e}{%
+           family={Bowick},
+           family_i={B\bibinitperiod},
+           given={Mark},
+           given_i={M\bibinitperiod}}}%
+        {{uniquename=0,hash=83638ae25559217018b8ec215d3f3525}{%
+           family={Cecka},
+           family_i={C\bibinitperiod},
+           given={Cris},
+           given_i={C\bibinitperiod}}}%
+        {{uniquename=0,hash=68589a7e103f380d920b551a0d73dd5d}{%
+           family={Giomi},
+           family_i={G\bibinitperiod},
+           given={Luca},
+           given_i={L\bibinitperiod}}}%
+        {{uniquename=0,hash=d9ade07b2fd7b40e39090798d4c2f2c3}{%
+           family={Middleton},
+           family_i={M\bibinitperiod},
+           given={Alan},
+           given_i={A\bibinitperiod}}}%
+        {{uniquename=0,hash=9adf99a643b1491290ca56c589cbf144}{%
+           family={Zielnicki},
+           family_i={Z\bibinitperiod},
+           given={Kevin},
+           given_i={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{573a6c83e90919b6be5bda76866074e3}
+      \strng{fullhash}{107175e4c9db2268f223b7056863ea00}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelyear}{2002}
+      \field{labelmonth}{01}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{Thomson Problem @ S.U.}
+      \field{month}{01}
+      \field{title}{Thomson Applet @ S.U.}
+      \field{year}{2002}
+    \endentry
     \entry{Capriotti2011}{article}{}
       \name{author}{4}{}{%
         {{uniquename=0,hash=f759c6a323e4cdeeb017d6a8ddcb7566}{%
@@ -197,6 +385,26 @@
       \verb :home/jr1/Dropbox/Papers/pro0018-1469.pdf:pdf
       \endverb
       \keyw{Comparative modeling,Knowledge-based potentials,Protein structure assessment,Protein structure prediction,Statistical potentials}
+    \endentry
+    \entry{Ibarra2013}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=ac65c6e34efa45b54333a795c9a76815}{%
+           family={Ibarra},
+           family_i={I\bibinitperiod},
+           given={Ignacio},
+           given_i={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{ac65c6e34efa45b54333a795c9a76815}
+      \strng{fullhash}{ac65c6e34efa45b54333a795c9a76815}
+      \field{sortinit}{I}
+      \field{sortinithash}{25e99d37ba90f7c4fb20baf4e310faf3}
+      \field{labelyear}{2013}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Tesis entregada a la Facultad de Ciencias Biológicas de la Pontificia Universidad Católica de Chile en cumplimiento parcial de los requisitos para optar al Título de Bioquímico.}
+      \field{title}{{Modelamiento Comparativo tridimensional de ADN en doble hebra vía satisfacción de restricciones geométricas espaciales.}}
+      \field{year}{2013}
     \endentry
     \entry{Melo1998}{article}{}
       \name{author}{2}{}{%
@@ -396,6 +604,47 @@
       \verb http://dl.acm.org/citation.cfm?id=2078195%7B%5C%%7D5Cnhttp://arxiv.org/abs/1201.0490
       \endverb
     \endentry
+    \entry{Saff1997}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=d0483ac593975a0437c18c7e56ed425d}{%
+           family={Saff},
+           family_i={S\bibinitperiod},
+           given={E.\bibnamedelimi B.},
+           given_i={E\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{uniquename=0,hash=78e499e8aadf54c720c5f4861f7beb0b}{%
+           family={Kuijlaars},
+           family_i={K\bibinitperiod},
+           given={a.\bibnamedelimi B.\bibnamedelimi J.},
+           given_i={a\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{679388ef735083c147506de916491785}
+      \strng{fullhash}{679388ef735083c147506de916491785}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelyear}{1997}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The problem of distributing a large number of points uniformly over the surface of a sphere arises in many practical and theoretical situations. We discuss generating such points by optimization with respect to a generalized energy criterion. Our interest is primarily with the asymptotic behavior of these optimal spherical configurations of N points as N tends to infinity. Methods for generating "near optimal" points will also be discussed along with several challenging open problems.}
+      \field{isbn}{0343-6993}
+      \field{issn}{0343-6993}
+      \field{journaltitle}{The Mathematical Intelligencer}
+      \field{number}{1}
+      \field{title}{{Distributing many points on a sphere}}
+      \field{volume}{19}
+      \field{year}{1997}
+      \field{pages}{5\bibrangedash 11}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1007/BF03024331
+      \endverb
+      \verb{file}
+      \verb :home/jr1/Dropbox/Papers/Saff-Kuijlaars-MathIntel97.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/BF03024331
+      \endverb
+    \endentry
     \entry{PyMOL}{unpublished}{}
       \name{author}{1}{}{%
         {{uniquename=0,hash=a3d288f5e9ca8a50c78bc21d2cbe93ce}{%
@@ -520,6 +769,38 @@
       \verb :home/jr1/Dropbox/Papers/sippl1993.pdf:pdf
       \endverb
       \keyw{Knowledge-based prediction,Molecular force field,Protein folding,Protein modelling,Statistical mechanics}
+    \endentry
+    \entry{Tange2011a}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=10598f1f85f7d8e8981ebc08d7e227dd}{%
+           family={Tange},
+           family_i={T\bibinitperiod},
+           given={O.},
+           given_i={O\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Frederiksberg, Denmark}%
+      }
+      \strng{namehash}{10598f1f85f7d8e8981ebc08d7e227dd}
+      \strng{fullhash}{10598f1f85f7d8e8981ebc08d7e227dd}
+      \field{sortinit}{T}
+      \field{sortinithash}{423d138a005a533b47e6475e39378bf2}
+      \field{labelyear}{2011}
+      \field{labelmonth}{02}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{;login: The USENIX Magazine}
+      \field{month}{02}
+      \field{number}{1}
+      \field{title}{GNU Parallel - The Command-Line Power Tool}
+      \field{volume}{36}
+      \field{year}{2011}
+      \field{pages}{42\bibrangedash 47}
+      \range{pages}{6}
+      \verb{url}
+      \verb http://www.gnu.org/s/parallel
+      \endverb
     \endentry
   \endsortlist
 \endrefsection

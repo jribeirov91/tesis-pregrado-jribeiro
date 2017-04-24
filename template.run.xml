@@ -81,6 +81,9 @@
     <requires type="editable">
       <file>tesis.bib</file>
       <file>pymol.bib</file>
+      <file>thomsonapplet.bib</file>
+      <file>ilibarra.bib</file>
+      <file>parallel.bib</file>
     </requires>
   </external>
 </requests>

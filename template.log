@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.3)  24 APR 2017 17:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.3)  27 JUN 2017 18:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1351,56 +1351,9 @@ Package caption Info: float package is loaded.
 \c@subfigure=\count329
 \c@subtable=\count330
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2016/03/03 v2.15a AMS math features
-\@mathmargin=\skip69
+(/usr/share/texlive/texmf-dist/tex/latex/rotating/rotating.sty
+Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
 
-For additional information on amsmath, use the `?' option.
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen165
-)
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
-Package: amsopn 1999/12/14 v2.01 operator names
-)
-\inf@bad=\count331
-LaTeX Info: Redefining \frac on input line 199.
-\uproot@=\count332
-\leftroot@=\count333
-LaTeX Info: Redefining \overline on input line 297.
-\classnum@=\count334
-\DOTSCASE@=\count335
-LaTeX Info: Redefining \ldots on input line 394.
-LaTeX Info: Redefining \dots on input line 397.
-LaTeX Info: Redefining \cdots on input line 518.
-\Mathstrutbox@=\box50
-\strutbox@=\box51
-\big@size=\dimen166
-LaTeX Font Info:    Redeclaring font encoding OML on input line 630.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
-\macc@depth=\count336
-\c@MaxMatrixCols=\count337
-\dotsspace@=\muskip17
-\c@parentequation=\count338
-\dspbrk@lvl=\count339
-\tag@help=\toks24
-\row@=\count340
-\column@=\count341
-\maxfields@=\count342
-\andhelp@=\toks25
-\eqnshift@=\dimen167
-\alignsep@=\dimen168
-\tagshift@=\dimen169
-\tagwidth@=\dimen170
-\totwidth@=\dimen171
-\lineht@=\dimen172
-\@envbody=\toks26
-\multlinegap=\skip70
-\multlinetaggap=\skip71
-\mathdisplay@stack=\toks27
-LaTeX Info: Redefining \[ on input line 2735.
-LaTeX Info: Redefining \] on input line 2736.
-)
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -1417,21 +1370,77 @@ Package graphics Info: Driver file: pdftex.def on input line 95.
 
 (/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-\Gread@gobject=\count343
+\Gread@gobject=\count331
 ))
-\Gin@req@height=\dimen173
-\Gin@req@width=\dimen174
+\Gin@req@height=\dimen165
+\Gin@req@width=\dimen166
+)
+\c@r@tfl@t=\count332
+\rotFPtop=\skip69
+\rotFPbot=\skip70
+\rot@float@box=\box50
+\rot@mess@toks=\toks24
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/03/03 v2.15a AMS math features
+\@mathmargin=\skip71
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen167
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count333
+LaTeX Info: Redefining \frac on input line 199.
+\uproot@=\count334
+\leftroot@=\count335
+LaTeX Info: Redefining \overline on input line 297.
+\classnum@=\count336
+\DOTSCASE@=\count337
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
+\Mathstrutbox@=\box51
+\strutbox@=\box52
+\big@size=\dimen168
+LaTeX Font Info:    Redeclaring font encoding OML on input line 630.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
+\macc@depth=\count338
+\c@MaxMatrixCols=\count339
+\dotsspace@=\muskip17
+\c@parentequation=\count340
+\dspbrk@lvl=\count341
+\tag@help=\toks25
+\row@=\count342
+\column@=\count343
+\maxfields@=\count344
+\andhelp@=\toks26
+\eqnshift@=\dimen169
+\alignsep@=\dimen170
+\tagshift@=\dimen171
+\tagwidth@=\dimen172
+\totwidth@=\dimen173
+\lineht@=\dimen174
+\@envbody=\toks27
+\multlinegap=\skip72
+\multlinetaggap=\skip73
+\mathdisplay@stack=\toks28
+LaTeX Info: Redefining \[ on input line 2735.
+LaTeX Info: Redefining \] on input line 2736.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-\fancy@headwidth=\skip72
-\f@ncyO@elh=\skip73
-\f@ncyO@erh=\skip74
-\f@ncyO@olh=\skip75
-\f@ncyO@orh=\skip76
-\f@ncyO@elf=\skip77
-\f@ncyO@erf=\skip78
-\f@ncyO@olf=\skip79
-\f@ncyO@orf=\skip80
+\fancy@headwidth=\skip74
+\f@ncyO@elh=\skip75
+\f@ncyO@erh=\skip76
+\f@ncyO@olh=\skip77
+\f@ncyO@orh=\skip78
+\f@ncyO@elf=\skip79
+\f@ncyO@erf=\skip80
+\f@ncyO@olf=\skip81
+\f@ncyO@orf=\skip82
 )
 (/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
@@ -1447,8 +1456,8 @@ Package color Info: Driver file: pdftex.def on input line 143.
 (/usr/share/texlive/texmf-dist/tex/latex/algorithms/algorithm.sty
 Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
 nment
-\@float@every@algorithm=\toks28
-\c@algorithm=\count344
+\@float@every@algorithm=\toks29
+\c@algorithm=\count345
 )
 (/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
 Package: algpseudocode 
@@ -1457,16 +1466,16 @@ Package: algpseudocode
 Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
 
 Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
-\c@ALG@line=\count345
-\c@ALG@rem=\count346
-\c@ALG@nested=\count347
-\ALG@tlm=\skip81
-\ALG@thistlm=\skip82
-\c@ALG@Lnr=\count348
-\c@ALG@blocknr=\count349
-\c@ALG@storecount=\count350
-\c@ALG@tmpcounter=\count351
-\ALG@tmplength=\skip83
+\c@ALG@line=\count346
+\c@ALG@rem=\count347
+\c@ALG@nested=\count348
+\ALG@tlm=\skip83
+\ALG@thistlm=\skip84
+\c@ALG@Lnr=\count349
+\c@ALG@blocknr=\count350
+\c@ALG@storecount=\count351
+\c@ALG@tmpcounter=\count352
+\ALG@tmplength=\skip85
 )
 Document Style - pseudocode environments for use with the `algorithmicx' style
 ) (./titlesec/titlesec.sty
@@ -1475,24 +1484,24 @@ LaTeX Warning: You have requested package `./titlesec/titlesec',
                but the package provides `titlesec'.
 
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
-\ttl@box=\box52
-\beforetitleunit=\skip84
-\aftertitleunit=\skip85
+\ttl@box=\box53
+\beforetitleunit=\skip86
+\aftertitleunit=\skip87
 \ttl@plus=\dimen175
 \ttl@minus=\dimen176
-\ttl@toksa=\toks29
+\ttl@toksa=\toks30
 \titlewidth=\dimen177
 \titlewidthlast=\dimen178
 \titlewidthfirst=\dimen179
 ) (/usr/share/texlive/texmf-dist/tex/generic/ulem/ulem.sty
-\UL@box=\box53
-\UL@hyphenbox=\box54
-\UL@skip=\skip86
-\UL@hook=\toks30
+\UL@box=\box54
+\UL@hyphenbox=\box55
+\UL@skip=\skip88
+\UL@hook=\toks31
 \UL@height=\dimen180
-\UL@pe=\count352
+\UL@pe=\count353
 \UL@pixel=\dimen181
-\ULC@box=\box55
+\ULC@box=\box56
 Package: ulem 2012/05/18
 \ULdepth=\dimen182
 )
@@ -1512,7 +1521,7 @@ File: spanish.lbx 2016/03/03 v3.3 biblatex localization (PK/JW/AB)
 
 Package biblatex Warning: Conflicting options.
 (biblatex)                'giveninits' conflicts with 'uniquename=full'.
-(biblatex)                Setting 'uniquename=init' on input line 131.
+(biblatex)                Setting 'uniquename=init' on input line 130.
 
 (./template.aux
 LaTeX Info: Redefining \sptext on input line 11.
@@ -1521,28 +1530,28 @@ LaTeX Info: Redefining \% on input line 11.
 )
 \openout1 = `template.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 131.
-LaTeX Font Info:    Try loading font information for LGR+cmr on input line 131.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 130.
+LaTeX Font Info:    Try loading font information for LGR+cmr on input line 130.
 
  (/usr/share/texlive/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 File: lgrcmr.fd 2013/09/01 v1.0 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Info: Redefining \sptext on input line 131.
-LaTeX Info: Redefining \. on input line 131.
-LaTeX Info: Redefining \% on input line 131.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Info: Redefining \sptext on input line 130.
+LaTeX Info: Redefining \. on input line 130.
+LaTeX Info: Redefining \% on input line 130.
 Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.dfu
@@ -1666,23 +1675,24 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'template.bbl' found.
 (./template.bbl)
-Package biblatex Info: Reference section=0 on input line 131.
-Package biblatex Info: Reference segment=0 on input line 131.
+Package biblatex Info: Reference section=0 on input line 130.
+Package biblatex Info: Reference segment=0 on input line 130.
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
  (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count353
+\scratchcounter=\count354
 \scratchdimen=\dimen183
-\scratchbox=\box56
-\nofMPsegments=\count354
-\nofMParguments=\count355
-\everyMPshowfont=\toks31
-\MPscratchCnt=\count356
+\scratchbox=\box57
+\nofMPsegments=\count355
+\nofMParguments=\count356
+\everyMPshowfont=\toks32
+\MPscratchCnt=\count357
 \MPscratchDim=\dimen184
-\MPnumerator=\count357
-\makeMPintoPDFobject=\count358
-\everyMPtoPDFconversion=\toks32
+\MPnumerator=\count358
+\makeMPintoPDFobject=\count359
+\everyMPtoPDFconversion=\toks33
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -1709,8 +1719,8 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c__siunitx_mathsf_int=\count359
-\c__siunitx_mathtt_int=\count360
+\c__siunitx_mathsf_int=\count360
+\c__siunitx_mathtt_int=\count361
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1781,29 +1791,15 @@ LaTeX Info: Redefining \% on input line 3.
  (./abv.tex [6
 
 ]
-Overfull \hbox (16.13867pt too wide) in paragraph at lines 4--13
+Overfull \hbox (16.13867pt too wide) in paragraph at lines 4--14
 [][] 
  []
 
-) [7] (./resumen.tex
-Underfull \hbox (badness 10000) in paragraph at lines 6--12
+) [7] (./resumen.tex) (./abstract.tex [1
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--18
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--29
-
- []
-
-) (./abstract.tex [1
-
-]) (./introduccion.tex [2]) (./hipotesis.tex [3])
-(./materiales.tex [4] [5] [6]) (./metodos.tex [7] [8] [9]
+]) (./introduccion.tex [2])
+(./hipotesis.tex [3]) (./materiales.tex [4] [5] [6]) (./metodos.tex [7]
+[8] [9] [10]
 Underfull \hbox (badness 10000) in paragraph at lines 60--60
 []|\OT1/cmr/m/n/10.95 Tipo
  []
@@ -1811,7 +1807,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 60--60
 
 LaTeX Warning: Float too large for page by 37.03738pt on input line 106.
 
-[10] [11
+[11] [12
 
 
 ]
@@ -1819,131 +1815,746 @@ Underfull \hbox (badness 10000) in paragraph at lines 119--119
 []|\OT1/cmr/m/n/10.95 Tipo
  []
 
-[12
+[13
 
-] [13
+] [14
 
-] [14]
-Package epstopdf Info: Source file: <figures/prot_pot/eps_graphs/cb2cb.eps>
-(epstopdf)                    date: 2017-04-10 17:41:55
-(epstopdf)                    size: 23296 bytes
-(epstopdf)             Output file: <figures/prot_pot/eps_graphs/cb2cb-eps-conv
-erted-to.pdf>
-(epstopdf)                    date: 2017-04-10 19:12:43
-(epstopdf)                    size: 17895 bytes
-(epstopdf)             Command: <repstopdf --outfile=figures/prot_pot/eps_graph
-s/cb2cb-eps-converted-to.pdf figures/prot_pot/eps_graphs/cb2cb.eps>
-(epstopdf)             \includegraphics on input line 196.
+] [15]
+Package epstopdf Info: Source file: <figures/prot_pot/dd/cb2cb.eps>
+(epstopdf)                    date: 2017-05-04 14:58:36
+(epstopdf)                    size: 26329 bytes
+(epstopdf)             Output file: <figures/prot_pot/dd/cb2cb-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2017-05-22 16:29:55
+(epstopdf)                    size: 20236 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/prot_pot/dd/cb2cb-
+eps-converted-to.pdf figures/prot_pot/dd/cb2cb.eps>
+(epstopdf)             \includegraphics on input line 197.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/prot_pot/eps_graphs/cb2cb-eps-converted-to.pdf, id=88, 578.16pt x 433.
-62pt>
-File: figures/prot_pot/eps_graphs/cb2cb-eps-converted-to.pdf Graphic file (type
- pdf)
- <use figures/prot_pot/eps_graphs/cb2cb-eps-converted-to.pdf>
-Package pdftex.def Info: figures/prot_pot/eps_graphs/cb2cb-eps-converted-to.pdf
- used on input line 196.
+<figures/prot_pot/dd/cb2cb-eps-converted-to.pdf, id=91, 578.16pt x 433.62pt>
+File: figures/prot_pot/dd/cb2cb-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figures/prot_pot/dd/cb2cb-eps-converted-to.pdf>
+Package pdftex.def Info: figures/prot_pot/dd/cb2cb-eps-converted-to.pdf used on
+ input line 197.
 (pdftex.def)             Requested size: 360.00137pt x 269.99951pt.
-Package epstopdf Info: Source file: <figures/prot_pot/eps_graphs/sh2sh.eps>
-(epstopdf)                    date: 2017-04-10 17:41:55
-(epstopdf)                    size: 24319 bytes
-(epstopdf)             Output file: <figures/prot_pot/eps_graphs/sh2sh-eps-conv
-erted-to.pdf>
-(epstopdf)                    date: 2017-04-10 19:13:27
-(epstopdf)                    size: 18428 bytes
-(epstopdf)             Command: <repstopdf --outfile=figures/prot_pot/eps_graph
-s/sh2sh-eps-converted-to.pdf figures/prot_pot/eps_graphs/sh2sh.eps>
-(epstopdf)             \includegraphics on input line 202.
+Package epstopdf Info: Source file: <figures/prot_pot/dd/sh2sh.eps>
+(epstopdf)                    date: 2017-05-04 15:01:34
+(epstopdf)                    size: 27352 bytes
+(epstopdf)             Output file: <figures/prot_pot/dd/sh2sh-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2017-05-22 16:29:56
+(epstopdf)                    size: 20768 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/prot_pot/dd/sh2sh-
+eps-converted-to.pdf figures/prot_pot/dd/sh2sh.eps>
+(epstopdf)             \includegraphics on input line 203.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/prot_pot/eps_graphs/sh2sh-eps-converted-to.pdf, id=89, 578.16pt x 433.
-62pt>
-File: figures/prot_pot/eps_graphs/sh2sh-eps-converted-to.pdf Graphic file (type
- pdf)
- <use figures/prot_pot/eps_graphs/sh2sh-eps-converted-to.pdf>
-Package pdftex.def Info: figures/prot_pot/eps_graphs/sh2sh-eps-converted-to.pdf
- used on input line 202.
+<figures/prot_pot/dd/sh2sh-eps-converted-to.pdf, id=92, 578.16pt x 433.62pt>
+File: figures/prot_pot/dd/sh2sh-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figures/prot_pot/dd/sh2sh-eps-converted-to.pdf>
+Package pdftex.def Info: figures/prot_pot/dd/sh2sh-eps-converted-to.pdf used on
+ input line 203.
 (pdftex.def)             Requested size: 360.00137pt x 269.99951pt.
 
 
-LaTeX Warning: Float too large for page by 27.18468pt on input line 209.
+LaTeX Warning: Float too large for page by 27.18468pt on input line 210.
 
-<figures/prot_pot/mij.png, id=90, 1236.7806pt x 1081.1592pt>
+<figures/prot_pot/mij.png, id=93, 1236.7806pt x 1081.1592pt>
 File: figures/prot_pot/mij.png Graphic file (type png)
 
 <use figures/prot_pot/mij.png>
-Package pdftex.def Info: figures/prot_pot/mij.png used on input line 212.
+Package pdftex.def Info: figures/prot_pot/mij.png used on input line 213.
 (pdftex.def)             Requested size: 450.0pt x 393.3743pt.
- [15 <./figures/prot_pot/eps_graphs/cb2cb-eps-converted-to.pdf> <./figures/prot
-_pot/eps_graphs/sh2sh-eps-converted-to.pdf>]
-[16 <./figures/prot_pot/mij.png>] [17
+ [16 <./figures/prot_pot/dd/cb2cb-eps-converted-to.pdf> <./figures/prot_pot/dd/
+sh2sh-eps-converted-to.pdf>] [17 <./figures/prot_pot/mij.png>] [18
 
 
 ]
 Package epstopdf Info: Source file: <figures/prot_pot/coarse/aromatic.eps>
-(epstopdf)                    date: 2017-04-18 13:03:53
-(epstopdf)                    size: 18580 bytes
+(epstopdf)                    date: 2017-05-30 18:08:07
+(epstopdf)                    size: 21302 bytes
 (epstopdf)             Output file: <figures/prot_pot/coarse/aromatic-eps-conve
 rted-to.pdf>
-(epstopdf)                    date: 2017-04-18 14:54:01
-(epstopdf)                    size: 14404 bytes
+(epstopdf)                    date: 2017-05-30 18:22:52
+(epstopdf)                    size: 16064 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/prot_pot/coarse/ar
 omatic-eps-converted-to.pdf figures/prot_pot/coarse/aromatic.eps>
-(epstopdf)             \includegraphics on input line 259.
+(epstopdf)             \includegraphics on input line 260.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/prot_pot/coarse/aromatic-eps-converted-to.pdf, id=187, 578.16pt x 433.
+<figures/prot_pot/coarse/aromatic-eps-converted-to.pdf, id=198, 578.16pt x 433.
 62pt>
 File: figures/prot_pot/coarse/aromatic-eps-converted-to.pdf Graphic file (type 
 pdf)
  <use figures/prot_pot/coarse/aromatic-eps-converted-to.pdf>
 Package pdftex.def Info: figures/prot_pot/coarse/aromatic-eps-converted-to.pdf 
-used on input line 259.
+used on input line 260.
 (pdftex.def)             Requested size: 360.00137pt x 269.99951pt.
 Package epstopdf Info: Source file: <figures/prot_pot/coarse/nh_acids.eps>
-(epstopdf)                    date: 2017-04-18 13:03:53
-(epstopdf)                    size: 19056 bytes
+(epstopdf)                    date: 2017-05-30 18:08:08
+(epstopdf)                    size: 23446 bytes
 (epstopdf)             Output file: <figures/prot_pot/coarse/nh_acids-eps-conve
 rted-to.pdf>
-(epstopdf)                    date: 2017-04-18 14:54:01
-(epstopdf)                    size: 14540 bytes
+(epstopdf)                    date: 2017-05-30 18:22:53
+(epstopdf)                    size: 16934 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/prot_pot/coarse/nh
 _acids-eps-converted-to.pdf figures/prot_pot/coarse/nh_acids.eps>
-(epstopdf)             \includegraphics on input line 265.
+(epstopdf)             \includegraphics on input line 266.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/prot_pot/coarse/nh_acids-eps-converted-to.pdf, id=188, 578.16pt x 433.
+<figures/prot_pot/coarse/nh_acids-eps-converted-to.pdf, id=199, 578.16pt x 433.
 62pt>
 File: figures/prot_pot/coarse/nh_acids-eps-converted-to.pdf Graphic file (type 
 pdf)
  <use figures/prot_pot/coarse/nh_acids-eps-converted-to.pdf>
 Package pdftex.def Info: figures/prot_pot/coarse/nh_acids-eps-converted-to.pdf 
-used on input line 265.
+used on input line 266.
 (pdftex.def)             Requested size: 360.00137pt x 269.99951pt.
 
 
-LaTeX Warning: Float too large for page by 13.58467pt on input line 270.
+LaTeX Warning: Float too large for page by 13.58467pt on input line 271.
 
-[18] [19 <./figures/prot_pot/coarse/aromatic-eps-converted-to.pdf> <./figures/p
-rot_pot/coarse/nh_acids-eps-converted-to.pdf>] [20
+[19] [20 <./figures/prot_pot/coarse/aromatic-eps-converted-to.pdf> <./figures/p
+rot_pot/coarse/nh_acids-eps-converted-to.pdf>] [21
 
 ]
-<figures/thomson/thomson.png, id=261, 564.60938pt x 413.29407pt>
+<figures/thomson/thomson.png, id=275, 564.60938pt x 413.29407pt>
 File: figures/thomson/thomson.png Graphic file (type png)
 
 <use figures/thomson/thomson.png>
-Package pdftex.def Info: figures/thomson/thomson.png used on input line 313.
+Package pdftex.def Info: figures/thomson/thomson.png used on input line 314.
 (pdftex.def)             Requested size: 450.0pt x 329.40594pt.
- [21] [22 <./figures/thomson/thomson.png>])
-(./resultados.tex [23
+ [22] [23 <./figures/thomson/thomson.png>]
+[24
 
-]) (./discusion.tex [24]) (./conclusiones.tex [25])
-(./biblio.tex [26]
+] <figures/dbsa.png, id=286, 2409.0pt x 1806.75pt>
+File: figures/dbsa.png Graphic file (type png)
+ <use figures/dbsa.png>
+Package pdftex.def Info: figures/dbsa.png used on input line 360.
+(pdftex.def)             Requested size: 450.0pt x 337.49663pt.
+
+[25] [26 <./figures/dbsa.png>]
+Package epstopdf Info: Source file: <figures/prot_pot/sasa/sasa_arom.eps>
+(epstopdf)                    date: 2017-05-30 18:06:26
+(epstopdf)                    size: 26775 bytes
+(epstopdf)             Output file: <figures/prot_pot/sasa/sasa_arom-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2017-05-30 18:22:54
+(epstopdf)                    size: 18277 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/prot_pot/sasa/sasa
+_arom-eps-converted-to.pdf figures/prot_pot/sasa/sasa_arom.eps>
+(epstopdf)             \includegraphics on input line 385.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/prot_pot/sasa/sasa_arom-eps-converted-to.pdf, id=293, 578.16pt x 433.6
+2pt>
+File: figures/prot_pot/sasa/sasa_arom-eps-converted-to.pdf Graphic file (type p
+df)
+ <use figures/prot_pot/sasa/sasa_arom-eps-converted-to.pdf>
+Package pdftex.def Info: figures/prot_pot/sasa/sasa_arom-eps-converted-to.pdf u
+sed on input line 385.
+(pdftex.def)             Requested size: 360.00137pt x 269.99951pt.
+Package epstopdf Info: Source file: <figures/prot_pot/sasa/sasa_n_hist.eps>
+(epstopdf)                    date: 2017-05-30 18:06:37
+(epstopdf)                    size: 28476 bytes
+(epstopdf)             Output file: <figures/prot_pot/sasa/sasa_n_hist-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2017-05-30 18:22:54
+(epstopdf)                    size: 18543 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/prot_pot/sasa/sasa
+_n_hist-eps-converted-to.pdf figures/prot_pot/sasa/sasa_n_hist.eps>
+(epstopdf)             \includegraphics on input line 390.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/prot_pot/sasa/sasa_n_hist-eps-converted-to.pdf, id=294, 578.16pt x 433
+.62pt>
+File: figures/prot_pot/sasa/sasa_n_hist-eps-converted-to.pdf Graphic file (type
+ pdf)
+ <use figures/prot_pot/sasa/sasa_n_hist-eps-converted-to.pdf>
+Package pdftex.def Info: figures/prot_pot/sasa/sasa_n_hist-eps-converted-to.pdf
+ used on input line 390.
+(pdftex.def)             Requested size: 360.00137pt x 269.99951pt.
+
+
+LaTeX Warning: Float too large for page by 13.58467pt on input line 395.
+
+[27
+
+] [28 <./figures/prot_pot/sasa/sasa_arom-eps-converted-to.pdf> <./figures/prot_
+pot/sasa/sasa_n_hist-eps-converted-to.pdf>]) (./resultados.tex [29]
+Overfull \hbox (3.76054pt too wide) in paragraph at lines 14--14
+[]|\OT1/cmr/m/n/10.95 DD+CONTEO| 
+ []
+
+
+Overfull \hbox (3.45638pt too wide) in paragraph at lines 14--14
+[]|\OT1/cmr/m/n/10.95 BSASA+SASA| 
+ []
+
+
+Overfull \hbox (8.51466pt too wide) in paragraph at lines 14--14
+[]|\OT1/cmr/m/n/10.95 CONTEO| 
+ []
+
+
+Overfull \hbox (3.76054pt too wide) in paragraph at lines 15--15
+[]|\OT1/cmr/m/n/10.95 DD+CONTEO| 
+ []
+
+
+Overfull \hbox (3.45638pt too wide) in paragraph at lines 17--17
+[]|\OT1/cmr/m/n/10.95 BSASA+SASA| 
+ []
+
+
+Overfull \hbox (7.1994pt too wide) in paragraph at lines 19--19
+[]|$\OML/cmm/m/it/10.95 <$\OT1/cmr/bx/sc/10.95 0.001| 
+ []
+
+
+Overfull \hbox (7.1994pt too wide) in paragraph at lines 20--20
+[]|$\OML/cmm/m/it/10.95 <$\OT1/cmr/bx/sc/10.95 0.001| 
+ []
+
+Package epstopdf Info: Source file: <figures/resultados/prot/fold_assesment.eps
+>
+(epstopdf)                    date: 2017-05-24 16:11:19
+(epstopdf)                    size: 32985 bytes
+(epstopdf)             Output file: <figures/resultados/prot/fold_assesment-eps
+-converted-to.pdf>
+(epstopdf)                    date: 2017-05-29 17:41:07
+(epstopdf)                    size: 15850 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/resultados/prot/fo
+ld_assesment-eps-converted-to.pdf figures/resultados/prot/fold_assesment.eps>
+(epstopdf)             \includegraphics on input line 29.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/resultados/prot/fold_assesment-eps-converted-to.pdf, id=383, 1445.4pt 
+x 1445.4pt>
+File: figures/resultados/prot/fold_assesment-eps-converted-to.pdf Graphic file 
+(type pdf)
+ <use figures/resultados/prot/fold_assesment-eps-converted-to.pdf>
+Package pdftex.def Info: figures/resultados/prot/fold_assesment-eps-converted-t
+o.pdf used on input line 29.
+(pdftex.def)             Requested size: 450.0pt x 449.98816pt.
+
+Overfull \hbox (3.76054pt too wide) in paragraph at lines 43--43
+[]|\OT1/cmr/m/n/10.95 DD+CONTEO| 
+ []
+
+
+Overfull \hbox (3.45638pt too wide) in paragraph at lines 43--43
+[]|\OT1/cmr/m/n/10.95 BSASA+SASA| 
+ []
+
+
+Overfull \hbox (8.51466pt too wide) in paragraph at lines 43--43
+[]|\OT1/cmr/m/n/10.95 CONTEO| 
+ []
+
+
+Overfull \hbox (3.76054pt too wide) in paragraph at lines 44--44
+[]|\OT1/cmr/m/n/10.95 DD+CONTEO| 
+ []
+
+
+Overfull \hbox (3.45638pt too wide) in paragraph at lines 46--46
+[]|\OT1/cmr/m/n/10.95 BSASA+SASA| 
+ []
+
+
+Overfull \hbox (3.76054pt too wide) in paragraph at lines 54--54
+[]|\OT1/cmr/m/n/10.95 DD+CONTEO| 
+ []
+
+
+Overfull \hbox (3.45638pt too wide) in paragraph at lines 54--54
+[]|\OT1/cmr/m/n/10.95 BSASA+SASA| 
+ []
+
+
+Overfull \hbox (8.51466pt too wide) in paragraph at lines 54--54
+[]|\OT1/cmr/m/n/10.95 CONTEO| 
+ []
+
+
+Overfull \hbox (3.76054pt too wide) in paragraph at lines 55--55
+[]|\OT1/cmr/m/n/10.95 DD+CONTEO| 
+ []
+
+
+Overfull \hbox (3.45638pt too wide) in paragraph at lines 57--57
+[]|\OT1/cmr/m/n/10.95 BSASA+SASA| 
+ []
+
+
+Overfull \hbox (7.1994pt too wide) in paragraph at lines 59--59
+[]|$\OML/cmm/m/it/10.95 <$\OT1/cmr/bx/sc/10.95 0.001| 
+ []
+
+
+Overfull \hbox (7.1994pt too wide) in paragraph at lines 60--60
+[]|$\OML/cmm/m/it/10.95 <$\OT1/cmr/bx/sc/10.95 0.001| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--63
+[][]
+ []
+
+[30] [31 <./figures/resultados/prot/fold_assesment-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <figures/resultados/prot/classA.eps>
+(epstopdf)                    date: 2017-05-22 17:24:05
+(epstopdf)                    size: 71315 bytes
+(epstopdf)             Output file: <figures/resultados/prot/classA-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2017-05-22 17:24:20
+(epstopdf)                    size: 22567 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/resultados/prot/cl
+assA-eps-converted-to.pdf figures/resultados/prot/classA.eps>
+(epstopdf)             \includegraphics on input line 71.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/resultados/prot/classA-eps-converted-to.pdf, id=420, 1445.4pt x 1445.4
+pt>
+File: figures/resultados/prot/classA-eps-converted-to.pdf Graphic file (type pd
+f)
+ <use figures/resultados/prot/classA-eps-converted-to.pdf>
+Package pdftex.def Info: figures/resultados/prot/classA-eps-converted-to.pdf us
+ed on input line 71.
+(pdftex.def)             Requested size: 307.10718pt x 307.09381pt.
+Package epstopdf Info: Source file: <figures/resultados/prot/classB.eps>
+(epstopdf)                    date: 2017-05-22 17:24:13
+(epstopdf)                    size: 308090 bytes
+(epstopdf)             Output file: <figures/resultados/prot/classB-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2017-05-22 17:24:21
+(epstopdf)                    size: 64201 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/resultados/prot/cl
+assB-eps-converted-to.pdf figures/resultados/prot/classB.eps>
+(epstopdf)             \includegraphics on input line 77.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/resultados/prot/classB-eps-converted-to.pdf, id=421, 1445.4pt x 1445.4
+pt>
+File: figures/resultados/prot/classB-eps-converted-to.pdf Graphic file (type pd
+f)
+ <use figures/resultados/prot/classB-eps-converted-to.pdf>
+Package pdftex.def Info: figures/resultados/prot/classB-eps-converted-to.pdf us
+ed on input line 77.
+(pdftex.def)             Requested size: 307.10718pt x 307.09381pt.
+
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 69--80
+ []$[]$ $[]$ 
+ []
+
+[32] [33 <./figures/resultados/prot/classA-eps-converted-to.pdf> <./figures/res
+ultados/prot/classB-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <figures/resultados/rna/struct/boxplot_rmsd
+.eps>
+(epstopdf)                    date: 2017-05-26 17:29:57
+(epstopdf)                    size: 31585 bytes
+(epstopdf)             Output file: <figures/resultados/rna/struct/boxplot_rmsd
+-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-05-26 17:38:25
+(epstopdf)                    size: 17110 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/resultados/rna/str
+uct/boxplot_rmsd-eps-converted-to.pdf figures/resultados/rna/struct/boxplot_rms
+d.eps>
+(epstopdf)             \includegraphics on input line 96.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/resultados/rna/struct/boxplot_rmsd-eps-converted-to.pdf, id=490, 578.1
+6pt x 433.62pt>
+File: figures/resultados/rna/struct/boxplot_rmsd-eps-converted-to.pdf Graphic f
+ile (type pdf)
+
+<use figures/resultados/rna/struct/boxplot_rmsd-eps-converted-to.pdf>
+Package pdftex.def Info: figures/resultados/rna/struct/boxplot_rmsd-eps-convert
+ed-to.pdf used on input line 96.
+(pdftex.def)             Requested size: 360.00137pt x 269.99951pt.
+Package epstopdf Info: Source file: <figures/resultados/rna/struct/boxplot_gdt.
+eps>
+(epstopdf)                    date: 2017-05-26 17:29:57
+(epstopdf)                    size: 31844 bytes
+(epstopdf)             Output file: <figures/resultados/rna/struct/boxplot_gdt-
+eps-converted-to.pdf>
+(epstopdf)                    date: 2017-05-26 17:38:25
+(epstopdf)                    size: 17421 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/resultados/rna/str
+uct/boxplot_gdt-eps-converted-to.pdf figures/resultados/rna/struct/boxplot_gdt.
+eps>
+(epstopdf)             \includegraphics on input line 101.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/resultados/rna/struct/boxplot_gdt-eps-converted-to.pdf, id=491, 578.16
+pt x 433.62pt>
+File: figures/resultados/rna/struct/boxplot_gdt-eps-converted-to.pdf Graphic fi
+le (type pdf)
+
+<use figures/resultados/rna/struct/boxplot_gdt-eps-converted-to.pdf>
+Package pdftex.def Info: figures/resultados/rna/struct/boxplot_gdt-eps-converte
+d-to.pdf used on input line 101.
+(pdftex.def)             Requested size: 360.00137pt x 269.99951pt.
+
+
+LaTeX Warning: Float too large for page by 40.78468pt on input line 107.
+
+
+Overfull \hbox (8.83972pt too wide) in paragraph at lines 112--112
+[]|\OT1/cmr/m/n/10.95 RASP+CONTEO| 
+ []
+
+
+Overfull \hbox (1.34798pt too wide) in paragraph at lines 112--112
+[]|\OT1/cmr/m/n/10.95 BSASA| 
+ []
+
+
+Overfull \hbox (3.45638pt too wide) in paragraph at lines 112--112
+[]|\OT1/cmr/m/n/10.95 BSASA+SASA| 
+ []
+
+
+Overfull \hbox (0.80836pt too wide) in paragraph at lines 112--112
+[]|\OT1/cmr/m/n/10.95 RASP| 
+ []
+
+
+Overfull \hbox (8.51466pt too wide) in paragraph at lines 112--112
+[]|\OT1/cmr/m/n/10.95 CONTEO| 
+ []
+
+
+Overfull \hbox (8.5917pt too wide) in paragraph at lines 112--113
+[]|\OT1/cmr/m/n/10.95 SASA| 
+ []
+
+
+Overfull \hbox (8.83972pt too wide) in paragraph at lines 113--113
+[]|\OT1/cmr/m/n/10.95 RASP+CONTEO| 
+ []
+
+
+Overfull \hbox (2.1994pt too wide) in paragraph at lines 115--115
+[]|$\OML/cmm/m/it/10.95 <$\OT1/cmr/bx/sc/10.95 0.001| 
+ []
+
+
+Overfull \hbox (2.1994pt too wide) in paragraph at lines 116--116
+[]|$\OML/cmm/m/it/10.95 <$\OT1/cmr/bx/sc/10.95 0.001| 
+ []
+
+
+Overfull \hbox (8.1994pt too wide) in paragraph at lines 117--117
+[]|$\OML/cmm/m/it/10.95 <$\OT1/cmr/bx/sc/10.95 0.001| 
+ []
+
+
+Overfull \hbox (2.1994pt too wide) in paragraph at lines 118--118
+[]|$\OML/cmm/m/it/10.95 <$\OT1/cmr/bx/sc/10.95 0.001| 
+ []
+
+
+Overfull \hbox (8.1994pt too wide) in paragraph at lines 118--118
+[]|$\OML/cmm/m/it/10.95 <$\OT1/cmr/bx/sc/10.95 0.001| 
+ []
+
+
+Overfull \hbox (8.83972pt too wide) in paragraph at lines 123--123
+[]|\OT1/cmr/m/n/10.95 RASP+CONTEO| 
+ []
+
+
+Overfull \hbox (1.34798pt too wide) in paragraph at lines 123--123
+[]|\OT1/cmr/m/n/10.95 BSASA| 
+ []
+
+
+Overfull \hbox (3.45638pt too wide) in paragraph at lines 123--123
+[]|\OT1/cmr/m/n/10.95 BSASA+SASA| 
+ []
+
+
+Overfull \hbox (0.80836pt too wide) in paragraph at lines 123--123
+[]|\OT1/cmr/m/n/10.95 RASP| 
+ []
+
+
+Overfull \hbox (8.51466pt too wide) in paragraph at lines 123--123
+[]|\OT1/cmr/m/n/10.95 CONTEO| 
+ []
+
+
+Overfull \hbox (8.5917pt too wide) in paragraph at lines 123--124
+[]|\OT1/cmr/m/n/10.95 SASA| 
+ []
+
+
+Overfull \hbox (8.83972pt too wide) in paragraph at lines 124--124
+[]|\OT1/cmr/m/n/10.95 RASP+CONTEO| 
+ []
+
+
+Overfull \hbox (2.1994pt too wide) in paragraph at lines 126--126
+[]|$\OML/cmm/m/it/10.95 <$\OT1/cmr/bx/sc/10.95 0.001| 
+ []
+
+
+Overfull \hbox (2.1994pt too wide) in paragraph at lines 127--127
+[]|$\OML/cmm/m/it/10.95 <$\OT1/cmr/bx/sc/10.95 0.001| 
+ []
+
+
+Overfull \hbox (2.1994pt too wide) in paragraph at lines 128--128
+[]|$\OML/cmm/m/it/10.95 <$\OT1/cmr/bx/sc/10.95 0.001| 
+ []
+
+
+Overfull \hbox (8.1994pt too wide) in paragraph at lines 128--128
+[]|$\OML/cmm/m/it/10.95 <$\OT1/cmr/bx/sc/10.95 0.001| 
+ []
+
+
+Overfull \hbox (2.1994pt too wide) in paragraph at lines 129--129
+[]|$\OML/cmm/m/it/10.95 <$\OT1/cmr/bx/sc/10.95 0.001| 
+ []
+
+
+Overfull \hbox (8.1994pt too wide) in paragraph at lines 129--129
+[]|$\OML/cmm/m/it/10.95 <$\OT1/cmr/bx/sc/10.95 0.001| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--132
+[][]
+ []
+
+[34
+
+] [35 <./figures/resultados/rna/struct/boxplot_rmsd-eps-converted-to.pdf> <./fi
+gures/resultados/rna/struct/boxplot_gdt-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <figures/resultados/rna/farfar/drmsd/BSASA_
+RASP_.eps>
+(epstopdf)                    date: 2017-06-01 16:04:46
+(epstopdf)                    size: 22553 bytes
+(epstopdf)             Output file: <figures/resultados/rna/farfar/drmsd/BSASA_
+RASP_-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-06-02 16:58:14
+(epstopdf)                    size: 15868 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/resultados/rna/far
+far/drmsd/BSASA_RASP_-eps-converted-to.pdf figures/resultados/rna/farfar/drmsd/
+BSASA_RASP_.eps>
+(epstopdf)             \includegraphics on input line 148.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/resultados/rna/farfar/drmsd/BSASA_RASP_-eps-converted-to.pdf, id=565, 
+578.16pt x 433.62pt>
+File: figures/resultados/rna/farfar/drmsd/BSASA_RASP_-eps-converted-to.pdf Grap
+hic file (type pdf)
+
+<use figures/resultados/rna/farfar/drmsd/BSASA_RASP_-eps-converted-to.pdf>
+Package pdftex.def Info: figures/resultados/rna/farfar/drmsd/BSASA_RASP_-eps-co
+nverted-to.pdf used on input line 148.
+(pdftex.def)             Requested size: 247.50137pt x 185.6259pt.
+Package epstopdf Info: Source file: <figures/resultados/rna/farfar/drmsd/SASA_C
+ONTEO_.eps>
+(epstopdf)                    date: 2017-06-01 16:04:46
+(epstopdf)                    size: 23066 bytes
+(epstopdf)             Output file: <figures/resultados/rna/farfar/drmsd/SASA_C
+ONTEO_-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-06-02 16:58:15
+(epstopdf)                    size: 16838 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/resultados/rna/far
+far/drmsd/SASA_CONTEO_-eps-converted-to.pdf figures/resultados/rna/farfar/drmsd
+/SASA_CONTEO_.eps>
+(epstopdf)             \includegraphics on input line 153.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/resultados/rna/farfar/drmsd/SASA_CONTEO_-eps-converted-to.pdf, id=566,
+ 578.16pt x 433.62pt>
+File: figures/resultados/rna/farfar/drmsd/SASA_CONTEO_-eps-converted-to.pdf Gra
+phic file (type pdf)
+
+<use figures/resultados/rna/farfar/drmsd/SASA_CONTEO_-eps-converted-to.pdf>
+Package pdftex.def Info: figures/resultados/rna/farfar/drmsd/SASA_CONTEO_-eps-c
+onverted-to.pdf used on input line 153.
+(pdftex.def)             Requested size: 247.50137pt x 185.6259pt.
+
+Overfull \hbox (47.43608pt too wide) in paragraph at lines 146--156
+[]$[]$ $[]$ 
+ []
+
+Package epstopdf Info: Source file: <figures/resultados/rna/farfar/drmsd/BSASA+
+SASA_RASP+CONTEO_.eps>
+(epstopdf)                    date: 2017-06-01 16:04:46
+(epstopdf)                    size: 24588 bytes
+(epstopdf)             Output file: <figures/resultados/rna/farfar/drmsd/BSASA+
+SASA_RASP+CONTEO_-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-06-02 16:58:15
+(epstopdf)                    size: 17467 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/resultados/rna/far
+far/drmsd/BSASA+SASA_RASP+CONTEO_-eps-converted-to.pdf figures/resultados/rna/f
+arfar/drmsd/BSASA+SASA_RASP+CONTEO_.eps>
+(epstopdf)             \includegraphics on input line 158.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/resultados/rna/farfar/drmsd/BSASA+SASA_RASP+CONTEO_-eps-converted-to.p
+df, id=567, 578.16pt x 433.62pt>
+File: figures/resultados/rna/farfar/drmsd/BSASA+SASA_RASP+CONTEO_-eps-converted
+-to.pdf Graphic file (type pdf)
+
+<use figures/resultados/rna/farfar/drmsd/BSASA+SASA_RASP+CONTEO_-eps-converted-
+to.pdf>
+Package pdftex.def Info: figures/resultados/rna/farfar/drmsd/BSASA+SASA_RASP+CO
+NTEO_-eps-converted-to.pdf used on input line 158.
+(pdftex.def)             Requested size: 247.50137pt x 185.6259pt.
+
+Overfull \hbox (5.51466pt too wide) in paragraph at lines 169--169
+[]|\OT1/cmr/m/n/10.95 CONTEO| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+[]|\OT1/cmr/m/n/10.95 BSASA+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+[]|\OT1/cmr/m/n/10.95 RASP+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--170
+[]|\OT1/cmr/m/n/10.95 MEJOR
+ []
+
+[36] [37 <./figures/resultados/rna/farfar/drmsd/BSASA_RASP_-eps-converted-to.pd
+f> <./figures/resultados/rna/farfar/drmsd/SASA_CONTEO_-eps-converted-to.pdf> <.
+/figures/resultados/rna/farfar/drmsd/BSASA+SASA_RASP+CONTEO_-eps-converted-to.p
+df>] [38]
+Package epstopdf Info: Source file: <figures/resultados/dna/initial15.eps>
+(epstopdf)                    date: 2017-06-09 15:32:59
+(epstopdf)                    size: 29469 bytes
+(epstopdf)             Output file: <figures/resultados/dna/initial15-eps-conve
+rted-to.pdf>
+(epstopdf)                    date: 2017-06-09 16:00:07
+(epstopdf)                    size: 15593 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/resultados/dna/ini
+tial15-eps-converted-to.pdf figures/resultados/dna/initial15.eps>
+(epstopdf)             \includegraphics on input line 226.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/resultados/dna/initial15-eps-converted-to.pdf, id=661, 578.16pt x 433.
+62pt>
+File: figures/resultados/dna/initial15-eps-converted-to.pdf Graphic file (type 
+pdf)
+ <use figures/resultados/dna/initial15-eps-converted-to.pdf>
+Package pdftex.def Info: figures/resultados/dna/initial15-eps-converted-to.pdf 
+used on input line 226.
+(pdftex.def)             Requested size: 360.00137pt x 269.99951pt.
+Package epstopdf Info: Source file: <figures/resultados/dna/initial15_rsr_off.e
+ps>
+(epstopdf)                    date: 2017-06-09 15:32:59
+(epstopdf)                    size: 29496 bytes
+(epstopdf)             Output file: <figures/resultados/dna/initial15_rsr_off-e
+ps-converted-to.pdf>
+(epstopdf)                    date: 2017-06-09 16:00:07
+(epstopdf)                    size: 15668 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/resultados/dna/ini
+tial15_rsr_off-eps-converted-to.pdf figures/resultados/dna/initial15_rsr_off.ep
+s>
+(epstopdf)             \includegraphics on input line 231.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/resultados/dna/initial15_rsr_off-eps-converted-to.pdf, id=662, 578.16p
+t x 433.62pt>
+File: figures/resultados/dna/initial15_rsr_off-eps-converted-to.pdf Graphic fil
+e (type pdf)
+
+<use figures/resultados/dna/initial15_rsr_off-eps-converted-to.pdf>
+Package pdftex.def Info: figures/resultados/dna/initial15_rsr_off-eps-converted
+-to.pdf used on input line 231.
+(pdftex.def)             Requested size: 360.00137pt x 269.99951pt.
+
+
+LaTeX Warning: Float too large for page by 40.78468pt on input line 237.
+
+
+Overfull \hbox (3.45638pt too wide) in paragraph at lines 242--242
+[]|\OT1/cmr/m/n/10.95 BSASA+SASA| 
+ []
+
+
+Overfull \hbox (9.51466pt too wide) in paragraph at lines 242--242
+[]|\OT1/cmr/m/n/10.95 CONTEO| 
+ []
+
+
+Overfull \hbox (8.5917pt too wide) in paragraph at lines 242--243
+[]|\OT1/cmr/m/n/10.95 SASA| 
+ []
+
+
+Overfull \hbox (3.45638pt too wide) in paragraph at lines 253--253
+[]|\OT1/cmr/m/n/10.95 BSASA+SASA| 
+ []
+
+
+Overfull \hbox (9.51466pt too wide) in paragraph at lines 253--253
+[]|\OT1/cmr/m/n/10.95 CONTEO| 
+ []
+
+
+Overfull \hbox (8.5917pt too wide) in paragraph at lines 253--254
+[]|\OT1/cmr/m/n/10.95 SASA| 
+ []
+
+
+Overfull \hbox (3.68271pt too wide) in paragraph at lines 259--259
+[]|\OT1/cmr/bx/sc/10.95 0.010| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 240--262
+[][]
+ []
+
+) (./discusion.tex [39
+
+] [40 <./figures/resultados/dna/initial15-eps-converted-to.pdf> <./figures/resu
+ltados/dna/initial15_rsr_off-eps-converted-to.pdf>]
+[41]
+Package epstopdf Info: Source file: <figures/radii_int.eps>
+(epstopdf)                    date: 2017-06-15 14:44:31
+(epstopdf)                    size: 32808 bytes
+(epstopdf)             Output file: <figures/radii_int-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-06-21 15:06:08
+(epstopdf)                    size: 17323 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/radii_int-eps-conv
+erted-to.pdf figures/radii_int.eps>
+(epstopdf)             \includegraphics on input line 14.
+Package epstopdf Info: Output file is already uptodate.
+ <figures/radii_int-eps-converted-to.pdf, id=733, 578.16pt x 433.62pt>
+File: figures/radii_int-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figures/radii_int-eps-converted-to.pdf>
+Package pdftex.def Info: figures/radii_int-eps-converted-to.pdf used on input l
+ine 14.
+(pdftex.def)             Requested size: 450.0pt x 337.50104pt.
+ [42
+
+] [43 <./figures/radii_int-eps-converted-to.pdf>]) (./conclusiones.tex [44]) (.
+/biblio.tex [45]
 LaTeX Font Info:    Try loading font information for U+lasy on input line 5.
- (/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
-)
-[27]) [28] (./template.aux
+) [46]) [47]
+(./template.aux
 LaTeX Info: Redefining \sptext on input line 11.
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
@@ -1951,19 +2562,15 @@ LaTeX Info: Redefining \% on input line 11.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
-
 Package logreq Info: Writing requests to 'template.run.xml'.
 \openout1 = `template.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 22786 strings out of 493029
- 425703 string characters out of 6136235
- 786232 words of memory out of 5000000
- 26013 multiletter control sequences out of 15000+600000
+ 22968 strings out of 493029
+ 430973 string characters out of 6136235
+ 805631 words of memory out of 5000000
+ 26171 multiletter control sequences out of 15000+600000
  14453 words of font info for 52 fonts, out of 8000000 for 9000
  1146 hyphenation exceptions out of 8191
  44i,16n,45p,10381b,1834s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1984,10 +2591,10 @@ cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/cbfonts/grmn0800.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/public/amsfonts/latxfont/lasy10.pfb>
-Output written on template.pdf (36 pages, 724400 bytes).
+Output written on template.pdf (55 pages, 1192719 bytes).
 PDF statistics:
- 347 PDF objects out of 1000 (max. 8388607)
- 155 compressed objects within 2 object streams
+ 843 PDF objects out of 1000 (max. 8388607)
+ 259 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 101 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -770,6 +770,44 @@
       \endverb
       \keyw{Knowledge-based prediction,Molecular force field,Protein folding,Protein modelling,Statistical mechanics}
     \endentry
+    \entry{Solis2008}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=7e6bf4859a6dac8d2d6653a820a094a4}{%
+           family={Solis},
+           family_i={S\bibinitperiod},
+           given={Armando\bibnamedelima D.},
+           given_i={A\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{uniquename=0,hash=68c41b320c9f75fe401e284c85d10120}{%
+           family={Rackovsky},
+           family_i={R\bibinitperiod},
+           given={S.},
+           given_i={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{71d836ba0636761381f62c393d1e7d84}
+      \strng{fullhash}{71d836ba0636761381f62c393d1e7d84}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelyear}{2008}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We examine the information-theoretic characteristics of statistical potentials that describe pairwise long-range contacts between amino acid residues in proteins. In our work, we seek to map out an efficient information-based strategy to detect and optimally utilize the structural information latent in empirical data, to make contact potentials, and other statistically derived folding potentials, more effective tools in protein structure prediction. Foremost, we establish fundamental connections between basic information-theoretic quantities (including the ubiquitous Z-score) and contact "energies" or scores used routinely in protein structure prediction, and demonstrate that the informatic quantity that mediates fold discrimination is the total divergence. We find that pairwise contacts between residues bear a moderate amount of fold information, and if optimized, can assist in the discrimination of native conformations from large ensembles of native-like decoys. Using an extensive battery of threading tests, we demonstrate that parameters that affect the information content of contact potentials (e.g., choice of atoms to define residue location and the cut-off distance between pairs) have a significant influence in their performance in fold recognition. We conclude that potentials that have been optimized for mutual information and that have high number of score events per sequence-structure alignment are superior in identifying the correct fold. We derive the quantity "information product" that embodies these two critical factors. We demonstrate that the information product, which does not require explicit threading to compute, is as effective as the Z-score, which requires expensive decoy threading to evaluate. This new objective function may be able to speed up the multidimensional parameter search for better statistical potentials. Lastly, by demonstrating the functional equivalence of quasi-chemically approximated "energies" to fundamental informatic quantities, we make statistical potentials less dependent on theoretically tenuous biophysical formalisms and more amenable to direct bioinformatic optimization.}
+      \field{issn}{08873585}
+      \field{journaltitle}{Proteins: Structure, Function and Genetics}
+      \field{number}{3}
+      \field{title}{{Information and discrimination in pairwise contact potentials}}
+      \field{volume}{71}
+      \field{year}{2008}
+      \field{pages}{1071\bibrangedash 1087}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1002/prot.21733
+      \endverb
+      \verb{file}
+      \verb :home/jr1/Dropbox/Papers/21733{\_}ftp.pdf:pdf
+      \endverb
+      \keyw{Divergence,Empirical potentials,Information theory,Pairwise contact potentials,Protein fold recognition,Statistical potentials,Threading}
+    \endentry
     \entry{Tange2011a}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,hash=10598f1f85f7d8e8981ebc08d7e227dd}{%
@@ -800,6 +838,85 @@
       \range{pages}{6}
       \verb{url}
       \verb http://www.gnu.org/s/parallel
+      \endverb
+    \endentry
+    \entry{Vergara2008}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=79e2d2bc2a0e6df2d65fe71786874a27}{%
+           family={Vergara},
+           family_i={V\bibinitperiod},
+           given={Ismael\bibnamedelima A},
+           given_i={I\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{uniquename=0,hash=ed874de6afebf6119f7e51dd153e71cd}{%
+           family={Ferrada},
+           family_i={F\bibinitperiod},
+           given={Evandro},
+           given_i={E\bibinitperiod}}}%
+        {{uniquename=0,hash=55b6ef4c1ceb60ee39e1298d40b3bd2e}{%
+           family={Slater},
+           family_i={S\bibinitperiod},
+           given={Alex\bibnamedelima W},
+           given_i={A\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{uniquename=0,hash=021094801a7b30af836225098951e626}{%
+           family={Melo},
+           family_i={M\bibinitperiod},
+           given={Francisco},
+           given_i={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{daed54960685fe777dbb74c8ef500ad2}
+      \strng{fullhash}{2a057772a64fe910ed9941ef8e5f3094}
+      \field{sortinit}{V}
+      \field{sortinithash}{d18f5ce25ce0b5ca7f924e3f6c04870e}
+      \field{labelyear}{2008}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{BMC Bioinformatics}}
+      \field{volume}{5}
+      \field{year}{2008}
+      \field{pages}{1\bibrangedash 5}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1186/1471-2105-9-265
+      \endverb
+      \verb{file}
+      \verb :home/jr1/Dropbox/Papers/1471-2105-9-265.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Wilcoxon1945}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=405b308b1e8e33ef3275bf6cb9c9b281}{%
+           family={Wilcoxon},
+           family_i={W\bibinitperiod},
+           given={Frank},
+           given_i={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{405b308b1e8e33ef3275bf6cb9c9b281}
+      \strng{fullhash}{405b308b1e8e33ef3275bf6cb9c9b281}
+      \field{sortinit}{W}
+      \field{sortinithash}{99e3ba1b3f78bb6f073e7fa7ac11636b}
+      \field{labelyear}{1945}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The objective of the present paper is to indicate the possibility of using ranking methods.}
+      \field{booktitle}{Biometrics Bulletin}
+      \field{isbn}{0099-4987}
+      \field{issn}{00994987}
+      \field{number}{6}
+      \field{title}{{Individual Comparisons by Ranking Methods}}
+      \field{volume}{1}
+      \field{year}{1945}
+      \field{pages}{80}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.2307/3001968
+      \endverb
+      \verb{file}
+      \verb :home/jr1/Dropbox/Papers/wilcoxon1945.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/10.2307/3001968?origin=crossref
       \endverb
     \endentry
   \endsortlist

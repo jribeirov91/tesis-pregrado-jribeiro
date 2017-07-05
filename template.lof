@@ -1,7 +1,15 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{0}\relax 
 \select@language {spanish}
-\contentsline {figure}{\numberline {1}{\ignorespaces Ejemplos de funciones de energ\IeC {\'\i }a en prote\IeC {\'\i }nas}}{15}
-\contentsline {figure}{\numberline {2}{\ignorespaces C\IeC {\'a}lculo de $\sigma $}}{16}
-\contentsline {figure}{\numberline {3}{\ignorespaces Ejemplos de funciones de energ\IeC {\'\i }a para conteo de \IeC {\'a}tomos en prote\IeC {\'\i }nas}}{19}
-\contentsline {figure}{\numberline {4}{\ignorespaces Esfera en el software Thomson Applet}}{22}
+\contentsline {figure}{\numberline {1}{\ignorespaces Ejemplos de funciones de energ\IeC {\'\i }a en prote\IeC {\'\i }nas}}{16}
+\contentsline {figure}{\numberline {2}{\ignorespaces Matriz de conteo para el c\IeC {\'a}lculo del factor $\sigma $}}{17}
+\contentsline {figure}{\numberline {3}{\ignorespaces Ejemplos de funciones de energ\IeC {\'\i }a para conteo de \IeC {\'a}tomos en prote\IeC {\'\i }nas}}{20}
+\contentsline {figure}{\numberline {4}{\ignorespaces Esfera en el software Thomson Applet}}{23}
+\contentsline {figure}{\numberline {5}{\ignorespaces C\IeC {\'a}lculo de subsuperfices de interacci\IeC {\'o}n}}{26}
+\contentsline {figure}{\numberline {6}{\ignorespaces Ejemplos de funciones de energ\IeC {\'\i }a SASA en prote\IeC {\'\i }nas}}{28}
+\contentsline {figure}{\numberline {7}{\ignorespaces Curvas ROC para la clasificaci\IeC {\'o}n de estructuras en nativas y no nativas}}{31}
+\contentsline {figure}{\numberline {8}{\ignorespaces Curvas ROC para la detecci\IeC {\'o}n de res\IeC {\'\i }duos mal modelados en prote\IeC {\'\i }nas}}{33}
+\contentsline {figure}{\numberline {9}{\ignorespaces Boxplots de las distribuciones de correlaci\IeC {\'o}n de desviaci\IeC {\'o}n estructural en RNA con un potencial.}}{35}
+\contentsline {figure}{\numberline {10}{\ignorespaces Comparaci\IeC {\'o}n de las diferencias de RMSD entre el modelo de menor RMSD y el modelo de menor energ\IeC {\'\i }a encontrado por el potencial.}}{37}
+\contentsline {figure}{\numberline {11}{\ignorespaces Comparaci\IeC {\'o}n de las distribuciones de dRMSD entre los modelos con menor RMSD y los modelos con menor energ\IeC {\'\i }a calculado por cada potencial}}{40}
+\contentsline {figure}{\numberline {12}{\ignorespaces Boxplots de las distribuciones de la cantidad de contactos encontrados en el conjunto de estructuras usado en la derivaci\IeC {\'o}n de potenciales para prote\IeC {\'\i }nas.}}{43}

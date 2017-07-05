@@ -14,22 +14,33 @@
 \contentsline {section}{MATERIALES}{5}
 \contentsline {subsection}{\numberline {3.1}Equipos}{5}
 \contentsline {subsection}{\numberline {3.2}Software}{5}
-\contentsline {subsection}{\numberline {3.3}Sets de estructuras cristalogr\IeC {\'a}ficas}{5}
-\contentsline {subsubsection}{\numberline {3.3.1}Sets utilizados para derivaci\IeC {\'o}n de potenciales y experimentos en prote\IeC {\'\i }nas}{5}
-\contentsline {subsubsection}{\numberline {3.3.2}Sets utilizados para derivaci\IeC {\'o}n de potenciales y experimentos en ARN}{6}
-\contentsline {subsubsection}{\numberline {3.3.3}Sets utilizados para derivaci\IeC {\'o}n de potenciales y experimentos en ADN}{7}
-\contentsline {section}{M\IeC {\'E}TODOS}{8}
-\contentsline {subsection}{\numberline {4.1}Campos de fuerza basados en conocimiento}{8}
-\contentsline {subsection}{\numberline {4.2}Determinaci\IeC {\'o}n de tipos at\IeC {\'o}micos}{9}
-\contentsline {subsection}{\numberline {4.3}Derivaci\IeC {\'o}n de potenciales basados en distancias y conteos de \IeC {\'a}tomos}{13}
-\contentsline {subsubsection}{\numberline {4.3.1}Derivaci\IeC {\'o}n de potenciales basados en distancias}{13}
-\contentsline {subsubsection}{\numberline {4.3.2}Derivaci\IeC {\'o}n de potenciales basados en conteos de \IeC {\'a}tomos}{17}
-\contentsline {subsection}{\numberline {4.4}C\IeC {\'a}lculo de la superficie accesible al solvente de una mol\IeC {\'e}cula}{20}
-\contentsline {subsection}{\numberline {4.5}C\IeC {\'a}lculo de las subsuperf\IeC {\'\i }cies de interacci\IeC {\'o}n}{23}
-\contentsline {subsection}{\numberline {4.6}Derivaci\IeC {\'o}n de potenciales basados en BSA}{23}
-\contentsline {subsection}{\numberline {4.7}Derivaci\IeC {\'o}n de potenciales basados en SASA}{23}
-\contentsline {subsection}{\numberline {4.8}C\IeC {\'a}lculo del IP (\textit {Information Product})}{23}
-\contentsline {section}{RESULTADOS}{24}
-\contentsline {section}{DISCUSI\IeC {\'O}N}{25}
-\contentsline {section}{CONCLUSIONES}{26}
-\contentsline {section}{REFERENCIAS}{27}
+\contentsline {subsection}{\numberline {3.3}Conjuntos de estructuras cristalogr\IeC {\'a}ficas}{5}
+\contentsline {subsubsection}{\numberline {3.3.1}Conjuntos utilizados para derivaci\IeC {\'o}n de potenciales y experimentos en prote\IeC {\'\i }nas}{5}
+\contentsline {subsubsection}{\numberline {3.3.2}Conjuntos utilizados para derivaci\IeC {\'o}n de potenciales y experimentos en ARN}{6}
+\contentsline {subsubsection}{\numberline {3.3.3}Conjuntos utilizados para derivaci\IeC {\'o}n de potenciales y experimentos en ADN}{7}
+\contentsline {section}{M\IeC {\'E}TODOS}{9}
+\contentsline {subsection}{\numberline {4.1}Campos de fuerza basados en conocimiento}{9}
+\contentsline {subsection}{\numberline {4.2}Determinaci\IeC {\'o}n de tipos at\IeC {\'o}micos}{10}
+\contentsline {subsection}{\numberline {4.3}Derivaci\IeC {\'o}n de potenciales basados en distancias y conteos de \IeC {\'a}tomos}{14}
+\contentsline {subsubsection}{\numberline {4.3.1}Derivaci\IeC {\'o}n de potenciales basados en distancias}{14}
+\contentsline {subsubsection}{\numberline {4.3.2}Derivaci\IeC {\'o}n de potenciales basados en conteos de \IeC {\'a}tomos}{18}
+\contentsline {subsection}{\numberline {4.4}C\IeC {\'a}lculo de la superficie accesible al solvente de una mol\IeC {\'e}cula}{21}
+\contentsline {subsection}{\numberline {4.5}C\IeC {\'a}lculo de las subsuperf\IeC {\'\i }cies de interacci\IeC {\'o}n}{24}
+\contentsline {subsection}{\numberline {4.6}Derivaci\IeC {\'o}n de potenciales basados en BSA}{27}
+\contentsline {subsection}{\numberline {4.7}Derivaci\IeC {\'o}n de potenciales basados en SASA}{27}
+\contentsline {subsection}{\numberline {4.8}Combinaci\IeC {\'o}n de los potenciales de distancia y conteo}{27}
+\contentsline {subsection}{\numberline {4.9}Combinaci\IeC {\'o}n de los potenciales BSASA y SASA}{29}
+\contentsline {subsection}{\numberline {4.10}C\IeC {\'a}lculo del IP (\textit {Information Product})}{29}
+\contentsline {section}{RESULTADOS}{30}
+\contentsline {subsection}{\numberline {5.1}Pruebas en potenciales de prote\IeC {\'\i }nas}{30}
+\contentsline {subsubsection}{\numberline {5.1.1}Clasificaci\IeC {\'o}n de estructuras en nativas o no nativas}{30}
+\contentsline {subsubsection}{\numberline {5.1.2}Detecci\IeC {\'o}n de res\IeC {\'\i }duos erroneamente modelados}{30}
+\contentsline {subsection}{\numberline {5.2}Pruebas en potenciales para ARN}{34}
+\contentsline {subsubsection}{\numberline {5.2.1}Correlaci\IeC {\'o}n entre energ\IeC {\'\i }a y desviaci\IeC {\'o}n estructural}{34}
+\contentsline {subsubsection}{\numberline {5.2.2}Desempe\IeC {\~n}o en encontrar el mejor modelo no can\IeC {\'o}nico}{34}
+\contentsline {subsection}{\numberline {5.3}Pruebas en potenciales para ADN}{39}
+\contentsline {subsubsection}{\numberline {5.3.1}Desempe\IeC {\~n}o en la detecci\IeC {\'o}n del modelo de menor RMSD}{39}
+\contentsline {section}{DISCUSI\IeC {\'O}N}{42}
+\contentsline {subsection}{\numberline {6.1}Pruebas en prote\IeC {\'\i }nas}{42}
+\contentsline {section}{CONCLUSIONES}{45}
+\contentsline {section}{REFERENCIAS}{46}

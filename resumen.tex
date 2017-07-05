@@ -8,24 +8,22 @@ Campos de fuerza basados en conocimiento, también conocidos como potenciales es
 En el caso de las biomoléculas estos datos vienen de estructuras tridimensionales resueltas por cristalografía de rayos X o NMR.
 Asumiendo que el comportamiento de una molécula o complejo molecular puede ser capturado por una función de energía, que puede ser definida por interacciones entre dos cuerpos, y que las interacciones observadas con mayor frecuencia corresponden a estados de baja energía, es posible crear una función de energía cuyos mínimos corresponden a estados nativos.
 Adicionalmente, se pueden crear funciones de energía que miden solamente un parámetro de cada cuerpo, como por ejemplo la cantidad de otros átomos cercanos a su alrededor.
-\\
 \par
 De manera estándar estas funciones de energía usan las distancias entre los dos cuerpos como la variable independiente. 
 En el desarrollo de esta memoria de investigación, experimentamos con la utilización del sobrelapamiento de las Superficies Atómicas Accesibles por Solvente (SASA), medido en \si{\angstrom}\textsuperscript{2}, en potenciales de interacción intramolecular para proteínas, ADN y ARN. 
 También fueron calculados potenciales de superficie usando el valor crudo de SASA para cada átomo.
 Nuestra nueva metodología combina estos dos tipos de potenciales para realizar las mediciones.
-\\
 \par
 Para evaluar el desempeño de estos nuevos potenciales en proteína y ARN, se realizaron pruebas previamente validadas. 
-En el caso de las proteínas, se evaluó la capacidad de los nuevos potenciales de detectar errores puntuales en dos sets de modelos, en los cuales los nuevos potenciales mejoraron la AUC de detección de 0.769 a 0.788 y de 0.677 a 0.769 respectivamente. 
-También se evaluó la capacidad de los nuevos potenciales en separar un set de modelos nativos y no nativos, en el cual no lograron mejoras, empeorando la AUC de 0.883 a 0.773. 
-En los potenciales para ARN se utilizaron dos pruebas, una en la cuál se evaluó la capacidad de predecir estructuras no canónicas, donde el nuevo método logró encontrar 13 de los mejores modelos 
-contra 9 para el potencial usando distancias.
+En el caso de las proteínas, se evaluó la capacidad de los nuevos potenciales de detectar errores puntuales en dos conjuntos de modelos, en los cuales los nuevos potenciales mejoraron la AUC de detección de 0.769 a 0.788 y de 0.677 a 0.769 respectivamente. 
+También se evaluó la capacidad de los nuevos potenciales en separar un conjunto de modelos nativos y no nativos, en el cual no lograron mejoras, empeorando la AUC de 0.883 a 0.773. 
+En los potenciales para ARN se utilizaron dos pruebas, una en la cual se evaluó la capacidad de predecir estructuras no canónicas, donde el nuevo método logró encontrar 13 de los mejores modelos contra 9 para el potencial usando distancias.
 La segunda prueba consistió en calcular la correlación entre valores de energía y valores de desviación estructural para 85 estructuras con 500 modelos cada una. 
-La nueva metodología logro una correlación de 0.719, mientras que la antigua 0.79.
-En los potenciales para ADN, se evaluaron 20362 modelos generados a partir de 33 estructuras no redundantes y se comparó la capacidad del potencial en identificar los modelos con menor RMSD.
-En esta prueba los nuevos potenciales lograron clasificar las estructuras de manera equivalente al método estándar, dado que no hubo diferencias significativas en las distribuciones de RMSD encontrados.
-\\
+En esta prueba no fue observada una mejora significativa del nuevo método en general.
+Al analizar los componentes de los potenciales por separado observamos que el nuevo potencial de superficie obtiene mejores resultados que el potencial de conteo de vecinos.
 \par
-Esta nueva metodología es robusta lo suficiente para ser utilizada en el desarrollo de un futuro potencial para la evaluación de interacciones entre proteínas y ADN/ARN, además de reemplazar el antiguo método. 
+En los potenciales para ADN, se evaluaron 20362 modelos generados a partir de 33 estructuras no redundantes y se comparó la capacidad del potencial en identificar los modelos con menor RMSD.
+En esta prueba los nuevos potenciales lograron clasificar las estructuras de manera equivalente al método estándar, dado que no hubo diferencias significativas en las distribuciones de menor RMSD clasificadas.
+\par
+Esta nueva metodología es lo suficientemente robusta para ser utilizada en el desarrollo de un futuro potencial para la evaluación de interacciones intermoleculares entre proteínas y ADN o ARN. 
 \end{singlespace}

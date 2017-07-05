@@ -3,7 +3,24 @@
 \addcontentsline{toc}{section}{ABSTRACT}
 \begin{singlespace}
 \par
-First paragraph.
+The creation and validation of force fields for the analysis of the behavior of biological molecules is one of the most important goals in biophysics.
+Knowledge based force fields, also known as mean force potentials or statistical potentials, use experimental data in their derivation.
+In the case of biomolecules this data comes tridimensional structures solved by X-ray crystallography or NMR.
+Assuming that the behavior of a molecule or molecular complex can be captured by an energy function, can be defined by interactions between two bodies, and that the interactions observed with the most frequency correspond to low energy states, it's possible to create energy functions whose minimum match native states.
+Additionally, energy functions can be created that measure only a single parameter per body, for example the count of atoms inside a volume.
 \par
-First paragraph.
+The standard for mean force potentials is using the distances between two bodies as the independent variable.
+In the development of this research, we experimented with the use of the overlaps of the Solvent Accessible Surface Areas (SASA), measured in \si{\angstrom}\textsuperscript{2}, in intramolecular interaction potentials for proteins, DNA and RNA. Also surface potentials were generated using the raw SASA values for each atom. Our new method combines both potentials for measurement.
+\par
+To evaluate the performance of the new potentials in protein and RNA, previously validated tests were used.
+In the protein's case, the new potentials ability to detect errors in two sets of models, in which the new potentials increased the AUC of detection from 0.769 to 0.788 and from 0.677 to 0.769 respectively.
+The ability of the new potentials to identify native and non-native models, where there was no improvement, worsening the AUC from 0.883 to 0.773.
+For the RNA potentials two tests were done, the first evaluated the ability to predict non-canonical structures, were the new method found 13 of the best models versus 9 for the potentials using distances. The second test consisted in calculating the correlation between energy values and structural deviation values for 85 structures, with 500 models each. There was no significant improvement over the standard method in this test.
+When analyzing the components of the new potentials by themselves we observed that the surface potential has better results than the neighbor count potential.
+\par
+For the DNA potentials we evaluated 20362 models generated from 33 non-redundant structures and the potential's ability to identify the models with the lowest RMSD was evaluated. 
+In this test the new potential's performance was equivalent to the standard potentials, due to no significant differences between the RMSD distributions found by the potentials.
+\par
+This new method is sufficiently robust to be used in the development of a future potential for the evaluation of the intermolecular interactions between proteins and DNA or RNA.
 \end{singlespace}
+

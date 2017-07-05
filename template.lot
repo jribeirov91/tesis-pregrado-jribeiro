@@ -1,5 +1,10 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{0}\relax 
 \select@language {spanish}
-\contentsline {table}{\numberline {1}{\ignorespaces Definiciones de \IeC {\'a}tomos para prote\IeC {\'\i }nas}}{10}
-\contentsline {table}{\numberline {2}{\ignorespaces Definiciones de \IeC {\'a}tomos para ADN y ARN}}{12}
+\contentsline {table}{\numberline {1}{\ignorespaces Definiciones de \IeC {\'a}tomos para prote\IeC {\'\i }nas}}{11}
+\contentsline {table}{\numberline {2}{\ignorespaces Definiciones de \IeC {\'a}tomos para ADN y ARN}}{13}
+\contentsline {table}{\numberline {3}{\ignorespaces Comparaci\IeC {\'o}n entre curvas ROC para detecci\IeC {\'o}n de estructuras nativas y no nativas}}{30}
+\contentsline {table}{\numberline {4}{\ignorespaces Comparaci\IeC {\'o}n entre curvas ROC de los potenciales para prote\IeC {\'\i }nas en detecci\IeC {\'o}n de residuos mal modelados clase A y B}}{32}
+\contentsline {table}{\numberline {5}{\ignorespaces Comparaci\IeC {\'o}n entre distribuciones de coeficientes de Pearson para correlaciones entre energ\IeC {\'\i }a y desviaci\IeC {\'o}n estructural en ARN.}}{34}
+\contentsline {table}{\numberline {6}{\ignorespaces Tabla con los mejores RMSD encontrados para los 32 casos de estructuras no can\IeC {\'o}nicas}}{38}
+\contentsline {table}{\numberline {7}{\ignorespaces Tabla de comparaciones entre distribuciones de dRMSD entre pares de potenciales para los conjuntos de modelos de ADN con y sin restricciones.}}{41}

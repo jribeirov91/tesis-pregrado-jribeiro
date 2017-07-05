@@ -2070,18 +2070,28 @@
     <bcf:citekey order="13">Ibarra2013</bcf:citekey>
     <bcf:citekey order="14">Berman2000</bcf:citekey>
     <bcf:citekey order="15">Berman1996</bcf:citekey>
-    <bcf:citekey order="16">Sippl1993</bcf:citekey>
+    <bcf:citekey order="16">Ibarra2013</bcf:citekey>
     <bcf:citekey order="17">Sippl1993</bcf:citekey>
-    <bcf:citekey order="18">Sippl1990</bcf:citekey>
+    <bcf:citekey order="18">Sippl1993</bcf:citekey>
     <bcf:citekey order="19">Sippl1990</bcf:citekey>
-    <bcf:citekey order="19">Melo1997</bcf:citekey>
+    <bcf:citekey order="20">Sippl1990</bcf:citekey>
     <bcf:citekey order="20">Melo1997</bcf:citekey>
-    <bcf:citekey order="21">Capriotti2011</bcf:citekey>
-    <bcf:citekey order="22">Melo1998</bcf:citekey>
-    <bcf:citekey order="23">Capriotti2011</bcf:citekey>
-    <bcf:citekey order="24">Shrake1973</bcf:citekey>
-    <bcf:citekey order="25">Saff1997</bcf:citekey>
-    <bcf:citekey order="25">thomson</bcf:citekey>
+    <bcf:citekey order="21">Melo1997</bcf:citekey>
+    <bcf:citekey order="22">Capriotti2011</bcf:citekey>
+    <bcf:citekey order="23">Melo1998</bcf:citekey>
+    <bcf:citekey order="24">Capriotti2011</bcf:citekey>
+    <bcf:citekey order="25">Shrake1973</bcf:citekey>
+    <bcf:citekey order="26">Saff1997</bcf:citekey>
+    <bcf:citekey order="26">thomson</bcf:citekey>
+    <bcf:citekey order="27">Melo1997</bcf:citekey>
+    <bcf:citekey order="28">Solis2008</bcf:citekey>
+    <bcf:citekey order="29">Vergara2008</bcf:citekey>
+    <bcf:citekey order="30">Vergara2008</bcf:citekey>
+    <bcf:citekey order="31">Wilcoxon1945</bcf:citekey>
+    <bcf:citekey order="32">Ibarra2013</bcf:citekey>
+    <bcf:citekey order="33">Ibarra2013</bcf:citekey>
+    <bcf:citekey order="34">Ferrada2007</bcf:citekey>
+    <bcf:citekey order="34">Ferrada2009</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="nyt/global" type="entry" sortscheme="nyt" sortnamekeyscheme="global">
   <bcf:sorting>

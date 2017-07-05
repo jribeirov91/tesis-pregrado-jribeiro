@@ -15,38 +15,41 @@ Se utilizaron también nubes de puntos en el plano esférico precalculadas para 
 \par
 El software \textit{Parallel} (\cite{Tange2011a}) se utilizó en varias ocasiones para paralelizar el procesamiento de datos.
 
-\subsection{Sets de estructuras cristalográficas}
+\subsection{Conjuntos de estructuras cristalográficas}
 
-\subsubsection{Sets utilizados para derivación de potenciales y experimentos en proteínas}
+\subsubsection{Conjuntos utilizados para derivación de potenciales y experimentos en proteínas}
 \par
-El set de datos utilizado para la derivación de todos los potenciales para proteína fue obtenido a partir de un conjunto inicial de 518 estructuras resueltas por medio de cristalografía de rayos X, las cuales no presentaban duplicados, errores o átomos faltantes, poseían más de 100 residuos por estructura, y presentaban entre si una similitud de secuencia menor al 25\% (\cite{Ferrada2009}). 
+El conjunto de datos utilizado para la derivación de todos los potenciales para proteína fue obtenido a partir de un conjunto inicial de 518 estructuras resueltas por medio de cristalografía de rayos X, las cuales no presentaban duplicados, errores o átomos faltantes, poseían más de 100 residuos por estructura, y presentaban entre si una similitud de secuencia menor al 25\% (\cite{Ferrada2009}). 
 Este conjunto inicial fue a su vez filtrado para remover todas las proteínas con más de una cadena, dejando 267 estructuras monoméricas, a fin de simplificar la derivación de los potenciales.
 \par
-El primer benchmark utilizó el mismo conjunto de prueba utilizado en \cite{Ferrada2007}, que consiste en un set de 152 modelos y 80 estructuras nativas monoméricas. 
+El primer benchmark utilizó el mismo conjunto de prueba utilizado en \cite{Ferrada2007}, que consiste en un conjunto de 152 modelos y 80 estructuras nativas monoméricas. 
 Todos los modelos tenían más de 100 aminoácidos y RMSDs menores a 3.0 \si{\angstrom} con más de 90\% de \Ca\ equivalentes respecto a la estructura nativa de la cual fue derivado. 
 Este conjunto fue utilizado para observar la capacidad de los potenciales en clasificar las estructuras en modelos o nativas correctamente.
 \par
 Para el segundo benchmark en proteínas, reconocimiento de errores en proteínas, se utilizó el conjunto de pruebas usado en \cite{Ferrada2009}.
-Este consistía de dos sets, uno de 55 modelos, y otro con 57, ambos con estructuras de más de 100 aminoácidos de largo. 
-El primer set de 55 modelos fue nombrado ``Clase A'', con más de 95\% de \Ca\ equivalentes y RMSDs menor a 1.1 \si{\angstrom} respecto a sus estructuras nativas. 
+Este consistía de dos conjuntos, uno de 55 modelos, y otro con 57, ambos con estructuras de más de 100 aminoácidos de largo. 
+El primer conjunto de 55 modelos fue nombrado ``Clase A'', con más de 95\% de \Ca\ equivalentes y RMSDs menor a 1.1 \si{\angstrom} respecto a sus estructuras nativas. 
 En total poseía 10295 residuos con 201 de ellos considerados como erróneamente modelados. 
-El segundo set fue identificado por ``Clase B'', con más de 90\% de \Ca\ equivalentes y RMSDs menores a 1.5 \si{\angstrom}.
+El segundo conjunto fue identificado por ``Clase B'', con más de 90\% de \Ca\ equivalentes y RMSDs menores a 1.5 \si{\angstrom}.
 Este contenía un total de 10714 residuos, con 1257 de estos considerados erróneos. 
-Para ambos sets, un residuo modelado es considerado erróneo si este posee un RMSD respecto a su estructura nativa mayor a 1.8 \si{\angstrom} para los \Ca\ y mayor a 3.5 \si{\angstrom} para átomos de la cadena lateral.
-\subsubsection{Sets utilizados para derivación de potenciales y experimentos en ARN}
+Para ambos conjuntos, un residuo modelado es considerado erróneo si este posee un RMSD respecto a su estructura nativa mayor a 1.8 \si{\angstrom} para los \Ca\ y mayor a 3.5 \si{\angstrom} para átomos de la cadena lateral.
+\subsubsection{Conjuntos utilizados para derivación de potenciales y experimentos en ARN}
 \par
 Las estructuras cristalográficas utilizadas para derivación de los potenciales para ARN fueron las mismas utilizadas en \cite{Capriotti2011}, extraídas desde el material suplemental publicado.
 Estas consisten en 85 monómeros de RNA, que fueron obtenidos al filtrar todas las estructuras de la PDB (\cite{Berman2000}) (datos de Abril, 2009) y excluir las estructuras con menos de 20 nucleótidos, resueltas a resoluciones mayores que 3.5 \si{\angstrom}, y secuencias redundantes con una identidad mayor al 95\%.
 \par
-Para el primer benchmark en ARN, correlación entre valores de energía dados por los potenciales y medidas de desviación estructural, se utilizó un set de señuelos también usado y descrito en \cite{Capriotti2011}.
-Estos modelos fueron generados a partir de las 85 estructuras nativas del set de derivación. 
+Para el primer benchmark en ARN, correlación entre valores de energía dados por los potenciales y medidas de desviación estructural, se utilizó un conjunto de señuelos también usado y descrito en \cite{Capriotti2011}.
+Estos modelos fueron generados a partir de las 85 estructuras nativas del conjunto de derivación. 
 Para cada una de las estructuras nativas, se generaron 500 modelos, los cuáles a medida eran generados tenían sus restricciones en ángulos dihedrales y de distancia entre ciertos átomos aleatoriamente removidas, con la probabilidad de que ocurra la remoción aumentando progresivamente, generando así modelos con una desviación respecto a la estructura nativa cada vez más alta.
 \par
-El segundo benchmark utilizó el set de datos generado por \cite{Das2010}. 
+El segundo benchmark utilizó el conjunto de datos generado por \cite{Das2010}. 
 Este consiste en 407 modelos de estructuras representando 32 motivos distintos de RNA con pares de bases no canónicos, elegidos usando el campo de fuerza FARFAR (\cite{Das2010}). 
 Estos fueron utilizados para evaluar la capacidad de los potenciales de encontrar los modelos con menor RMSD respecto a su estructura nativa.
-\subsubsection{Sets utilizados para derivación de potenciales y experimentos en ADN}
+\subsubsection{Conjuntos utilizados para derivación de potenciales y experimentos en ADN}
 \par
-El set de estructuras cristalográficas utilizado para la derivación de los potenciales en ADN fue el mismo utilizado por \cite{Ibarra2013}.
-Este fue generado a partir de un set inicial de cristales obtenidos desde la PDB (\cite{Berman2000}) y NDB (\cite{Berman1996}), los cuáles fueron filtrados estructuralmente removiendo las estructuras que tenían otras moléculas distintas de ADN en el cristal, las que tuvieran bases no canónicas o esqueletos de ribosa-fosfato incompletos, y cualquier tipo de estructura cuaternaria que no sea la doble hélice. (triples hélices, cuádruples hélices, etc) y misma cantidad de nucleótidos en las cadenas, resultando en 86 estructuras finales.
-Luego estas estructuras fueron filtradas por identidad de secuencia utilizando alineamientos globales sin gaps, con un \textit{threshold} de 99\% de identidad de secuencia para considerarse idénticas. La estructuras con menor resolución o menor factor R fueron elegidas como representantes. Con esto, se obtuvo el set final de 34 estructuras no redundantes.
+El conjunto de estructuras cristalográficas utilizado para la derivación de los potenciales en ADN fue el mismo utilizado por \cite{Ibarra2013}.
+Este fue generado a partir de un conjunto inicial de cristales obtenidos desde la PDB (\cite{Berman2000}) y NDB (\cite{Berman1996}), los cuáles fueron filtrados estructuralmente removiendo las estructuras que tenían otras moléculas distintas de ADN en el cristal, las que tuvieran bases no canónicas o esqueletos de ribosa-fosfato incompletos, y cualquier tipo de estructura cuaternaria que no sea la doble hélice. (triples hélices, cuádruples hélices, etc) y misma cantidad de nucleótidos en las cadenas, resultando en 86 estructuras finales.
+Luego estas estructuras fueron filtradas por identidad de secuencia utilizando alineamientos globales sin gaps, con un \textit{threshold} de 99\% de identidad de secuencia para considerarse idénticas. La estructuras con menor resolución o menor factor R fueron elegidas como representantes. Con esto, se obtuvo el conjunto final de 33 estructuras no redundantes.
+\par
+De este conjunto de 33 estructuras no redundantes, también fueron creados los dos conjuntos de 20362 modelos en el que los potenciales fueron probados.
+El primer conjunto de modelos fue creado utilizando restricciones geométricas utilizando datos del conjunto no redundante, mientras que el segundo utilizó las restricciones estándar del programa MODELLER. (\cite{Ibarra2013})

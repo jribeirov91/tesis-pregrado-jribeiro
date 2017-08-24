@@ -1,40 +1,44 @@
-[0] Config.pm:340> INFO - This is Biber 2.4
-[0] Config.pm:343> INFO - Logfile is 'template.blg'
-[86] biber:287> INFO - === mar jun 27, 2017, 18:35:24
-[243] Biber.pm:348> INFO - Reading 'template.bcf'
-[495] Biber.pm:742> INFO - Found 20 citekeys in bib section 0
-[508] Biber.pm:3151> INFO - Processing section 0
-[571] Biber.pm:3308> INFO - Looking for bibtex format file 'tesis.bib' for section 0
-[1583] bibtex.pm:1113> INFO - Decoding LaTeX character macros into UTF-8
-[2433] bibtex.pm:974> INFO - Found BibTeX data source 'tesis.bib'
-[2511] Utils.pm:147> WARN - ISBN '1532-4435' in entry 'Pedregosa2012' is invalid - run biber with '--validate_datamodel' for details.
-[2535] Utils.pm:147> WARN - ISBN '0343-6993' in entry 'Saff1997' is invalid - run biber with '--validate_datamodel' for details.
-[2557] Utils.pm:147> WARN - ISBN '1469-896X (Electronic)$\backslash$r0961-8368 (Linking)' in entry 'Ferrada2009' is invalid - run biber with '--validate_datamodel' for details.
-[2601] Utils.pm:147> WARN - ISBN '1367-4811 (Electronic)$\backslash$n1367-4803 (Linking)' in entry 'Capriotti2011' is invalid - run biber with '--validate_datamodel' for details.
-[2622] Utils.pm:147> WARN - ISBN '0305-1048' in entry 'Berman2000' is invalid - run biber with '--validate_datamodel' for details.
-[2642] Utils.pm:147> WARN - ISBN '1548-7105 (Electronic)$\backslash$r1548-7091 (Linking)' in entry 'Das2010' is invalid - run biber with '--validate_datamodel' for details.
-[2685] Utils.pm:147> WARN - ISBN '0920-654X' in entry 'Sippl1993' is invalid - run biber with '--validate_datamodel' for details.
-[2707] Utils.pm:147> WARN - ISBN '0022-2836' in entry 'Sippl1990' is invalid - run biber with '--validate_datamodel' for details.
-[2732] Utils.pm:147> WARN - ISBN '0022-2836' in entry 'Melo1997' is invalid - run biber with '--validate_datamodel' for details.
-[2756] Utils.pm:147> WARN - ISBN '0022-2836 (Print)$\backslash$r0022-2836 (Linking)' in entry 'Melo1998' is invalid - run biber with '--validate_datamodel' for details.
-[2778] Utils.pm:147> WARN - ISBN '0022-2836' in entry 'Shrake1973' is invalid - run biber with '--validate_datamodel' for details.
-[2836] Utils.pm:147> WARN - ISBN '0099-4987' in entry 'Wilcoxon1945' is invalid - run biber with '--validate_datamodel' for details.
-[2837] Utils.pm:147> WARN - BibTeX subsystem: /tmp/x4r2vxoPPE/tesis.bib_24261.utf8, line 6, warning: 172 characters of junk seen at toplevel
-[2837] Biber.pm:3308> INFO - Looking for bibtex format file 'pymol.bib' for section 0
-[2846] bibtex.pm:1113> INFO - Decoding LaTeX character macros into UTF-8
-[2854] bibtex.pm:974> INFO - Found BibTeX data source 'pymol.bib'
-[2873] Biber.pm:3308> INFO - Looking for bibtex format file 'thomsonapplet.bib' for section 0
-[2878] bibtex.pm:1113> INFO - Decoding LaTeX character macros into UTF-8
-[2880] bibtex.pm:974> INFO - Found BibTeX data source 'thomsonapplet.bib'
-[2898] Biber.pm:3308> INFO - Looking for bibtex format file 'ilibarra.bib' for section 0
-[2903] bibtex.pm:1113> INFO - Decoding LaTeX character macros into UTF-8
-[2905] bibtex.pm:974> INFO - Found BibTeX data source 'ilibarra.bib'
-[2923] Biber.pm:3308> INFO - Looking for bibtex format file 'parallel.bib' for section 0
-[2926] bibtex.pm:1113> INFO - Decoding LaTeX character macros into UTF-8
-[2928] bibtex.pm:974> INFO - Found BibTeX data source 'parallel.bib'
-[3358] UCollate.pm:65> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[3358] UCollate.pm:65> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[3358] Biber.pm:3028> INFO - Sorting list 'nyt/global' of type 'entry' with scheme 'nyt' and locale 'es-ES'
-[3427] bbl.pm:519> INFO - Writing 'template.bbl' with encoding 'UTF-8'
-[3721] bbl.pm:615> INFO - Output to template.bbl
-[3722] Biber.pm:109> INFO - WARNINGS: 13
+[0] Config.pm:354> INFO - This is Biber 2.6
+[0] Config.pm:357> INFO - Logfile is 'template.blg'
+[25] biber:302> INFO - === Tue Aug 22, 2017, 18:28:22
+[39] Biber.pm:359> INFO - Reading 'template.bcf'
+[101] Biber.pm:823> INFO - Found 21 citekeys in bib section 0
+[111] Biber.pm:3658> INFO - Processing section 0
+[124] Biber.pm:3828> INFO - Looking for bibtex format file 'tesis.bib' for section 0
+[134] bibtex.pm:1425> INFO - Decoding LaTeX character macros into UTF-8
+[147] bibtex.pm:1282> INFO - Found BibTeX data source 'tesis.bib'
+[170] Utils.pm:164> WARN - ISBN '1532-4435' in entry 'Pedregosa2012' is invalid - run biber with '--validate_datamodel' for details.
+[175] Utils.pm:164> WARN - ISBN '0343-6993' in entry 'Saff1997' is invalid - run biber with '--validate_datamodel' for details.
+[176] Utils.pm:164> WARN - ISBN '1469-896X (Electronic)$\backslash$r0961-8368 (Linking)' in entry 'Ferrada2009' is invalid - run biber with '--validate_datamodel' for details.
+[179] Utils.pm:164> WARN - ISBN '1367-4811 (Electronic)$\backslash$n1367-4803 (Linking)' in entry 'Capriotti2011' is invalid - run biber with '--validate_datamodel' for details.
+[181] Utils.pm:164> WARN - ISBN '0305-1048' in entry 'Berman2000' is invalid - run biber with '--validate_datamodel' for details.
+[183] Utils.pm:164> WARN - ISBN '1548-7105 (Electronic)$\backslash$r1548-7091 (Linking)' in entry 'Das2010' is invalid - run biber with '--validate_datamodel' for details.
+[186] Utils.pm:164> WARN - ISBN '0920-654X' in entry 'Sippl1993' is invalid - run biber with '--validate_datamodel' for details.
+[187] Utils.pm:164> WARN - ISBN '0022-2836' in entry 'Sippl1990' is invalid - run biber with '--validate_datamodel' for details.
+[188] Utils.pm:164> WARN - ISBN '0022-2836' in entry 'Melo1997' is invalid - run biber with '--validate_datamodel' for details.
+[190] Utils.pm:164> WARN - ISBN '0022-2836 (Print)$\backslash$r0022-2836 (Linking)' in entry 'Melo1998' is invalid - run biber with '--validate_datamodel' for details.
+[191] Utils.pm:164> WARN - ISBN '0022-2836' in entry 'Shrake1973' is invalid - run biber with '--validate_datamodel' for details.
+[194] Utils.pm:164> WARN - ISBN '0099-4987' in entry 'Wilcoxon1945' is invalid - run biber with '--validate_datamodel' for details.
+[195] Utils.pm:164> WARN - BibTeX subsystem: /tmp/LQjrQ9IEm_/tesis.bib_12149.utf8, line 6, warning: 172 characters of junk seen at toplevel
+[195] Biber.pm:3828> INFO - Looking for bibtex format file 'pymol.bib' for section 0
+[196] bibtex.pm:1425> INFO - Decoding LaTeX character macros into UTF-8
+[196] bibtex.pm:1282> INFO - Found BibTeX data source 'pymol.bib'
+[198] Utils.pm:164> WARN - month field 'November' in entry 'PyMOL' is not an integer - this will probably not sort properly.
+[198] Biber.pm:3828> INFO - Looking for bibtex format file 'thomsonapplet.bib' for section 0
+[199] bibtex.pm:1425> INFO - Decoding LaTeX character macros into UTF-8
+[199] bibtex.pm:1282> INFO - Found BibTeX data source 'thomsonapplet.bib'
+[201] Utils.pm:164> WARN - month field 'January' in entry 'thomson' is not an integer - this will probably not sort properly.
+[202] Biber.pm:3828> INFO - Looking for bibtex format file 'ilibarra.bib' for section 0
+[202] bibtex.pm:1425> INFO - Decoding LaTeX character macros into UTF-8
+[202] bibtex.pm:1282> INFO - Found BibTeX data source 'ilibarra.bib'
+[205] Biber.pm:3828> INFO - Looking for bibtex format file 'parallel.bib' for section 0
+[206] bibtex.pm:1425> INFO - Decoding LaTeX character macros into UTF-8
+[206] bibtex.pm:1282> INFO - Found BibTeX data source 'parallel.bib'
+[207] Utils.pm:164> WARN - month field 'Feb' in entry 'Tange2011a' is not an integer - this will probably not sort properly.
+[208] Utils.pm:164> WARN - I didn't find a database entry for 'Ilibarra2013' (section 0)
+[267] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[267] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[267] Biber.pm:3487> INFO - Sorting list 'nyt/global/' of type 'entry' with scheme 'nyt' and locale 'es-ES'
+[285] bbl.pm:597> INFO - Writing 'template.bbl' with encoding 'UTF-8'
+[289] bbl.pm:701> INFO - Output to template.bbl
+[290] Biber.pm:109> INFO - WARNINGS: 17

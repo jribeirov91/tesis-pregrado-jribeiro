@@ -4,9 +4,9 @@
 \contentsline {section}{DEDICATORIA}{\es@scroman {i}}
 \contentsline {section}{AGRADECIMIENTOS}{\es@scroman {ii}}
 \contentsline {section}{\IeC {\'I}NDICE}{\es@scroman {iii}}
-\contentsline {section}{\IeC {\'I}NDICE DE FIGURAS}{\es@scroman {v}}
-\contentsline {section}{\IeC {\'I}NDICE DE TABLAS}{\es@scroman {vi}}
-\contentsline {section}{ABREVIATURAS}{\es@scroman {vii}}
+\contentsline {section}{\IeC {\'I}NDICE DE FIGURAS}{\es@scroman {vi}}
+\contentsline {section}{\IeC {\'I}NDICE DE TABLAS}{\es@scroman {vii}}
+\contentsline {section}{ABREVIATURAS}{\es@scroman {viii}}
 \contentsline {section}{RESUMEN}{1}
 \contentsline {section}{ABSTRACT}{2}
 \contentsline {section}{INTRODUCCI\IeC {\'O}N}{3}
@@ -42,5 +42,7 @@
 \contentsline {subsubsection}{\numberline {5.3.1}Desempe\IeC {\~n}o en la detecci\IeC {\'o}n del modelo de menor RMSD}{39}
 \contentsline {section}{DISCUSI\IeC {\'O}N}{42}
 \contentsline {subsection}{\numberline {6.1}Pruebas en prote\IeC {\'\i }nas}{42}
-\contentsline {section}{CONCLUSIONES}{45}
-\contentsline {section}{REFERENCIAS}{46}
+\contentsline {subsection}{\numberline {6.2}Pruebas en ARN}{44}
+\contentsline {subsection}{\numberline {6.3}Pruebas en ADN}{46}
+\contentsline {section}{CONCLUSIONES}{50}
+\contentsline {section}{REFERENCIAS}{51}

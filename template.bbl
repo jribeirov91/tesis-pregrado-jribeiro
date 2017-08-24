@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 2.6 $
+% $ biblatex bbl format version 2.8 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -18,56 +18,57 @@
 
 
 \refsection{0}
-  \sortlist[entry]{nyt/global}
+  \sortlist[entry]{nyt/global/}
     \entry{Berman2000}{article}{}
       \name{author}{8}{uniquelist=2}{%
         {{uniquename=0,hash=e4de3dcaedb6567cd09c88c9bb42b045}{%
            family={Berman},
-           family_i={B\bibinitperiod},
+           familyi={B\bibinitperiod},
            given={H\bibnamedelima M},
-           given_i={H\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+           giveni={H\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
         {{uniquename=0,hash=4899d836229929ad1ea59afce83185f6}{%
            family={Westbrook},
-           family_i={W\bibinitperiod},
+           familyi={W\bibinitperiod},
            given={J},
-           given_i={J\bibinitperiod}}}%
+           giveni={J\bibinitperiod}}}%
         {{uniquename=0,hash=46d061ac74384b7817a4ea81975c6bbc}{%
            family={Feng},
-           family_i={F\bibinitperiod},
+           familyi={F\bibinitperiod},
            given={Z},
-           given_i={Z\bibinitperiod}}}%
+           giveni={Z\bibinitperiod}}}%
         {{uniquename=0,hash=d8efcf827b60f6be4a8bbe7fc64fe339}{%
            family={Gilliland},
-           family_i={G\bibinitperiod},
+           familyi={G\bibinitperiod},
            given={G},
-           given_i={G\bibinitperiod}}}%
+           giveni={G\bibinitperiod}}}%
         {{uniquename=0,hash=0febc6fc4d8962b7459c9ea72d71fd2e}{%
            family={Bhat},
-           family_i={B\bibinitperiod},
+           familyi={B\bibinitperiod},
            given={T\bibnamedelima N},
-           given_i={T\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+           giveni={T\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
         {{uniquename=0,hash=c5dae86822aaaba07b5f512efa058b60}{%
            family={Weissig},
-           family_i={W\bibinitperiod},
+           familyi={W\bibinitperiod},
            given={H},
-           given_i={H\bibinitperiod}}}%
+           giveni={H\bibinitperiod}}}%
         {{uniquename=0,hash=7453c99c596fddd1d23f6cfd410e6149}{%
            family={Shindyalov},
-           family_i={S\bibinitperiod},
+           familyi={S\bibinitperiod},
            given={I\bibnamedelima N},
-           given_i={I\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+           giveni={I\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
         {{uniquename=0,hash=555e13f7a8c5d29f5bc98f3f0e9ea341}{%
            family={Bourne},
-           family_i={B\bibinitperiod},
+           familyi={B\bibinitperiod},
            given={P\bibnamedelima E},
-           given_i={P\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+           giveni={P\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
       }
       \strng{namehash}{c928b7eb24bf932afbcf9bc18066e337}
       \strng{fullhash}{86ecb19efc185b92acdb8021e72aacd8}
+      \strng{authornamehash}{c928b7eb24bf932afbcf9bc18066e337}
+      \strng{authorfullhash}{86ecb19efc185b92acdb8021e72aacd8}
       \field{sortinit}{B}
-      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
-      \field{labelyear}{2000}
-      \field{datelabelsource}{}
+      \field{sortinithash}{5f6fa000f686ee5b41be67ba6ff7962d}
+      \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The Protein Data Bank (PDB; http://www.rcsb.org/pdb/ ) is the single worldwide archive of structural data of biological macromolecules. This paper describes the goals of the PDB, the systems in place for data deposition and access, how to obtain further information, and near-term plans for the future development of the resource.}
@@ -91,66 +92,67 @@
       \name{author}{11}{uniquelist=2}{%
         {{uniquename=0,hash=0363d036b24e1191b76fc6f4bb86cd79}{%
            family={Berman},
-           family_i={B\bibinitperiod},
+           familyi={B\bibinitperiod},
            given={Helen\bibnamedelima M},
-           given_i={H\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+           giveni={H\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
         {{uniquename=0,hash=417cbe65ee065a4bd459bc054af3596a}{%
            family={Beveridge},
-           family_i={B\bibinitperiod},
+           familyi={B\bibinitperiod},
            given={D\bibnamedelima L},
-           given_i={D\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+           giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
         {{uniquename=0,hash=b2f43344eba6b8a2834373ae22481b3a}{%
            family={S.},
-           family_i={S\bibinitperiod},
+           familyi={S\bibinitperiod},
            given={Neidle.},
-           given_i={N\bibinitperiod}}}%
+           giveni={N\bibinitperiod}}}%
         {{uniquename=0,hash=4510778d26783690d6fa89439ef2dfec}{%
            family={Olson},
-           family_i={O\bibinitperiod},
+           familyi={O\bibinitperiod},
            given={W\bibnamedelima K},
-           given_i={W\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+           giveni={W\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
         {{uniquename=0,hash=4899d836229929ad1ea59afce83185f6}{%
            family={Westbrook},
-           family_i={W\bibinitperiod},
+           familyi={W\bibinitperiod},
            given={J},
-           given_i={J\bibinitperiod}}}%
+           giveni={J\bibinitperiod}}}%
         {{uniquename=0,hash=1db810726fe70d6df993fc156b0866d5}{%
            family={Gelbin},
-           family_i={G\bibinitperiod},
+           familyi={G\bibinitperiod},
            given={A},
-           given_i={A\bibinitperiod}}}%
+           giveni={A\bibinitperiod}}}%
         {{uniquename=0,hash=3cf33b93c96e684186d51342ed1c94d0}{%
            family={Hsieh},
-           family_i={H\bibinitperiod},
+           familyi={H\bibinitperiod},
            given={S.-H.\bibnamedelimi H},
-           given_i={S\bibinithyphendelim H\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+           giveni={S\bibinithyphendelim H\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
         {{uniquename=0,hash=75eebd207a90675d63aac5ac4727093a}{%
            family={Clowney},
-           family_i={C\bibinitperiod},
+           familyi={C\bibinitperiod},
            given={L},
-           given_i={L\bibinitperiod}}}%
+           giveni={L\bibinitperiod}}}%
         {{uniquename=0,hash=d6df84066ec87efc67ed57d19f4637fe}{%
            family={Schneider},
-           family_i={S\bibinitperiod},
+           familyi={S\bibinitperiod},
            given={B},
-           given_i={B\bibinitperiod}}}%
+           giveni={B\bibinitperiod}}}%
         {{uniquename=0,hash=1b4c5ab38c55923f2b14c2a4a5932798}{%
            family={Zardecki},
-           family_i={Z\bibinitperiod},
+           familyi={Z\bibinitperiod},
            given={C},
-           given_i={C\bibinitperiod}}}%
+           giveni={C\bibinitperiod}}}%
         {{uniquename=0,hash=c9592900a6b1e919849f0fc974adaec8}{%
            family={Neidle},
-           family_i={N\bibinitperiod},
+           familyi={N\bibinitperiod},
            given={S},
-           given_i={S\bibinitperiod}}}%
+           giveni={S\bibinitperiod}}}%
       }
       \strng{namehash}{6748aa5731a328e741e3adaa24dbf852}
       \strng{fullhash}{2d90fef13ae9a00622c8caacf3eab656}
+      \strng{authornamehash}{6748aa5731a328e741e3adaa24dbf852}
+      \strng{authorfullhash}{2d90fef13ae9a00622c8caacf3eab656}
       \field{sortinit}{B}
-      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
-      \field{labelyear}{1996}
-      \field{datelabelsource}{}
+      \field{sortinithash}{5f6fa000f686ee5b41be67ba6ff7962d}
+      \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{0471202002}
@@ -169,41 +171,41 @@
       \name{author}{5}{}{%
         {{uniquename=0,hash=f84a9bcf6323033ac145caa1c63b870e}{%
            family={Bowick},
-           family_i={B\bibinitperiod},
+           familyi={B\bibinitperiod},
            given={Mark},
-           given_i={M\bibinitperiod}}}%
+           giveni={M\bibinitperiod}}}%
         {{uniquename=0,hash=83638ae25559217018b8ec215d3f3525}{%
            family={Cecka},
-           family_i={C\bibinitperiod},
+           familyi={C\bibinitperiod},
            given={Cris},
-           given_i={C\bibinitperiod}}}%
+           giveni={C\bibinitperiod}}}%
         {{uniquename=0,hash=68589a7e103f380d920b551a0d73dd5d}{%
            family={Giomi},
-           family_i={G\bibinitperiod},
+           familyi={G\bibinitperiod},
            given={Luca},
-           given_i={L\bibinitperiod}}}%
+           giveni={L\bibinitperiod}}}%
         {{uniquename=0,hash=d9ade07b2fd7b40e39090798d4c2f2c3}{%
            family={Middleton},
-           family_i={M\bibinitperiod},
+           familyi={M\bibinitperiod},
            given={Alan},
-           given_i={A\bibinitperiod}}}%
+           giveni={A\bibinitperiod}}}%
         {{uniquename=0,hash=9adf99a643b1491290ca56c589cbf144}{%
            family={Zielnicki},
-           family_i={Z\bibinitperiod},
+           familyi={Z\bibinitperiod},
            given={Kevin},
-           given_i={K\bibinitperiod}}}%
+           giveni={K\bibinitperiod}}}%
       }
       \strng{namehash}{573a6c83e90919b6be5bda76866074e3}
       \strng{fullhash}{107175e4c9db2268f223b7056863ea00}
+      \strng{authornamehash}{573a6c83e90919b6be5bda76866074e3}
+      \strng{authorfullhash}{107175e4c9db2268f223b7056863ea00}
       \field{sortinit}{B}
-      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
-      \field{labelyear}{2002}
-      \field{labelmonth}{01}
-      \field{datelabelsource}{}
+      \field{sortinithash}{5f6fa000f686ee5b41be67ba6ff7962d}
+      \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{annotation}{Thomson Problem @ S.U.}
-      \field{month}{01}
+      \field{month}{1}
       \field{title}{Thomson Applet @ S.U.}
       \field{year}{2002}
     \endentry
@@ -211,31 +213,32 @@
       \name{author}{4}{}{%
         {{uniquename=0,hash=f759c6a323e4cdeeb017d6a8ddcb7566}{%
            family={Capriotti},
-           family_i={C\bibinitperiod},
+           familyi={C\bibinitperiod},
            given={Emidio},
-           given_i={E\bibinitperiod}}}%
+           giveni={E\bibinitperiod}}}%
         {{uniquename=0,hash=f9a12e94cda6c749837a400ce5b5fd9f}{%
            family={Norambuena},
-           family_i={N\bibinitperiod},
+           familyi={N\bibinitperiod},
            given={Tomas},
-           given_i={T\bibinitperiod}}}%
+           giveni={T\bibinitperiod}}}%
         {{uniquename=0,hash=44507b469a8f4506a6d0aa7ce63cf2dc}{%
            family={Marti-Renom},
-           family_i={M\bibinithyphendelim R\bibinitperiod},
+           familyi={M\bibinithyphendelim R\bibinitperiod},
            given={Marc\bibnamedelima A.},
-           given_i={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
         {{uniquename=0,hash=021094801a7b30af836225098951e626}{%
            family={Melo},
-           family_i={M\bibinitperiod},
+           familyi={M\bibinitperiod},
            given={Francisco},
-           given_i={F\bibinitperiod}}}%
+           giveni={F\bibinitperiod}}}%
       }
       \strng{namehash}{4a46449a93209510679157ee0ca112bb}
       \strng{fullhash}{3c1f920965b95de497e6808ed321f269}
+      \strng{authornamehash}{4a46449a93209510679157ee0ca112bb}
+      \strng{authorfullhash}{3c1f920965b95de497e6808ed321f269}
       \field{sortinit}{C}
-      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
-      \field{labelyear}{2011}
-      \field{datelabelsource}{}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Motivation: Over the recent years, the vision that RNA simply serves as information transfer molecule has dramatically changed. The study of the sequence/structure/function relationships in RNA is becoming more important. As a direct consequence, the total number of experimentally solved RNA structures has dramatically increased and new computer tools for predicting RNA structure from sequence are rapidly emerging. Therefore, new and accurate methods for assessing the accuracy of RNA structure models are clearly needed. Results: Here, we introduce an all-atom knowledge-based potential for the assessment of RNA three-dimensional (3D) structures. We have benchmarked our new potential, called Ribonucleic Acids Statistical Potential (RASP), with two different decoy datasets composed of near-native RNA structures. In one of the benchmark sets, RASP was able to rank the closest model to the X-ray structure as the best and within the top 10 models for ∼93 and ∼95{\%} of decoys, respectively. The average correlation coefficient between model accuracy, calculated as the root mean square deviation and global distance test-total score (GDT-TS) measures of C3′ atoms, and the RASP score was 0.85 and 0.89, respectively. Based on a recently released benchmark dataset that contains hundreds of 3D models for 32 RNA motifs with non-canonical base pairs, RASP scoring function compared favorably to ROSETTA FARFAR force field in the selection of accurate models. Finally, using the self-splicing group I intron and the stem-loop IIIc from hepatitis C virus internal ribosome entry site as test cases, we show that RASP is able to discriminate between known structure-destabilizing mutations and compensatory mutations. {©} The Author 2011. Published by Oxford University Press. All rights reserved.}
@@ -259,29 +262,30 @@
       \name{author}{3}{}{%
         {{uniquename=0,hash=042adfc06dcb8612e991febd27bc8f65}{%
            family={Das},
-           family_i={D\bibinitperiod},
+           familyi={D\bibinitperiod},
            given={Rhiju},
-           given_i={R\bibinitperiod}}}%
+           giveni={R\bibinitperiod}}}%
         {{uniquename=0,hash=0396fd9497028c978467e3563e3b69dc}{%
            family={Karanicolas},
-           family_i={K\bibinitperiod},
+           familyi={K\bibinitperiod},
            given={John},
-           given_i={J\bibinitperiod}}}%
+           giveni={J\bibinitperiod}}}%
         {{uniquename=0,hash=db711af07f28528a9ee5cf2922c529a3}{%
            family={Baker},
-           family_i={B\bibinitperiod},
+           familyi={B\bibinitperiod},
            given={David},
-           given_i={D\bibinitperiod}}}%
+           giveni={D\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
         {Nature Publishing Group}%
       }
       \strng{namehash}{008c0331f149874e16497bac78efcad9}
       \strng{fullhash}{178fe9b7206e40a2a466081ae7d0c09c}
+      \strng{authornamehash}{008c0331f149874e16497bac78efcad9}
+      \strng{authorfullhash}{178fe9b7206e40a2a466081ae7d0c09c}
       \field{sortinit}{D}
-      \field{sortinithash}{78f7c4753a2004675f316a80bdb31742}
-      \field{labelyear}{2010}
-      \field{datelabelsource}{}
+      \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
+      \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{We present fragment assembly of RNA with full-atom refinement (FARFAR), a Rosetta framework for predicting and designing noncanonical motifs that define RNA tertiary structure. In a test set of thirty-two 6-20-nucleotide motifs, FARFAR recapitulated 50{\%} of the experimental structures at near-atomic accuracy. Sequence redesign calculations recovered native bases at 65{\%} of residues engaged in noncanonical interactions, and we experimentally validated mutations predicted to stabilize a signal recognition particle domain.}
@@ -309,21 +313,22 @@
       \name{author}{2}{}{%
         {{uniquename=0,hash=ed874de6afebf6119f7e51dd153e71cd}{%
            family={Ferrada},
-           family_i={F\bibinitperiod},
+           familyi={F\bibinitperiod},
            given={Evandro},
-           given_i={E\bibinitperiod}}}%
+           giveni={E\bibinitperiod}}}%
         {{uniquename=0,hash=021094801a7b30af836225098951e626}{%
            family={Melo},
-           family_i={M\bibinitperiod},
+           familyi={M\bibinitperiod},
            given={Francisco},
-           given_i={F\bibinitperiod}}}%
+           giveni={F\bibinitperiod}}}%
       }
       \strng{namehash}{0f90a37fb41046e4f0175876923e05c9}
       \strng{fullhash}{0f90a37fb41046e4f0175876923e05c9}
+      \strng{authornamehash}{0f90a37fb41046e4f0175876923e05c9}
+      \strng{authorfullhash}{0f90a37fb41046e4f0175876923e05c9}
       \field{sortinit}{F}
-      \field{sortinithash}{c6a7d9913bbd7b20ea954441c0460b78}
-      \field{labelyear}{2007}
-      \field{datelabelsource}{}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The accurate assessment of structural errors plays a key role in protein structure prediction, constitutes the first step of protein structure refinement, and has a major impact on subsequent functional inference from structural data. In this study, we assess and compare the ability of different full atom knowledge-based potentials to detect small and localized errors in comparative protein structure models of known accuracy. We have evaluated the effect of incorporating close nonbonded pairwise atom terms on the task of classifying residue modeling accuracy. Since the direct and unbiased derivation of close nonbonded terms from current experimental data is not possible, we extrapolated those terms from the corresponding pseudo-energy functions of a nonlocal knowledge-based potential. It is shown that this methodology clearly improves the detection of errors in protein models, suggesting that a proper description of close nonbonded terms is important to achieve a more complete and accurate description of native protein conformations. The use of close nonbonded terms directly derived from experimental data exhibited a poor performance, demonstrating that these terms cannot be accurately obtained by using the current data and methodology. Some external knowledge-based energy functions that are widely used in model assessment also performed poorly, which suggests that the benchmark of models and the specific error detection task tested in this study constituted a difficult challenge. The methodology presented here could be useful to detect localized structural errors not only in high-quality protein models, but also in experimental protein structures.}
@@ -351,21 +356,22 @@
       \name{author}{2}{}{%
         {{uniquename=0,hash=ed874de6afebf6119f7e51dd153e71cd}{%
            family={Ferrada},
-           family_i={F\bibinitperiod},
+           familyi={F\bibinitperiod},
            given={Evandro},
-           given_i={E\bibinitperiod}}}%
+           giveni={E\bibinitperiod}}}%
         {{uniquename=0,hash=021094801a7b30af836225098951e626}{%
            family={Melo},
-           family_i={M\bibinitperiod},
+           familyi={M\bibinitperiod},
            given={Francisco},
-           given_i={F\bibinitperiod}}}%
+           giveni={F\bibinitperiod}}}%
       }
       \strng{namehash}{0f90a37fb41046e4f0175876923e05c9}
       \strng{fullhash}{0f90a37fb41046e4f0175876923e05c9}
+      \strng{authornamehash}{0f90a37fb41046e4f0175876923e05c9}
+      \strng{authorfullhash}{0f90a37fb41046e4f0175876923e05c9}
       \field{sortinit}{F}
-      \field{sortinithash}{c6a7d9913bbd7b20ea954441c0460b78}
-      \field{labelyear}{2009}
-      \field{datelabelsource}{}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Empirical or knowledge-based potentials have many applications in structural biology such as the prediction of protein structure, protein-protein, and protein-ligand interactions and in the evaluation of stability for mutant proteins, the assessment of errors in experimentally solved structures, and the design of new proteins. Here, we describe a simple procedure to derive and use pairwise distance-dependent potentials that rely on the definition of effective atomic interactions, which attempt to capture interactions that are more likely to be physically relevant. Based on a difficult benchmark test composed of proteins with different secondary structure composition and representing many different folds, we show that the use of effective atomic interactions significantly improves the performance of potentials at discriminating between native and near-native conformations. We also found that, in agreement with previous reports, the potentials derived from the observed effective atomic interactions in native protein structures contain a larger amount of mutual information. A detailed analysis of the effective energy functions shows that atom connectivity effects, which mostly arise when deriving the potential by the incorporation of those indirect atomic interactions occurring beyond the first atomic shell, are clearly filtered out. The shape of the energy functions for direct atomic interactions representing hydrogen bonding and disulfide and salt bridges formation is almost unaffected when effective interactions are taken into account. On the contrary, the shape of the energy functions for indirect atom interactions (i.e., those describing the interaction between two atoms bound to a direct interacting pair) is clearly different when effective interactions are considered. Effective energy functions for indirect interacting atom pairs are not influenced by the shape or the energy minimum observed for the corresponding direct interacting atom pair. Our results suggest that the dependency between the signals in different energy functions is a key aspect that need to be addressed when empirical energy functions are derived and used, and also highlight the importance of additivity assumptions in the use of potential energy functions.}
@@ -390,16 +396,17 @@
       \name{author}{1}{}{%
         {{uniquename=0,hash=ac65c6e34efa45b54333a795c9a76815}{%
            family={Ibarra},
-           family_i={I\bibinitperiod},
+           familyi={I\bibinitperiod},
            given={Ignacio},
-           given_i={I\bibinitperiod}}}%
+           giveni={I\bibinitperiod}}}%
       }
       \strng{namehash}{ac65c6e34efa45b54333a795c9a76815}
       \strng{fullhash}{ac65c6e34efa45b54333a795c9a76815}
+      \strng{authornamehash}{ac65c6e34efa45b54333a795c9a76815}
+      \strng{authorfullhash}{ac65c6e34efa45b54333a795c9a76815}
       \field{sortinit}{I}
-      \field{sortinithash}{25e99d37ba90f7c4fb20baf4e310faf3}
-      \field{labelyear}{2013}
-      \field{datelabelsource}{}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Tesis entregada a la Facultad de Ciencias Biológicas de la Pontificia Universidad Católica de Chile en cumplimiento parcial de los requisitos para optar al Título de Bioquímico.}
@@ -410,21 +417,22 @@
       \name{author}{2}{}{%
         {{uniquename=0,hash=2c062c1c514544a401981f9f3923ae02}{%
            family={Melo},
-           family_i={M\bibinitperiod},
+           familyi={M\bibinitperiod},
            given={F},
-           given_i={F\bibinitperiod}}}%
+           giveni={F\bibinitperiod}}}%
         {{uniquename=0,hash=7bb78efa5adeddfa4a41e312dd94f176}{%
            family={Feytmans},
-           family_i={F\bibinitperiod},
+           familyi={F\bibinitperiod},
            given={E},
-           given_i={E\bibinitperiod}}}%
+           giveni={E\bibinitperiod}}}%
       }
       \strng{namehash}{865f38fda5f486685fa99f2fd1df1c73}
       \strng{fullhash}{865f38fda5f486685fa99f2fd1df1c73}
+      \strng{authornamehash}{865f38fda5f486685fa99f2fd1df1c73}
+      \strng{authorfullhash}{865f38fda5f486685fa99f2fd1df1c73}
       \field{sortinit}{M}
-      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
-      \field{labelyear}{1998}
-      \field{datelabelsource}{}
+      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
+      \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{We describe a new approach, based on the energy of non-local interactions, to assess protein structures. The method uses a very sensitive and accurate atomic mean force potential (AMFP) to calculate the non-local energy profile (NL-profile) of a proteins structure. Several protein models, built using the comparative modeling technique and containing several errors, were evaluated. These models exhibit a good stereochemistry and have been previously checked with different, widely used, methods that failed to detect the errors. The AMFP-derived energy profiles are able to correlate high scores with point errors and misalignments in the models. The point errors are frequently found in loops or regions of structural differences between the template and the target protein. The misalignments are clearly detected with very high scores. The performance of the method was also tested for the assessment of X-ray solved protein structures. In a data set of 143 well solved and non-redundant protein structures, we find that the average energy Z-scores, obtained from AMFP, increase as the resolution decreases. In the case of structures that have already been described as having an unusual stereochemistry, very high Z-scores are obtained. Moreover, energy calculations for some pairs of obsolete and replacement proteins always show higher Z-scores for the obsolete proteins. Finally, two particular cases show the usefulness of the profiles in the assessment of X-ray solved protein structures. First, the NL-profile of a protein structure refined in the incorrect space group has very high scores in several regions. One region has already been described to be out-of-register with the density map of the structure. The NL-profile of the re-refined structure with the correct space group is vastly improved. In the second case, the method is able to accurately point out disordered residues, even if the atoms of these residues do not violate the sum of the van der Waals radii. ANOLEA, the program used to calculate the NL-profile of a protein structure containing one or more chains is accessible through the World Wide Web at: http://www.fundp.ac.be/pub/ANOLEA.html.}
@@ -452,21 +460,22 @@
       \name{author}{2}{}{%
         {{uniquename=0,hash=021094801a7b30af836225098951e626}{%
            family={Melo},
-           family_i={M\bibinitperiod},
+           familyi={M\bibinitperiod},
            given={Francisco},
-           given_i={F\bibinitperiod}}}%
+           giveni={F\bibinitperiod}}}%
         {{uniquename=0,hash=dc682cd22a276f6a7428cacdfede8d90}{%
            family={Feytmans},
-           family_i={F\bibinitperiod},
+           familyi={F\bibinitperiod},
            given={Ernest},
-           given_i={E\bibinitperiod}}}%
+           giveni={E\bibinitperiod}}}%
       }
       \strng{namehash}{7017107ccedeb6400d7fc26b7f5c7d3f}
       \strng{fullhash}{7017107ccedeb6400d7fc26b7f5c7d3f}
+      \strng{authornamehash}{7017107ccedeb6400d7fc26b7f5c7d3f}
+      \strng{authorfullhash}{7017107ccedeb6400d7fc26b7f5c7d3f}
       \field{sortinit}{M}
-      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
-      \field{labelyear}{1997}
-      \field{datelabelsource}{}
+      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
+      \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{We present a new approach at the atomic level for the development of knowledge-based mean force potentials (MFPs) that can be used in fold recognition, ab initio structure prediction, comparative modelling and molecular recognition. Our method is based on atom-type definitions, raising the total frequency of the pairwise distributions and leading to very accurate and specific distance-dependent energy functions. Forty different heavy atom types were defined depending on their bond connectivity, chemical nature and location level (side-chain or backbone). Using this approach it has been possible to obtain average frequencies of pairwise contacts about 15 times higher than the ones obtained using the classic way of one heavy atom definition for each amino acid (i.e. alpha-carbon, beta-carbon, virtual centroid or virtual beta-carbon co-ordinates). In this paper we use this approach to develop a MFP that can be used in fold recognition and we compare it with a classic MFP at the amino acid level compiled from the alpha-carbon distances between the different amino acid pairs. Both potentials involve all the pairwise contacts extracted from a non-redundant folds database of 180 protein chains with a sequence identity threshold of 25{\%}. The pairwise energy functions of the MFP at the atomic level have a deep and very well defined minimum for each pairwise interaction, in contrast to the same curves obtained from the MFP developed at the amino acid level, which generally have multiple minima with similar depth. Our results also show that this MFP is able to produce very similar energy profiles for couples of proteins that share a very low sequence identity but are closely related at the structural level. When these profiles are plotted considering the structure-structure alignment, they are mostly superimposed, showing a correlation with the structure-structure similarity. In the same test, the MFP at the amino acid level fails to produce similar profiles. We suggest that using this MFP at the atomic level in the last stages of fold recognition or threading, when some candidates are available, can improve the sequence-structure alignments and, therefore, the final models. We also discuss the possibility of using this approach in the development of new MFPs to be used in ab initio structure prediction, comparative modelling and molecular recognition procedures.}
@@ -494,91 +503,92 @@
       \name{author}{16}{}{%
         {{uniquename=0,hash=bab4e5caee2d67831e464ce575022b37}{%
            family={Pedregosa},
-           family_i={P\bibinitperiod},
+           familyi={P\bibinitperiod},
            given={Fabian},
-           given_i={F\bibinitperiod}}}%
+           giveni={F\bibinitperiod}}}%
         {{uniquename=0,hash=cfa3239dded54488f9a82a5718d5b927}{%
            family={Varoquaux},
-           family_i={V\bibinitperiod},
+           familyi={V\bibinitperiod},
            given={Gaël},
-           given_i={G\bibinitperiod}}}%
+           giveni={G\bibinitperiod}}}%
         {{uniquename=0,hash=12ebe424e1c87de156c57e8fa7683f46}{%
            family={Gramfort},
-           family_i={G\bibinitperiod},
+           familyi={G\bibinitperiod},
            given={Alexandre},
-           given_i={A\bibinitperiod}}}%
+           giveni={A\bibinitperiod}}}%
         {{uniquename=0,hash=504ea1986689f1047a6f0beda2cb3822}{%
            family={Michel},
-           family_i={M\bibinitperiod},
+           familyi={M\bibinitperiod},
            given={Vincent},
-           given_i={V\bibinitperiod}}}%
+           giveni={V\bibinitperiod}}}%
         {{uniquename=0,hash=0f3fc06fb9fcbb01b9cc0985eaf0a71c}{%
            family={Thirion},
-           family_i={T\bibinitperiod},
+           familyi={T\bibinitperiod},
            given={Bertrand},
-           given_i={B\bibinitperiod}}}%
+           giveni={B\bibinitperiod}}}%
         {{uniquename=0,hash=721be0317527f44db425f7a97dcab15e}{%
            family={Grisel},
-           family_i={G\bibinitperiod},
+           familyi={G\bibinitperiod},
            given={Olivier},
-           given_i={O\bibinitperiod}}}%
+           giveni={O\bibinitperiod}}}%
         {{uniquename=0,hash=d3b6c8582cea4e8b6576137b6a72cadc}{%
            family={Blondel},
-           family_i={B\bibinitperiod},
+           familyi={B\bibinitperiod},
            given={Mathieu},
-           given_i={M\bibinitperiod}}}%
+           giveni={M\bibinitperiod}}}%
         {{uniquename=0,hash=86e647e5c801f3ce733927f75f029463}{%
            family={Prettenhofer},
-           family_i={P\bibinitperiod},
+           familyi={P\bibinitperiod},
            given={Peter},
-           given_i={P\bibinitperiod}}}%
+           giveni={P\bibinitperiod}}}%
         {{uniquename=0,hash=89d698773eaf2fae761ff0008031c7be}{%
            family={Weiss},
-           family_i={W\bibinitperiod},
+           familyi={W\bibinitperiod},
            given={Ron},
-           given_i={R\bibinitperiod}}}%
+           giveni={R\bibinitperiod}}}%
         {{uniquename=0,hash=b255e99d411f28c789a231829f765c64}{%
            family={Dubourg},
-           family_i={D\bibinitperiod},
+           familyi={D\bibinitperiod},
            given={Vincent},
-           given_i={V\bibinitperiod}}}%
+           giveni={V\bibinitperiod}}}%
         {{uniquename=0,hash=a08a00cf90823600b731a138afc28949}{%
            family={Vanderplas},
-           family_i={V\bibinitperiod},
+           familyi={V\bibinitperiod},
            given={Jake},
-           given_i={J\bibinitperiod}}}%
+           giveni={J\bibinitperiod}}}%
         {{uniquename=0,hash=afb9a37bec11b531f1f0f33793a7f1fe}{%
            family={Passos},
-           family_i={P\bibinitperiod},
+           familyi={P\bibinitperiod},
            given={Alexandre},
-           given_i={A\bibinitperiod}}}%
+           giveni={A\bibinitperiod}}}%
         {{uniquename=0,hash=9fd9ed8466bbb96364ae008f2a665e6e}{%
            family={Cournapeau},
-           family_i={C\bibinitperiod},
+           familyi={C\bibinitperiod},
            given={David},
-           given_i={D\bibinitperiod}}}%
+           giveni={D\bibinitperiod}}}%
         {{uniquename=0,hash=281ac3097ec8447c2d26e9f3cfde6082}{%
            family={Brucher},
-           family_i={B\bibinitperiod},
+           familyi={B\bibinitperiod},
            given={Matthieu},
-           given_i={M\bibinitperiod}}}%
+           giveni={M\bibinitperiod}}}%
         {{uniquename=0,hash=23403cde972dddbdb48efe2bcc07dc3c}{%
            family={Perrot},
-           family_i={P\bibinitperiod},
+           familyi={P\bibinitperiod},
            given={Matthieu},
-           given_i={M\bibinitperiod}}}%
+           giveni={M\bibinitperiod}}}%
         {{uniquename=0,hash=e2f7a458c7c1f0d13cbcaad5c415ad54}{%
            family={Duchesnay},
-           family_i={D\bibinitperiod},
+           familyi={D\bibinitperiod},
            given={Édouard},
-           given_i={É\bibinitperiod}}}%
+           giveni={É\bibinitperiod}}}%
       }
       \strng{namehash}{9ec95d747bac3417f92265a9a44f8bb4}
       \strng{fullhash}{490c08d091505100c571bcba89f8c65d}
+      \strng{authornamehash}{9ec95d747bac3417f92265a9a44f8bb4}
+      \strng{authorfullhash}{490c08d091505100c571bcba89f8c65d}
       \field{sortinit}{P}
-      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
-      \field{labelyear}{2012}
-      \field{datelabelsource}{}
+      \field{sortinithash}{24100cef455d7974167575052c29146e}
+      \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Scikit-learn is a Python module integrating a wide range of state-of-the-art machine learning algorithms for medium-scale supervised and unsupervised problems. This package focuses on bringing machine learning to non-specialists using a general-purpose high-level language. Emphasis is put on ease of use, performance, documentation, and API consistency. It has minimal dependencies and is distributed under the simplified BSD license, encouraging its use in both academic and commercial settings. Source code, binaries, and documentation can be downloaded from http://scikit-learn.sourceforge.net.}
@@ -608,21 +618,22 @@
       \name{author}{2}{}{%
         {{uniquename=0,hash=d0483ac593975a0437c18c7e56ed425d}{%
            family={Saff},
-           family_i={S\bibinitperiod},
+           familyi={S\bibinitperiod},
            given={E.\bibnamedelimi B.},
-           given_i={E\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+           giveni={E\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
         {{uniquename=0,hash=78e499e8aadf54c720c5f4861f7beb0b}{%
            family={Kuijlaars},
-           family_i={K\bibinitperiod},
+           familyi={K\bibinitperiod},
            given={a.\bibnamedelimi B.\bibnamedelimi J.},
-           given_i={a\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+           giveni={a\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
       }
       \strng{namehash}{679388ef735083c147506de916491785}
       \strng{fullhash}{679388ef735083c147506de916491785}
+      \strng{authornamehash}{679388ef735083c147506de916491785}
+      \strng{authorfullhash}{679388ef735083c147506de916491785}
       \field{sortinit}{S}
-      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
-      \field{labelyear}{1997}
-      \field{datelabelsource}{}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The problem of distributing a large number of points uniformly over the surface of a sphere arises in many practical and theoretical situations. We discuss generating such points by optimization with respect to a generalized energy criterion. Our interest is primarily with the asymptotic behavior of these optimal spherical configurations of N points as N tends to infinity. Methods for generating "near optimal" points will also be discussed along with several challenging open problems.}
@@ -648,16 +659,16 @@
     \entry{PyMOL}{unpublished}{}
       \name{author}{1}{}{%
         {{uniquename=0,hash=a3d288f5e9ca8a50c78bc21d2cbe93ce}{%
-           family={{Schrödinger,\bibnamedelimb LLC}},
-           family_i={S\bibinitperiod}}}%
+           family={{Schrödinger, LLC}},
+           familyi={S\bibinitperiod}}}%
       }
       \strng{namehash}{a3d288f5e9ca8a50c78bc21d2cbe93ce}
       \strng{fullhash}{a3d288f5e9ca8a50c78bc21d2cbe93ce}
+      \strng{authornamehash}{a3d288f5e9ca8a50c78bc21d2cbe93ce}
+      \strng{authorfullhash}{a3d288f5e9ca8a50c78bc21d2cbe93ce}
       \field{sortinit}{S}
-      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
-      \field{labelyear}{2015}
-      \field{labelmonth}{11}
-      \field{datelabelsource}{}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{annotation}{PyMOL The PyMOL Molecular Graphics System, Version 1.8, Schrödinger, LLC.}
@@ -669,21 +680,22 @@
       \name{author}{2}{}{%
         {{uniquename=0,hash=ec1b801853826a4d7511f6e440c84a9c}{%
            family={Shrake},
-           family_i={S\bibinitperiod},
+           familyi={S\bibinitperiod},
            given={A.},
-           given_i={A\bibinitperiod}}}%
+           giveni={A\bibinitperiod}}}%
         {{uniquename=0,hash=2a337b400387f9985990ca9613d58a8c}{%
            family={Rupley},
-           family_i={R\bibinitperiod},
+           familyi={R\bibinitperiod},
            given={J.\bibnamedelimi A.},
-           given_i={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
       }
       \strng{namehash}{10351effe4224645e289f28451557239}
       \strng{fullhash}{10351effe4224645e289f28451557239}
+      \strng{authornamehash}{10351effe4224645e289f28451557239}
+      \strng{authorfullhash}{10351effe4224645e289f28451557239}
       \field{sortinit}{S}
-      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
-      \field{labelyear}{1973}
-      \field{datelabelsource}{}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{A computer program is described for calculating the environment and the exposure to solvent of atoms of a protein. The computation is based on the atomic co-ordinates of the protein and on assumptions like those of Lee {\&} Richards (1971). Results for lysozyme and insulin are presented. Changes in exposure to solvent and in the nature of contacts that develop through folding, association reactions and crystallization are described numerically. The computations suggest several generalizations. (a) Lattice contacts within the protein crystal are characterized by a significantly smaller involvement of non-polar side chains and a proportionately greater involvement of ionizable side chains than is found for protein folding or for protein association reactions important for biological function, (b) In helical regions the carbonyl oxygen of the first residue in the helix has high probability of being shielded from solvent, (c) Glycine is among the residues having exposure least affected by folding; this accords with the expectation that it lies at bends of the peptide chain on the surface of the molecule. ?? 1973.}
@@ -707,16 +719,17 @@
       \name{author}{1}{}{%
         {{uniquename=0,hash=cbe3c379129ab45dc12be0bf7855ff9e}{%
            family={Sippl},
-           family_i={S\bibinitperiod},
+           familyi={S\bibinitperiod},
            given={Manfred\bibnamedelima J.},
-           given_i={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
       }
       \strng{namehash}{cbe3c379129ab45dc12be0bf7855ff9e}
       \strng{fullhash}{cbe3c379129ab45dc12be0bf7855ff9e}
+      \strng{authornamehash}{cbe3c379129ab45dc12be0bf7855ff9e}
+      \strng{authorfullhash}{cbe3c379129ab45dc12be0bf7855ff9e}
       \field{sortinit}{S}
-      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
-      \field{labelyear}{1990}
-      \field{datelabelsource}{}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{We present a prototype of a new approach to the folding problem of polypeptide chains. This apprach is based on the analysis of known protein structures. It derives the energy potentials for the atomic interactions of all amino acid residue pairs as a function of the distance between the involved atoms. These potentials are then used to calculate the energies of all conformations that exist in the data base with respect to a given sequence. Then, by using only the most stable conformations, clusters of the most probable conformations for the given sequence are obtained. To discuss the results properly we introduce a new classification of segments based on their conformational stability. Special care is taken to allow for sparse data sets. The use of the method is demonstrated in the discussion of the identical oligopeptide sequences found in different conformations in unrelated proteins. VNTFV, for example, adopts a ??-strand in ribonuclease but it is found in an ??-helical conformation in erythrocruorin. In the case of VNTFV the ensemble obtained consists of a single cluster of ??-strand conformations, indicating that this may be the preferred conformation for the pentapeptide. When the flanking residues are included in the calculation the hepapeptide P-VNTFV-H (ribonuclease) again yields an ensemble of ??-strands. However, in the ensemble of D-VNTFV-A (erythrocruorin) the major cluster is of ??-helical type. In the present study we concentrate on the local aspects of protein conformations. However, the theory presented is quite general and not restricted to oligopeptides. We indicate extentions of the approach to the calculation of global conformations of proteins as well as conceivable applications to a number of molecular systems. ?? 1990 Academic Press Limited.}
@@ -740,16 +753,17 @@
       \name{author}{1}{}{%
         {{uniquename=0,hash=cbe3c379129ab45dc12be0bf7855ff9e}{%
            family={Sippl},
-           family_i={S\bibinitperiod},
+           familyi={S\bibinitperiod},
            given={Manfred\bibnamedelima J.},
-           given_i={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
       }
       \strng{namehash}{cbe3c379129ab45dc12be0bf7855ff9e}
       \strng{fullhash}{cbe3c379129ab45dc12be0bf7855ff9e}
+      \strng{authornamehash}{cbe3c379129ab45dc12be0bf7855ff9e}
+      \strng{authorfullhash}{cbe3c379129ab45dc12be0bf7855ff9e}
       \field{sortinit}{S}
-      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
-      \field{labelyear}{1993}
-      \field{datelabelsource}{}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Summary The data base of known protein structures contains a tremendous amount of information on protein-solvent systems. Boltzmann's$\backslash$n principle enables the extraction of this information in the form of potentials of mean force. The resulting force field constitutes$\backslash$n an energetic model for protein-solvent systems. We outline the basic physical principles of this approach to protein folding$\backslash$n and summarize several techniques which are useful in the development of knowledge-based force fields. Among the applications$\backslash$n presented are the validation of experimentally determined protein structures, data base searches which aim at the identification$\backslash$n of native-like sequence structure pairs, sequence structure alignments and the calculation of protein conformations from amino$\backslash$n acid sequences.}
@@ -774,21 +788,22 @@
       \name{author}{2}{}{%
         {{uniquename=0,hash=7e6bf4859a6dac8d2d6653a820a094a4}{%
            family={Solis},
-           family_i={S\bibinitperiod},
+           familyi={S\bibinitperiod},
            given={Armando\bibnamedelima D.},
-           given_i={A\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
         {{uniquename=0,hash=68c41b320c9f75fe401e284c85d10120}{%
            family={Rackovsky},
-           family_i={R\bibinitperiod},
+           familyi={R\bibinitperiod},
            given={S.},
-           given_i={S\bibinitperiod}}}%
+           giveni={S\bibinitperiod}}}%
       }
       \strng{namehash}{71d836ba0636761381f62c393d1e7d84}
       \strng{fullhash}{71d836ba0636761381f62c393d1e7d84}
+      \strng{authornamehash}{71d836ba0636761381f62c393d1e7d84}
+      \strng{authorfullhash}{71d836ba0636761381f62c393d1e7d84}
       \field{sortinit}{S}
-      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
-      \field{labelyear}{2008}
-      \field{datelabelsource}{}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{We examine the information-theoretic characteristics of statistical potentials that describe pairwise long-range contacts between amino acid residues in proteins. In our work, we seek to map out an efficient information-based strategy to detect and optimally utilize the structural information latent in empirical data, to make contact potentials, and other statistically derived folding potentials, more effective tools in protein structure prediction. Foremost, we establish fundamental connections between basic information-theoretic quantities (including the ubiquitous Z-score) and contact "energies" or scores used routinely in protein structure prediction, and demonstrate that the informatic quantity that mediates fold discrimination is the total divergence. We find that pairwise contacts between residues bear a moderate amount of fold information, and if optimized, can assist in the discrimination of native conformations from large ensembles of native-like decoys. Using an extensive battery of threading tests, we demonstrate that parameters that affect the information content of contact potentials (e.g., choice of atoms to define residue location and the cut-off distance between pairs) have a significant influence in their performance in fold recognition. We conclude that potentials that have been optimized for mutual information and that have high number of score events per sequence-structure alignment are superior in identifying the correct fold. We derive the quantity "information product" that embodies these two critical factors. We demonstrate that the information product, which does not require explicit threading to compute, is as effective as the Z-score, which requires expensive decoy threading to evaluate. This new objective function may be able to speed up the multidimensional parameter search for better statistical potentials. Lastly, by demonstrating the functional equivalence of quasi-chemically approximated "energies" to fundamental informatic quantities, we make statistical potentials less dependent on theoretically tenuous biophysical formalisms and more amenable to direct bioinformatic optimization.}
@@ -812,24 +827,24 @@
       \name{author}{1}{}{%
         {{uniquename=0,hash=10598f1f85f7d8e8981ebc08d7e227dd}{%
            family={Tange},
-           family_i={T\bibinitperiod},
+           familyi={T\bibinitperiod},
            given={O.},
-           given_i={O\bibinitperiod}}}%
+           giveni={O\bibinitperiod}}}%
       }
       \list{location}{1}{%
         {Frederiksberg, Denmark}%
       }
       \strng{namehash}{10598f1f85f7d8e8981ebc08d7e227dd}
       \strng{fullhash}{10598f1f85f7d8e8981ebc08d7e227dd}
+      \strng{authornamehash}{10598f1f85f7d8e8981ebc08d7e227dd}
+      \strng{authorfullhash}{10598f1f85f7d8e8981ebc08d7e227dd}
       \field{sortinit}{T}
-      \field{sortinithash}{423d138a005a533b47e6475e39378bf2}
-      \field{labelyear}{2011}
-      \field{labelmonth}{02}
-      \field{datelabelsource}{}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{;login: The USENIX Magazine}
-      \field{month}{02}
+      \field{month}{2}
       \field{number}{1}
       \field{title}{GNU Parallel - The Command-Line Power Tool}
       \field{volume}{36}
@@ -844,31 +859,32 @@
       \name{author}{4}{}{%
         {{uniquename=0,hash=79e2d2bc2a0e6df2d65fe71786874a27}{%
            family={Vergara},
-           family_i={V\bibinitperiod},
+           familyi={V\bibinitperiod},
            given={Ismael\bibnamedelima A},
-           given_i={I\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+           giveni={I\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
         {{uniquename=0,hash=ed874de6afebf6119f7e51dd153e71cd}{%
            family={Ferrada},
-           family_i={F\bibinitperiod},
+           familyi={F\bibinitperiod},
            given={Evandro},
-           given_i={E\bibinitperiod}}}%
+           giveni={E\bibinitperiod}}}%
         {{uniquename=0,hash=55b6ef4c1ceb60ee39e1298d40b3bd2e}{%
            family={Slater},
-           family_i={S\bibinitperiod},
+           familyi={S\bibinitperiod},
            given={Alex\bibnamedelima W},
-           given_i={A\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+           giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
         {{uniquename=0,hash=021094801a7b30af836225098951e626}{%
            family={Melo},
-           family_i={M\bibinitperiod},
+           familyi={M\bibinitperiod},
            given={Francisco},
-           given_i={F\bibinitperiod}}}%
+           giveni={F\bibinitperiod}}}%
       }
       \strng{namehash}{daed54960685fe777dbb74c8ef500ad2}
       \strng{fullhash}{2a057772a64fe910ed9941ef8e5f3094}
+      \strng{authornamehash}{daed54960685fe777dbb74c8ef500ad2}
+      \strng{authorfullhash}{2a057772a64fe910ed9941ef8e5f3094}
       \field{sortinit}{V}
-      \field{sortinithash}{d18f5ce25ce0b5ca7f924e3f6c04870e}
-      \field{labelyear}{2008}
-      \field{datelabelsource}{}
+      \field{sortinithash}{555737dafdcf1396ebfeae5822e5bde2}
+      \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{BMC Bioinformatics}}
@@ -887,16 +903,17 @@
       \name{author}{1}{}{%
         {{uniquename=0,hash=405b308b1e8e33ef3275bf6cb9c9b281}{%
            family={Wilcoxon},
-           family_i={W\bibinitperiod},
+           familyi={W\bibinitperiod},
            given={Frank},
-           given_i={F\bibinitperiod}}}%
+           giveni={F\bibinitperiod}}}%
       }
       \strng{namehash}{405b308b1e8e33ef3275bf6cb9c9b281}
       \strng{fullhash}{405b308b1e8e33ef3275bf6cb9c9b281}
+      \strng{authornamehash}{405b308b1e8e33ef3275bf6cb9c9b281}
+      \strng{authorfullhash}{405b308b1e8e33ef3275bf6cb9c9b281}
       \field{sortinit}{W}
-      \field{sortinithash}{99e3ba1b3f78bb6f073e7fa7ac11636b}
-      \field{labelyear}{1945}
-      \field{datelabelsource}{}
+      \field{sortinithash}{6d25b3eefe5aa2147d1f339686808918}
+      \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The objective of the present paper is to indicate the possibility of using ranking methods.}
@@ -920,6 +937,7 @@
       \endverb
     \endentry
   \endsortlist
+  \missing{Ilibarra2013}
 \endrefsection
 \endinput
 

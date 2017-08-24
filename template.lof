@@ -13,3 +13,6 @@
 \contentsline {figure}{\numberline {10}{\ignorespaces Comparaci\IeC {\'o}n de las diferencias de RMSD entre el modelo de menor RMSD y el modelo de menor energ\IeC {\'\i }a encontrado por el potencial.}}{37}
 \contentsline {figure}{\numberline {11}{\ignorespaces Comparaci\IeC {\'o}n de las distribuciones de dRMSD entre los modelos con menor RMSD y los modelos con menor energ\IeC {\'\i }a calculado por cada potencial}}{40}
 \contentsline {figure}{\numberline {12}{\ignorespaces Boxplots de las distribuciones de la cantidad de contactos encontrados en el conjunto de estructuras usado en la derivaci\IeC {\'o}n de potenciales para prote\IeC {\'\i }nas.}}{43}
+\contentsline {figure}{\numberline {13}{\ignorespaces Boxplots de las distribuciones de la cantidad de contactos encontrados en el conjunto de estructuras usado en la derivaci\IeC {\'o}n de potenciales para ARN.}}{45}
+\contentsline {figure}{\numberline {14}{\ignorespaces Superposiciones con el cristal original de algunos de los mejores modelos de ADN encontrados seg\IeC {\'u}n los potenciales, para el conjunto generado con restricciones.}}{47}
+\contentsline {figure}{\numberline {15}{\ignorespaces Superposiciones con el cristal original de algunos de los mejores modelos de ADN encontrados seg\IeC {\'u}n los potenciales, para el conjunto generado sin restricciones}}{48}
